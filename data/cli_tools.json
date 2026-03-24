@@ -1,0 +1,6002 @@
+[
+  {
+    "name": "git",
+    "repo": "git/git",
+    "category": "version-control",
+    "language": "C"
+  },
+  {
+    "name": "curl",
+    "repo": "curl/curl",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "wget",
+    "repo": "mirror/wget",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "docker",
+    "repo": "moby/moby",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "kubectl",
+    "repo": "kubernetes/kubernetes",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "terraform",
+    "repo": "hashicorp/terraform",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "ansible",
+    "repo": "ansible/ansible",
+    "category": "devops",
+    "language": "Python"
+  },
+  {
+    "name": "ripgrep",
+    "repo": "BurntSushi/ripgrep",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "fd",
+    "repo": "sharkdp/fd",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "bat",
+    "repo": "sharkdp/bat",
+    "category": "file-management",
+    "language": "Rust"
+  },
+  {
+    "name": "eza",
+    "repo": "eza-community/eza",
+    "category": "file-management",
+    "language": "Rust"
+  },
+  {
+    "name": "fzf",
+    "repo": "junegunn/fzf",
+    "category": "search",
+    "language": "Go"
+  },
+  {
+    "name": "tmux",
+    "repo": "tmux/tmux",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "htop",
+    "repo": "htop-dev/htop",
+    "category": "monitoring",
+    "language": "C"
+  },
+  {
+    "name": "jq",
+    "repo": "jqlang/jq",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "yq",
+    "repo": "mikefarah/yq",
+    "category": "file-management",
+    "language": "Go"
+  },
+  {
+    "name": "gh",
+    "repo": "cli/cli",
+    "category": "version-control",
+    "language": "Go"
+  },
+  {
+    "name": "aws-cli",
+    "repo": "aws/aws-cli",
+    "category": "cloud",
+    "language": "Python"
+  },
+  {
+    "name": "gcloud",
+    "repo": "google-cloud-sdk",
+    "category": "cloud",
+    "language": "Python"
+  },
+  {
+    "name": "az",
+    "repo": "Azure/azure-cli",
+    "category": "cloud",
+    "language": "Python"
+  },
+  {
+    "name": "helm",
+    "repo": "helm/helm",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "nginx",
+    "repo": "nginx/nginx",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "redis-cli",
+    "repo": "redis/redis",
+    "category": "database",
+    "language": "C"
+  },
+  {
+    "name": "psql",
+    "repo": "postgres/postgres",
+    "category": "database",
+    "language": "C"
+  },
+  {
+    "name": "mysql",
+    "repo": "mysql/mysql-server",
+    "category": "database",
+    "language": "C++"
+  },
+  {
+    "name": "sqlite3",
+    "repo": "sqlite/sqlite",
+    "category": "database",
+    "language": "C"
+  },
+  {
+    "name": "ffmpeg",
+    "repo": "FFmpeg/FFmpeg",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "imagemagick",
+    "repo": "ImageMagick/ImageMagick",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "pandoc",
+    "repo": "jgm/pandoc",
+    "category": "file-management",
+    "language": "Haskell"
+  },
+  {
+    "name": "hugo",
+    "repo": "gohugoio/hugo",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "neovim",
+    "repo": "neovim/neovim",
+    "category": "editor",
+    "language": "C"
+  },
+  {
+    "name": "zsh",
+    "repo": "zsh-users/zsh",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "fish",
+    "repo": "fish-shell/fish-shell",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "starship",
+    "repo": "starship/starship",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "zoxide",
+    "repo": "ajeetdsouza/zoxide",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "atuin",
+    "repo": "atuinsh/atuin",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "lazygit",
+    "repo": "jesseduffield/lazygit",
+    "category": "version-control",
+    "language": "Go"
+  },
+  {
+    "name": "lazydocker",
+    "repo": "jesseduffield/lazydocker",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "k9s",
+    "repo": "derailed/k9s",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "stern",
+    "repo": "stern/stern",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "argocd",
+    "repo": "argoproj/argo-cd",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "vault",
+    "repo": "hashicorp/vault",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "consul",
+    "repo": "hashicorp/consul",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "nmap",
+    "repo": "nmap/nmap",
+    "category": "security",
+    "language": "C"
+  },
+  {
+    "name": "tshark",
+    "repo": "wireshark/wireshark",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "httpie",
+    "repo": "httpie/cli",
+    "category": "network",
+    "language": "Python"
+  },
+  {
+    "name": "hey",
+    "repo": "rakyll/hey",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "wrk",
+    "repo": "wg/wrk",
+    "category": "testing",
+    "language": "C"
+  },
+  {
+    "name": "vegeta",
+    "repo": "tsenart/vegeta",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "grpcurl",
+    "repo": "fullstorydev/grpcurl",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "protoc",
+    "repo": "protocolbuffers/protobuf",
+    "category": "build-tool",
+    "language": "C++"
+  },
+  {
+    "name": "make",
+    "repo": "mirror/make",
+    "category": "build-tool",
+    "language": "C"
+  },
+  {
+    "name": "cmake",
+    "repo": "Kitware/CMake",
+    "category": "build-tool",
+    "language": "C++"
+  },
+  {
+    "name": "ninja",
+    "repo": "ninja-build/ninja",
+    "category": "build-tool",
+    "language": "C++"
+  },
+  {
+    "name": "bazel",
+    "repo": "bazelbuild/bazel",
+    "category": "build-tool",
+    "language": "Java"
+  },
+  {
+    "name": "gradle",
+    "repo": "gradle/gradle",
+    "category": "build-tool",
+    "language": "Java"
+  },
+  {
+    "name": "maven",
+    "repo": "apache/maven",
+    "category": "build-tool",
+    "language": "Java"
+  },
+  {
+    "name": "cargo",
+    "repo": "rust-lang/cargo",
+    "category": "package-manager",
+    "language": "Rust"
+  },
+  {
+    "name": "rustup",
+    "repo": "rust-lang/rustup",
+    "category": "package-manager",
+    "language": "Rust"
+  },
+  {
+    "name": "go",
+    "repo": "golang/go",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "deno",
+    "repo": "denoland/deno",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "bun",
+    "repo": "oven-sh/bun",
+    "category": "build-tool",
+    "language": "Zig"
+  },
+  {
+    "name": "pnpm",
+    "repo": "pnpm/pnpm",
+    "category": "package-manager",
+    "language": "TypeScript"
+  },
+  {
+    "name": "yarn",
+    "repo": "yarnpkg/berry",
+    "category": "package-manager",
+    "language": "TypeScript"
+  },
+  {
+    "name": "npm",
+    "repo": "npm/cli",
+    "category": "package-manager",
+    "language": "JavaScript"
+  },
+  {
+    "name": "pip",
+    "repo": "pypa/pip",
+    "category": "package-manager",
+    "language": "Python"
+  },
+  {
+    "name": "pipx",
+    "repo": "pypa/pipx",
+    "category": "package-manager",
+    "language": "Python"
+  },
+  {
+    "name": "poetry",
+    "repo": "python-poetry/poetry",
+    "category": "package-manager",
+    "language": "Python"
+  },
+  {
+    "name": "pdm",
+    "repo": "pdm-project/pdm",
+    "category": "package-manager",
+    "language": "Python"
+  },
+  {
+    "name": "uv",
+    "repo": "astral-sh/uv",
+    "category": "package-manager",
+    "language": "Rust"
+  },
+  {
+    "name": "ruff",
+    "repo": "astral-sh/ruff",
+    "category": "linter",
+    "language": "Rust"
+  },
+  {
+    "name": "black",
+    "repo": "psf/black",
+    "category": "formatter",
+    "language": "Python"
+  },
+  {
+    "name": "prettier",
+    "repo": "prettier/prettier",
+    "category": "formatter",
+    "language": "JavaScript"
+  },
+  {
+    "name": "eslint",
+    "repo": "eslint/eslint",
+    "category": "linter",
+    "language": "JavaScript"
+  },
+  {
+    "name": "shellcheck",
+    "repo": "koalaman/shellcheck",
+    "category": "linter",
+    "language": "Haskell"
+  },
+  {
+    "name": "hadolint",
+    "repo": "hadolint/hadolint",
+    "category": "linter",
+    "language": "Haskell"
+  },
+  {
+    "name": "trivy",
+    "repo": "aquasecurity/trivy",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "snyk",
+    "repo": "snyk/cli",
+    "category": "security",
+    "language": "TypeScript"
+  },
+  {
+    "name": "semgrep",
+    "repo": "semgrep/semgrep",
+    "category": "security",
+    "language": "OCaml"
+  },
+  {
+    "name": "sonar-scanner",
+    "repo": "SonarSource/sonar-scanner-cli",
+    "category": "linter",
+    "language": "Java"
+  },
+  {
+    "name": "act",
+    "repo": "nektos/act",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "direnv",
+    "repo": "direnv/direnv",
+    "category": "shell",
+    "language": "Go"
+  },
+  {
+    "name": "asdf",
+    "repo": "asdf-vm/asdf",
+    "category": "package-manager",
+    "language": "Shell"
+  },
+  {
+    "name": "mise",
+    "repo": "jdx/mise",
+    "category": "package-manager",
+    "language": "Rust"
+  },
+  {
+    "name": "nvm",
+    "repo": "nvm-sh/nvm",
+    "category": "package-manager",
+    "language": "Shell"
+  },
+  {
+    "name": "pyenv",
+    "repo": "pyenv/pyenv",
+    "category": "package-manager",
+    "language": "Shell"
+  },
+  {
+    "name": "rbenv",
+    "repo": "rbenv/rbenv",
+    "category": "package-manager",
+    "language": "Shell"
+  },
+  {
+    "name": "tfenv",
+    "repo": "tfutils/tfenv",
+    "category": "package-manager",
+    "language": "Shell"
+  },
+  {
+    "name": "just",
+    "repo": "casey/just",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "task",
+    "repo": "go-task/task",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "watchexec",
+    "repo": "watchexec/watchexec",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "entr",
+    "repo": "eradman/entr",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "mkcert",
+    "repo": "FiloSottile/mkcert",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "step-cli",
+    "repo": "smallstep/cli",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "age",
+    "repo": "FiloSottile/age",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "sops",
+    "repo": "getsops/sops",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "gpg",
+    "repo": "gpg/gnupg",
+    "category": "security",
+    "language": "C"
+  },
+  {
+    "name": "openssh",
+    "repo": "openssh/openssh-portable",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "rsync",
+    "repo": "RsyncProject/rsync",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "rclone",
+    "repo": "rclone/rclone",
+    "category": "file-management",
+    "language": "Go"
+  },
+  {
+    "name": "restic",
+    "repo": "restic/restic",
+    "category": "file-management",
+    "language": "Go"
+  },
+  {
+    "name": "borgbackup",
+    "repo": "borgbackup/borg",
+    "category": "file-management",
+    "language": "Python"
+  },
+  {
+    "name": "dust",
+    "repo": "bootandy/dust",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "duf",
+    "repo": "muesli/duf",
+    "category": "system",
+    "language": "Go"
+  },
+  {
+    "name": "procs",
+    "repo": "dalance/procs",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "bottom",
+    "repo": "ClementTsang/bottom",
+    "category": "monitoring",
+    "language": "Rust"
+  },
+  {
+    "name": "glances",
+    "repo": "nicolargo/glances",
+    "category": "monitoring",
+    "language": "Python"
+  },
+  {
+    "name": "bandwhich",
+    "repo": "imsnif/bandwhich",
+    "category": "monitoring",
+    "language": "Rust"
+  },
+  {
+    "name": "dog",
+    "repo": "ogham/dog",
+    "category": "network",
+    "language": "Rust"
+  },
+  {
+    "name": "xh",
+    "repo": "ducaale/xh",
+    "category": "network",
+    "language": "Rust"
+  },
+  {
+    "name": "grex",
+    "repo": "pemistahl/grex",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "sd",
+    "repo": "chmln/sd",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "choose",
+    "repo": "theryangeary/choose",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "delta",
+    "repo": "dandavison/delta",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "difftastic",
+    "repo": "Wilfred/difftastic",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "tokei",
+    "repo": "XAMPPRocky/tokei",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "scc",
+    "repo": "boyter/scc",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "hyperfine",
+    "repo": "sharkdp/hyperfine",
+    "category": "testing",
+    "language": "Rust"
+  },
+  {
+    "name": "pueue",
+    "repo": "Nukesor/pueue",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "zellij",
+    "repo": "zellij-org/zellij",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "wezterm",
+    "repo": "wez/wezterm",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "alacritty",
+    "repo": "alacritty/alacritty",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "kitty",
+    "repo": "kovidgoyal/kitty",
+    "category": "shell",
+    "language": "Python"
+  },
+  {
+    "name": "mosh",
+    "repo": "mobile-shell/mosh",
+    "category": "network",
+    "language": "C++"
+  },
+  {
+    "name": "caddy",
+    "repo": "caddyserver/caddy",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "traefik",
+    "repo": "traefik/traefik",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "mc",
+    "repo": "minio/mc",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "etcdctl",
+    "repo": "etcd-io/etcd",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "flyctl",
+    "repo": "superfly/flyctl",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "doctl",
+    "repo": "digitalocean/doctl",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "linode-cli",
+    "repo": "linode/linode-cli",
+    "category": "cloud",
+    "language": "Python"
+  },
+  {
+    "name": "hcloud",
+    "repo": "hetznercloud/cli",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "eksctl",
+    "repo": "eksctl-io/eksctl",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "kind",
+    "repo": "kubernetes-sigs/kind",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "minikube",
+    "repo": "kubernetes/minikube",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "k3s",
+    "repo": "k3s-io/k3s",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "k3d",
+    "repo": "k3d-io/k3d",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "skaffold",
+    "repo": "GoogleContainerTools/skaffold",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "pulumi",
+    "repo": "pulumi/pulumi",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "crossplane",
+    "repo": "crossplane/crossplane",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "copilot-cli",
+    "repo": "aws/copilot-cli",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "sam-cli",
+    "repo": "aws/aws-sam-cli",
+    "category": "cloud",
+    "language": "Python"
+  },
+  {
+    "name": "serverless",
+    "repo": "serverless/serverless",
+    "category": "devops",
+    "language": "JavaScript"
+  },
+  {
+    "name": "wrangler",
+    "repo": "cloudflare/workers-sdk",
+    "category": "cloud",
+    "language": "TypeScript"
+  },
+  {
+    "name": "netlify-cli",
+    "repo": "netlify/cli",
+    "category": "cloud",
+    "language": "JavaScript"
+  },
+  {
+    "name": "vercel-cli",
+    "repo": "vercel/vercel",
+    "category": "cloud",
+    "language": "TypeScript"
+  },
+  {
+    "name": "firebase-cli",
+    "repo": "firebase/firebase-tools",
+    "category": "cloud",
+    "language": "TypeScript"
+  },
+  {
+    "name": "supabase-cli",
+    "repo": "supabase/cli",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "planetscale-cli",
+    "repo": "planetscale/cli",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "turso-cli",
+    "repo": "tursodatabase/turso-cli",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "neon-cli",
+    "repo": "neondatabase/neonctl",
+    "category": "database",
+    "language": "TypeScript"
+  },
+  {
+    "name": "mongosh",
+    "repo": "mongodb-js/mongosh",
+    "category": "database",
+    "language": "TypeScript"
+  },
+  {
+    "name": "clickhouse-client",
+    "repo": "ClickHouse/ClickHouse",
+    "category": "database",
+    "language": "C++"
+  },
+  {
+    "name": "duckdb",
+    "repo": "duckdb/duckdb",
+    "category": "database",
+    "language": "C++"
+  },
+  {
+    "name": "usql",
+    "repo": "xo/usql",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "pgcli",
+    "repo": "dbcli/pgcli",
+    "category": "database",
+    "language": "Python"
+  },
+  {
+    "name": "mycli",
+    "repo": "dbcli/mycli",
+    "category": "database",
+    "language": "Python"
+  },
+  {
+    "name": "litecli",
+    "repo": "dbcli/litecli",
+    "category": "database",
+    "language": "Python"
+  },
+  {
+    "name": "iredis",
+    "repo": "laixintao/iredis",
+    "category": "database",
+    "language": "Python"
+  },
+  {
+    "name": "posting",
+    "repo": "darrenburns/posting",
+    "category": "network",
+    "language": "Python"
+  },
+  {
+    "name": "slides",
+    "repo": "maaslalani/slides",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "glow",
+    "repo": "charmbracelet/glow",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "vhs",
+    "repo": "charmbracelet/vhs",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "gum",
+    "repo": "charmbracelet/gum",
+    "category": "shell",
+    "language": "Go"
+  },
+  {
+    "name": "nushell",
+    "repo": "nushell/nushell",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "helix",
+    "repo": "helix-editor/helix",
+    "category": "editor",
+    "language": "Rust"
+  },
+  {
+    "name": "micro",
+    "repo": "zyedidia/micro",
+    "category": "editor",
+    "language": "Go"
+  },
+  {
+    "name": "kakoune",
+    "repo": "mawww/kakoune",
+    "category": "editor",
+    "language": "C++"
+  },
+  {
+    "name": "vim",
+    "repo": "vim/vim",
+    "category": "editor",
+    "language": "C"
+  },
+  {
+    "name": "emacs",
+    "repo": "emacs-mirror/emacs",
+    "category": "editor",
+    "language": "C"
+  },
+  {
+    "name": "tree-sitter",
+    "repo": "tree-sitter/tree-sitter",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "ctags",
+    "repo": "universal-ctags/ctags",
+    "category": "editor",
+    "language": "C"
+  },
+  {
+    "name": "lf",
+    "repo": "gokcehan/lf",
+    "category": "file-management",
+    "language": "Go"
+  },
+  {
+    "name": "ranger",
+    "repo": "ranger/ranger",
+    "category": "file-management",
+    "language": "Python"
+  },
+  {
+    "name": "yazi",
+    "repo": "sxyazi/yazi",
+    "category": "file-management",
+    "language": "Rust"
+  },
+  {
+    "name": "broot",
+    "repo": "Canop/broot",
+    "category": "file-management",
+    "language": "Rust"
+  },
+  {
+    "name": "nnn",
+    "repo": "jarun/nnn",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "tree",
+    "repo": "Old-Man-Programmer/tree",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "aria2",
+    "repo": "aria2/aria2",
+    "category": "network",
+    "language": "C++"
+  },
+  {
+    "name": "yt-dlp",
+    "repo": "yt-dlp/yt-dlp",
+    "category": "media",
+    "language": "Python"
+  },
+  {
+    "name": "pass",
+    "repo": "zx2c4/password-store",
+    "category": "security",
+    "language": "Shell"
+  },
+  {
+    "name": "gopass",
+    "repo": "gopasspw/gopass",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "bitwarden-cli",
+    "repo": "bitwarden/clients",
+    "category": "security",
+    "language": "TypeScript"
+  },
+  {
+    "name": "chezmoi",
+    "repo": "twpayne/chezmoi",
+    "category": "file-management",
+    "language": "Go"
+  },
+  {
+    "name": "ab",
+    "repo": "apache/httpd",
+    "category": "testing",
+    "language": "C"
+  },
+  {
+    "name": "siege",
+    "repo": "JoeDog/siege",
+    "category": "testing",
+    "language": "C"
+  },
+  {
+    "name": "k6",
+    "repo": "grafana/k6",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "podman",
+    "repo": "containers/podman",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "dive",
+    "repo": "wagoodman/dive",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "cosign",
+    "repo": "sigstore/cosign",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "flux",
+    "repo": "fluxcd/flux2",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "kustomize",
+    "repo": "kubernetes-sigs/kustomize",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "istioctl",
+    "repo": "istio/istio",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "prometheus",
+    "repo": "prometheus/prometheus",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "grafana-cli",
+    "repo": "grafana/grafana",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "loki",
+    "repo": "grafana/loki",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "vector",
+    "repo": "vectordotdev/vector",
+    "category": "monitoring",
+    "language": "Rust"
+  },
+  {
+    "name": "tmate",
+    "repo": "tmate-io/tmate",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "asciinema",
+    "repo": "asciinema/asciinema",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "cloc",
+    "repo": "AlDanial/cloc",
+    "category": "misc",
+    "language": "Perl"
+  },
+  {
+    "name": "stow",
+    "repo": "aspiers/stow",
+    "category": "file-management",
+    "language": "Perl"
+  },
+  {
+    "name": "tig",
+    "repo": "jonas/tig",
+    "category": "version-control",
+    "language": "C"
+  },
+  {
+    "name": "gitui",
+    "repo": "extrawurst/gitui",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "onefetch",
+    "repo": "o2sh/onefetch",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "git-cliff",
+    "repo": "orhun/git-cliff",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "cocogitto",
+    "repo": "cocogitto/cocogitto",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "commitizen",
+    "repo": "commitizen-tools/commitizen",
+    "category": "version-control",
+    "language": "Python"
+  },
+  {
+    "name": "pre-commit",
+    "repo": "pre-commit/pre-commit",
+    "category": "linter",
+    "language": "Python"
+  },
+  {
+    "name": "lefthook",
+    "repo": "evilmartians/lefthook",
+    "category": "version-control",
+    "language": "Go"
+  },
+  {
+    "name": "sshuttle",
+    "repo": "sshuttle/sshuttle",
+    "category": "network",
+    "language": "Python"
+  },
+  {
+    "name": "tailscale",
+    "repo": "tailscale/tailscale",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "nebula",
+    "repo": "slackhq/nebula",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "zerotier-cli",
+    "repo": "zerotier/ZeroTierOne",
+    "category": "network",
+    "language": "C++"
+  },
+  {
+    "name": "socat",
+    "repo": "3ndG4me/socat",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "tcpdump",
+    "repo": "the-tcpdump-group/tcpdump",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "iperf3",
+    "repo": "esnet/iperf",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "mtr",
+    "repo": "traviscross/mtr",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "haproxy",
+    "repo": "haproxy/haproxy",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "envoy",
+    "repo": "envoyproxy/envoy",
+    "category": "network",
+    "language": "C++"
+  },
+  {
+    "name": "linkerd-cli",
+    "repo": "linkerd/linkerd2",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "cilium-cli",
+    "repo": "cilium/cilium-cli",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "cert-manager",
+    "repo": "cert-manager/cert-manager",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "external-dns",
+    "repo": "kubernetes-sigs/external-dns",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "certbot",
+    "repo": "certbot/certbot",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "acme.sh",
+    "repo": "acmesh-official/acme.sh",
+    "category": "security",
+    "language": "Shell"
+  },
+  {
+    "name": "openssl",
+    "repo": "openssl/openssl",
+    "category": "security",
+    "language": "C"
+  },
+  {
+    "name": "cfssl",
+    "repo": "cloudflare/cfssl",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "minisign",
+    "repo": "jedisct1/minisign",
+    "category": "security",
+    "language": "C"
+  },
+  {
+    "name": "notation",
+    "repo": "notaryproject/notation",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "oras",
+    "repo": "oras-project/oras",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "crane",
+    "repo": "google/go-containerregistry",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "skopeo",
+    "repo": "containers/skopeo",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "buildah",
+    "repo": "containers/buildah",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "kaniko",
+    "repo": "GoogleContainerTools/kaniko",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "earthly",
+    "repo": "earthly/earthly",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "dagger",
+    "repo": "dagger/dagger",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "pack",
+    "repo": "buildpacks/pack",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "grype",
+    "repo": "anchore/grype",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "syft",
+    "repo": "anchore/syft",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "falco",
+    "repo": "falcosecurity/falco",
+    "category": "security",
+    "language": "C++"
+  },
+  {
+    "name": "tetragon",
+    "repo": "cilium/tetragon",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "kubescape",
+    "repo": "kubescape/kubescape",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "kyverno",
+    "repo": "kyverno/kyverno",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "opa",
+    "repo": "open-policy-agent/opa",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "polaris",
+    "repo": "FairwindsOps/polaris",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "checkov",
+    "repo": "bridgecrewio/checkov",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "tfsec",
+    "repo": "aquasecurity/tfsec",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "terrascan",
+    "repo": "tenable/terrascan",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "infracost",
+    "repo": "infracost/infracost",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "tflint",
+    "repo": "terraform-linters/tflint",
+    "category": "linter",
+    "language": "Go"
+  },
+  {
+    "name": "steampipe",
+    "repo": "turbot/steampipe",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "cloudquery",
+    "repo": "cloudquery/cloudquery",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "osquery",
+    "repo": "osquery/osquery",
+    "category": "monitoring",
+    "language": "C++"
+  },
+  {
+    "name": "velero",
+    "repo": "vmware-tanzu/velero",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "longhorn",
+    "repo": "longhorn/longhorn",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "minio",
+    "repo": "minio/minio",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "litestream",
+    "repo": "benbjohnson/litestream",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "pgbackrest",
+    "repo": "pgbackrest/pgbackrest",
+    "category": "database",
+    "language": "C"
+  },
+  {
+    "name": "wal-g",
+    "repo": "wal-g/wal-g",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "temporal-cli",
+    "repo": "temporalio/cli",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "dapr",
+    "repo": "dapr/cli",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "wasmtime",
+    "repo": "bytecodealliance/wasmtime",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "wasmer",
+    "repo": "wasmerio/wasmer",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "zig",
+    "repo": "ziglang/zig",
+    "category": "build-tool",
+    "language": "Zig"
+  },
+  {
+    "name": "gleam",
+    "repo": "gleam-lang/gleam",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "elixir",
+    "repo": "elixir-lang/elixir",
+    "category": "build-tool",
+    "language": "Elixir"
+  },
+  {
+    "name": "ocaml",
+    "repo": "ocaml/ocaml",
+    "category": "build-tool",
+    "language": "OCaml"
+  },
+  {
+    "name": "opam",
+    "repo": "ocaml/opam",
+    "category": "package-manager",
+    "language": "OCaml"
+  },
+  {
+    "name": "dune",
+    "repo": "ocaml/dune",
+    "category": "build-tool",
+    "language": "OCaml"
+  },
+  {
+    "name": "cabal",
+    "repo": "haskell/cabal",
+    "category": "package-manager",
+    "language": "Haskell"
+  },
+  {
+    "name": "stack",
+    "repo": "commercialhaskell/stack",
+    "category": "build-tool",
+    "language": "Haskell"
+  },
+  {
+    "name": "nix",
+    "repo": "NixOS/nix",
+    "category": "package-manager",
+    "language": "C++"
+  },
+  {
+    "name": "homebrew",
+    "repo": "Homebrew/brew",
+    "category": "package-manager",
+    "language": "Ruby"
+  },
+  {
+    "name": "scoop",
+    "repo": "ScoopInstaller/Scoop",
+    "category": "package-manager",
+    "language": "PowerShell"
+  },
+  {
+    "name": "chocolatey",
+    "repo": "chocolatey/choco",
+    "category": "package-manager",
+    "language": "C#"
+  },
+  {
+    "name": "flatpak",
+    "repo": "flatpak/flatpak",
+    "category": "package-manager",
+    "language": "C"
+  },
+  {
+    "name": "snap",
+    "repo": "snapcore/snapd",
+    "category": "package-manager",
+    "language": "Go"
+  },
+  {
+    "name": "gitmux",
+    "repo": "arl/gitmux",
+    "category": "version-control",
+    "language": "Go"
+  },
+  {
+    "name": "git-lfs",
+    "repo": "git-lfs/git-lfs",
+    "category": "version-control",
+    "language": "Go"
+  },
+  {
+    "name": "git-secret",
+    "repo": "sobolevn/git-secret",
+    "category": "security",
+    "language": "Shell"
+  },
+  {
+    "name": "git-crypt",
+    "repo": "AGWA/git-crypt",
+    "category": "security",
+    "language": "C++"
+  },
+  {
+    "name": "git-filter-repo",
+    "repo": "newren/git-filter-repo",
+    "category": "version-control",
+    "language": "Python"
+  },
+  {
+    "name": "git-absorb",
+    "repo": "tummychow/git-absorb",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "git-branchless",
+    "repo": "arxanas/git-branchless",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "git-interactive-rebase-tool",
+    "repo": "MitMaro/git-interactive-rebase-tool",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "glab",
+    "repo": "profclems/glab",
+    "category": "version-control",
+    "language": "Go"
+  },
+  {
+    "name": "saml2aws",
+    "repo": "Versent/saml2aws",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "chamber",
+    "repo": "segmentio/chamber",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "aws-vault",
+    "repo": "99designs/aws-vault",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "granted",
+    "repo": "common-fate/granted",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "terragrunt",
+    "repo": "gruntwork-io/terragrunt",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "atlantis",
+    "repo": "runatlantis/atlantis",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "packer",
+    "repo": "hashicorp/packer",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "vagrant",
+    "repo": "hashicorp/vagrant",
+    "category": "devops",
+    "language": "Ruby"
+  },
+  {
+    "name": "nomad",
+    "repo": "hashicorp/nomad",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "boundary",
+    "repo": "hashicorp/boundary",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "waypoint",
+    "repo": "hashicorp/waypoint",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "teleport",
+    "repo": "gravitational/teleport",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "age-keygen",
+    "repo": "FiloSottile/age",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "kubectl-neat",
+    "repo": "itaysk/kubectl-neat",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "kubectx",
+    "repo": "ahmetb/kubectx",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "kubeseal",
+    "repo": "bitnami-labs/sealed-secrets",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "krew",
+    "repo": "kubernetes-sigs/krew",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "popeye",
+    "repo": "derailed/popeye",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "kubeshark",
+    "repo": "kubeshark/kubeshark",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "kubebuilder",
+    "repo": "kubernetes-sigs/kubebuilder",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "operator-sdk",
+    "repo": "operator-framework/operator-sdk",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "cilium",
+    "repo": "cilium/cilium",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "calicoctl",
+    "repo": "projectcalico/calico",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "coredns",
+    "repo": "coredns/coredns",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "wtfutil",
+    "repo": "wtfutil/wtf",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "sampler",
+    "repo": "sqshq/sampler",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "ctop",
+    "repo": "bcicen/ctop",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "dry",
+    "repo": "moncho/dry",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "buildkit",
+    "repo": "moby/buildkit",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "nerdctl",
+    "repo": "containerd/nerdctl",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "containerd",
+    "repo": "containerd/containerd",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "cri-tools",
+    "repo": "kubernetes-sigs/cri-tools",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "tilt",
+    "repo": "tilt-dev/tilt",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "devspace",
+    "repo": "devspace-sh/devspace",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "garden",
+    "repo": "garden-io/garden",
+    "category": "devops",
+    "language": "TypeScript"
+  },
+  {
+    "name": "okteto",
+    "repo": "okteto/okteto",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "telepresence",
+    "repo": "telepresenceio/telepresence",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "goreleaser",
+    "repo": "goreleaser/goreleaser",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "ko",
+    "repo": "ko-build/ko",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "buf",
+    "repo": "bufbuild/buf",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "golangci-lint",
+    "repo": "golangci/golangci-lint",
+    "category": "linter",
+    "language": "Go"
+  },
+  {
+    "name": "staticcheck",
+    "repo": "dominikh/go-tools",
+    "category": "linter",
+    "language": "Go"
+  },
+  {
+    "name": "clippy",
+    "repo": "rust-lang/rust-clippy",
+    "category": "linter",
+    "language": "Rust"
+  },
+  {
+    "name": "rustfmt",
+    "repo": "rust-lang/rustfmt",
+    "category": "formatter",
+    "language": "Rust"
+  },
+  {
+    "name": "taplo",
+    "repo": "tamasfe/taplo",
+    "category": "formatter",
+    "language": "Rust"
+  },
+  {
+    "name": "stylua",
+    "repo": "JohnnyMorganz/StyLua",
+    "category": "formatter",
+    "language": "Rust"
+  },
+  {
+    "name": "dprint",
+    "repo": "dprint/dprint",
+    "category": "formatter",
+    "language": "Rust"
+  },
+  {
+    "name": "biome",
+    "repo": "biomejs/biome",
+    "category": "linter",
+    "language": "Rust"
+  },
+  {
+    "name": "oxlint",
+    "repo": "oxc-project/oxc",
+    "category": "linter",
+    "language": "Rust"
+  },
+  {
+    "name": "yamllint",
+    "repo": "adrienverge/yamllint",
+    "category": "linter",
+    "language": "Python"
+  },
+  {
+    "name": "actionlint",
+    "repo": "rhysd/actionlint",
+    "category": "linter",
+    "language": "Go"
+  },
+  {
+    "name": "markdownlint-cli",
+    "repo": "igorshubovych/markdownlint-cli",
+    "category": "linter",
+    "language": "JavaScript"
+  },
+  {
+    "name": "vale",
+    "repo": "errata-ai/vale",
+    "category": "linter",
+    "language": "Go"
+  },
+  {
+    "name": "typos",
+    "repo": "crate-ci/typos",
+    "category": "linter",
+    "language": "Rust"
+  },
+  {
+    "name": "cspell",
+    "repo": "streetsidesoftware/cspell",
+    "category": "linter",
+    "language": "TypeScript"
+  },
+  {
+    "name": "shfmt",
+    "repo": "mvdan/sh",
+    "category": "formatter",
+    "language": "Go"
+  },
+  {
+    "name": "gofmt",
+    "repo": "golang/go",
+    "category": "formatter",
+    "language": "Go"
+  },
+  {
+    "name": "isort",
+    "repo": "PyCQA/isort",
+    "category": "formatter",
+    "language": "Python"
+  },
+  {
+    "name": "autopep8",
+    "repo": "hhatto/autopep8",
+    "category": "formatter",
+    "language": "Python"
+  },
+  {
+    "name": "mypy",
+    "repo": "python/mypy",
+    "category": "linter",
+    "language": "Python"
+  },
+  {
+    "name": "pyright",
+    "repo": "microsoft/pyright",
+    "category": "linter",
+    "language": "TypeScript"
+  },
+  {
+    "name": "pylint",
+    "repo": "pylint-dev/pylint",
+    "category": "linter",
+    "language": "Python"
+  },
+  {
+    "name": "flake8",
+    "repo": "PyCQA/flake8",
+    "category": "linter",
+    "language": "Python"
+  },
+  {
+    "name": "bandit",
+    "repo": "PyCQA/bandit",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "safety",
+    "repo": "pyupio/safety",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "pytest",
+    "repo": "pytest-dev/pytest",
+    "category": "testing",
+    "language": "Python"
+  },
+  {
+    "name": "tox",
+    "repo": "tox-dev/tox",
+    "category": "testing",
+    "language": "Python"
+  },
+  {
+    "name": "nox",
+    "repo": "wntrblm/nox",
+    "category": "testing",
+    "language": "Python"
+  },
+  {
+    "name": "jest",
+    "repo": "jestjs/jest",
+    "category": "testing",
+    "language": "TypeScript"
+  },
+  {
+    "name": "vitest",
+    "repo": "vitest-dev/vitest",
+    "category": "testing",
+    "language": "TypeScript"
+  },
+  {
+    "name": "playwright",
+    "repo": "microsoft/playwright",
+    "category": "testing",
+    "language": "TypeScript"
+  },
+  {
+    "name": "cypress",
+    "repo": "cypress-io/cypress",
+    "category": "testing",
+    "language": "JavaScript"
+  },
+  {
+    "name": "locust",
+    "repo": "locustio/locust",
+    "category": "testing",
+    "language": "Python"
+  },
+  {
+    "name": "gatling",
+    "repo": "gatling/gatling",
+    "category": "testing",
+    "language": "Scala"
+  },
+  {
+    "name": "artillery",
+    "repo": "artilleryio/artillery",
+    "category": "testing",
+    "language": "JavaScript"
+  },
+  {
+    "name": "plow",
+    "repo": "six-ddc/plow",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "oha",
+    "repo": "hatoo/oha",
+    "category": "testing",
+    "language": "Rust"
+  },
+  {
+    "name": "bombardier",
+    "repo": "codesenberg/bombardier",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "mkcert-dev",
+    "repo": "nicedoc/mkcert",
+    "category": "security",
+    "language": "JavaScript"
+  },
+  {
+    "name": "gitleaks",
+    "repo": "gitleaks/gitleaks",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "trufflehog",
+    "repo": "trufflesecurity/trufflehog",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "detect-secrets",
+    "repo": "Yelp/detect-secrets",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "talisman",
+    "repo": "thoughtworks/talisman",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "kube-bench",
+    "repo": "aquasecurity/kube-bench",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "kube-hunter",
+    "repo": "aquasecurity/kube-hunter",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "nuclei",
+    "repo": "projectdiscovery/nuclei",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "subfinder",
+    "repo": "projectdiscovery/subfinder",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "httpx-pd",
+    "repo": "projectdiscovery/httpx",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "masscan",
+    "repo": "robertdavidgraham/masscan",
+    "category": "security",
+    "language": "C"
+  },
+  {
+    "name": "zmap",
+    "repo": "zmap/zmap",
+    "category": "security",
+    "language": "C"
+  },
+  {
+    "name": "lynis",
+    "repo": "CISOfy/lynis",
+    "category": "security",
+    "language": "Shell"
+  },
+  {
+    "name": "clamav",
+    "repo": "Cisco-Talos/clamav",
+    "category": "security",
+    "language": "Rust"
+  },
+  {
+    "name": "pixie",
+    "repo": "pixie-io/pixie",
+    "category": "monitoring",
+    "language": "C++"
+  },
+  {
+    "name": "jaeger",
+    "repo": "jaegertracing/jaeger",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "tempo",
+    "repo": "grafana/tempo",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "thanos",
+    "repo": "thanos-io/thanos",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "cortex",
+    "repo": "cortexproject/cortex",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "promtail",
+    "repo": "grafana/loki",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "fluentbit",
+    "repo": "fluent/fluent-bit",
+    "category": "monitoring",
+    "language": "C"
+  },
+  {
+    "name": "filebeat",
+    "repo": "elastic/beats",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "logcli",
+    "repo": "grafana/loki",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "mprocs",
+    "repo": "pvolok/mprocs",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "process-compose",
+    "repo": "F1bonacc1/process-compose",
+    "category": "system",
+    "language": "Go"
+  },
+  {
+    "name": "overmind",
+    "repo": "DarthSim/overmind",
+    "category": "system",
+    "language": "Go"
+  },
+  {
+    "name": "foreman",
+    "repo": "ddollar/foreman",
+    "category": "system",
+    "language": "Ruby"
+  },
+  {
+    "name": "honcho",
+    "repo": "nickstenning/honcho",
+    "category": "system",
+    "language": "Python"
+  },
+  {
+    "name": "supervisor",
+    "repo": "Supervisor/supervisor",
+    "category": "system",
+    "language": "Python"
+  },
+  {
+    "name": "monit",
+    "repo": "arnoldsson/monit",
+    "category": "monitoring",
+    "language": "C"
+  },
+  {
+    "name": "croc",
+    "repo": "schollz/croc",
+    "category": "file-management",
+    "language": "Go"
+  },
+  {
+    "name": "magic-wormhole",
+    "repo": "magic-wormhole/magic-wormhole",
+    "category": "file-management",
+    "language": "Python"
+  },
+  {
+    "name": "syncthing",
+    "repo": "syncthing/syncthing",
+    "category": "file-management",
+    "language": "Go"
+  },
+  {
+    "name": "age-plugin-yubikey",
+    "repo": "str4d/age-plugin-yubikey",
+    "category": "security",
+    "language": "Rust"
+  },
+  {
+    "name": "viddy",
+    "repo": "sachaos/viddy",
+    "category": "system",
+    "language": "Go"
+  },
+  {
+    "name": "topgrade",
+    "repo": "topgrade-rs/topgrade",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "awk",
+    "repo": "onetrueawk/awk",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "sed",
+    "repo": "mirror/sed",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "perl",
+    "repo": "Perl/perl5",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "cut",
+    "repo": "coreutils/coreutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "sort",
+    "repo": "coreutils/coreutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "uniq",
+    "repo": "coreutils/coreutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "tr",
+    "repo": "coreutils/coreutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "wc",
+    "repo": "coreutils/coreutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "comm",
+    "repo": "coreutils/coreutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "paste",
+    "repo": "coreutils/coreutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "join",
+    "repo": "coreutils/coreutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "csplit",
+    "repo": "coreutils/coreutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "split",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "tee",
+    "repo": "coreutils/coreutils",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "gzip",
+    "repo": "madler/zlib",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "bzip2",
+    "repo": "dsnet/compress",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "xz",
+    "repo": "tukaani-project/xz",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "zstd",
+    "repo": "facebook/zstd",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "lz4",
+    "repo": "lz4/lz4",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "pigz",
+    "repo": "madler/pigz",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "pbzip2",
+    "repo": "ruanhuabin/pbzip2",
+    "category": "file-management",
+    "language": "C++"
+  },
+  {
+    "name": "tar",
+    "repo": "gnu-mirror/tar",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "zip",
+    "repo": "infozip/zip",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "unzip",
+    "repo": "infozip/unzip",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "7z",
+    "repo": "ip7z/7zip",
+    "category": "file-management",
+    "language": "C++"
+  },
+  {
+    "name": "unrar",
+    "repo": "aawc/unrar",
+    "category": "file-management",
+    "language": "C++"
+  },
+  {
+    "name": "cpio",
+    "repo": "gnu-mirror/cpio",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "ncdu",
+    "repo": "rofl0r/ncdu",
+    "category": "system",
+    "language": "Zig"
+  },
+  {
+    "name": "gdu",
+    "repo": "dundee/gdu",
+    "category": "system",
+    "language": "Go"
+  },
+  {
+    "name": "fswatch",
+    "repo": "emcrisostomo/fswatch",
+    "category": "file-management",
+    "language": "C++"
+  },
+  {
+    "name": "inotifywait",
+    "repo": "inotify-tools/inotify-tools",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "lsof",
+    "repo": "lsof-org/lsof",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "fuser",
+    "repo": "psmisc/psmisc",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "sshfs",
+    "repo": "libfuse/sshfs",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "systemctl",
+    "repo": "systemd/systemd",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "supervisord",
+    "repo": "Supervisor/supervisor",
+    "category": "system",
+    "language": "Python"
+  },
+  {
+    "name": "pm2",
+    "repo": "Unitech/pm2",
+    "category": "system",
+    "language": "JavaScript"
+  },
+  {
+    "name": "nodemon",
+    "repo": "remy/nodemon",
+    "category": "misc",
+    "language": "JavaScript"
+  },
+  {
+    "name": "concurrently",
+    "repo": "open-cli-tools/concurrently",
+    "category": "misc",
+    "language": "TypeScript"
+  },
+  {
+    "name": "goreman",
+    "repo": "mattn/goreman",
+    "category": "system",
+    "language": "Go"
+  },
+  {
+    "name": "screen",
+    "repo": "gnu-mirror/screen",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "byobu",
+    "repo": "dustinkirkland/byobu",
+    "category": "shell",
+    "language": "Shell"
+  },
+  {
+    "name": "abduco",
+    "repo": "martanne/abduco",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "dtach",
+    "repo": "crispy1989/dtach",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "reptyr",
+    "repo": "nelhage/reptyr",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "iptables",
+    "repo": "netfilter/iptables",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "nftables",
+    "repo": "netfilter/nftables",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "ufw",
+    "repo": "jbq/ufw",
+    "category": "network",
+    "language": "Python"
+  },
+  {
+    "name": "fail2ban",
+    "repo": "fail2ban/fail2ban",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "crowdsec",
+    "repo": "crowdsecurity/crowdsec",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "suricata",
+    "repo": "OISF/suricata",
+    "category": "security",
+    "language": "C"
+  },
+  {
+    "name": "snort",
+    "repo": "snort3/snort3",
+    "category": "security",
+    "language": "C++"
+  },
+  {
+    "name": "zeek",
+    "repo": "zeek/zeek",
+    "category": "security",
+    "language": "C++"
+  },
+  {
+    "name": "vnstat",
+    "repo": "vergoh/vnstat",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "nethogs",
+    "repo": "raboof/nethogs",
+    "category": "network",
+    "language": "C++"
+  },
+  {
+    "name": "iftop",
+    "repo": "pdw/iftop",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "nload",
+    "repo": "rolandriegel/nload",
+    "category": "network",
+    "language": "C++"
+  },
+  {
+    "name": "bmon",
+    "repo": "tgraf/bmon",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "speedtest-cli",
+    "repo": "sivel/speedtest-cli",
+    "category": "network",
+    "language": "Python"
+  },
+  {
+    "name": "gping",
+    "repo": "orf/gping",
+    "category": "network",
+    "language": "Rust"
+  },
+  {
+    "name": "trippy",
+    "repo": "fujiapple852/trippy",
+    "category": "network",
+    "language": "Rust"
+  },
+  {
+    "name": "rustscan",
+    "repo": "RustScan/RustScan",
+    "category": "security",
+    "language": "Rust"
+  },
+  {
+    "name": "gobuster",
+    "repo": "OJ/gobuster",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "feroxbuster",
+    "repo": "epi052/feroxbuster",
+    "category": "security",
+    "language": "Rust"
+  },
+  {
+    "name": "nikto",
+    "repo": "sullo/nikto",
+    "category": "security",
+    "language": "Perl"
+  },
+  {
+    "name": "sqlmap",
+    "repo": "sqlmapproject/sqlmap",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "amass",
+    "repo": "owasp-amass/amass",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "unison",
+    "repo": "bcpierce00/unison",
+    "category": "file-management",
+    "language": "OCaml"
+  },
+  {
+    "name": "lsyncd",
+    "repo": "lsyncd/lsyncd",
+    "category": "file-management",
+    "language": "Lua"
+  },
+  {
+    "name": "duplicity",
+    "repo": "duplicity/duplicity",
+    "category": "file-management",
+    "language": "Python"
+  },
+  {
+    "name": "kopia",
+    "repo": "kopia/kopia",
+    "category": "file-management",
+    "language": "Go"
+  },
+  {
+    "name": "btrbk",
+    "repo": "digint/btrbk",
+    "category": "file-management",
+    "language": "Perl"
+  },
+  {
+    "name": "puppet",
+    "repo": "puppetlabs/puppet",
+    "category": "devops",
+    "language": "Ruby"
+  },
+  {
+    "name": "chef",
+    "repo": "chef/chef",
+    "category": "devops",
+    "language": "Ruby"
+  },
+  {
+    "name": "salt",
+    "repo": "saltstack/salt",
+    "category": "devops",
+    "language": "Python"
+  },
+  {
+    "name": "jenkins-cli",
+    "repo": "jenkinsci/jenkins",
+    "category": "devops",
+    "language": "Java"
+  },
+  {
+    "name": "gitlab-runner",
+    "repo": "gitlabhq/gitlab-runner",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "drone-cli",
+    "repo": "harness/drone-cli",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "woodpecker-cli",
+    "repo": "woodpecker-ci/woodpecker",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "tekton-cli",
+    "repo": "tektoncd/cli",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "buildkite-agent",
+    "repo": "buildkite/agent",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "mkdocs",
+    "repo": "mkdocs/mkdocs",
+    "category": "misc",
+    "language": "Python"
+  },
+  {
+    "name": "zola",
+    "repo": "getzola/zola",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "jekyll",
+    "repo": "jekyll/jekyll",
+    "category": "misc",
+    "language": "Ruby"
+  },
+  {
+    "name": "pelican",
+    "repo": "getpelican/pelican",
+    "category": "misc",
+    "language": "Python"
+  },
+  {
+    "name": "eleventy",
+    "repo": "11ty/eleventy",
+    "category": "misc",
+    "language": "JavaScript"
+  },
+  {
+    "name": "mdbook",
+    "repo": "rust-lang/mdBook",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "asciidoctor",
+    "repo": "asciidoctor/asciidoctor",
+    "category": "misc",
+    "language": "Ruby"
+  },
+  {
+    "name": "tldr",
+    "repo": "tldr-pages/tldr",
+    "category": "misc",
+    "language": "Markdown"
+  },
+  {
+    "name": "cheat",
+    "repo": "cheat/cheat",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "navi",
+    "repo": "denisidoro/navi",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "composer",
+    "repo": "composer/composer",
+    "category": "package-manager",
+    "language": "PHP"
+  },
+  {
+    "name": "gem",
+    "repo": "rubygems/rubygems",
+    "category": "package-manager",
+    "language": "Ruby"
+  },
+  {
+    "name": "bundler",
+    "repo": "rubygems/rubygems",
+    "category": "package-manager",
+    "language": "Ruby"
+  },
+  {
+    "name": "mix",
+    "repo": "elixir-lang/elixir",
+    "category": "package-manager",
+    "language": "Elixir"
+  },
+  {
+    "name": "pub",
+    "repo": "dart-lang/pub",
+    "category": "package-manager",
+    "language": "Dart"
+  },
+  {
+    "name": "nuget",
+    "repo": "NuGet/Home",
+    "category": "package-manager",
+    "language": "C#"
+  },
+  {
+    "name": "vcpkg",
+    "repo": "microsoft/vcpkg",
+    "category": "package-manager",
+    "language": "C++"
+  },
+  {
+    "name": "conan",
+    "repo": "conan-io/conan",
+    "category": "package-manager",
+    "language": "Python"
+  },
+  {
+    "name": "spack",
+    "repo": "spack/spack",
+    "category": "package-manager",
+    "language": "Python"
+  },
+  {
+    "name": "conda",
+    "repo": "conda/conda",
+    "category": "package-manager",
+    "language": "Python"
+  },
+  {
+    "name": "mamba",
+    "repo": "mamba-org/mamba",
+    "category": "package-manager",
+    "language": "C++"
+  },
+  {
+    "name": "micromamba",
+    "repo": "mamba-org/mamba",
+    "category": "package-manager",
+    "language": "C++"
+  },
+  {
+    "name": "pixi",
+    "repo": "prefix-dev/pixi",
+    "category": "package-manager",
+    "language": "Rust"
+  },
+  {
+    "name": "cqlsh",
+    "repo": "apache/cassandra",
+    "category": "database",
+    "language": "Python"
+  },
+  {
+    "name": "cockroach",
+    "repo": "cockroachdb/cockroach",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "vitess-vtctl",
+    "repo": "vitessio/vitess",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "arangosh",
+    "repo": "arangodb/arangodb",
+    "category": "database",
+    "language": "C++"
+  },
+  {
+    "name": "cypher-shell",
+    "repo": "neo4j/neo4j",
+    "category": "database",
+    "language": "Java"
+  },
+  {
+    "name": "surrealdb-cli",
+    "repo": "surrealdb/surrealdb",
+    "category": "database",
+    "language": "Rust"
+  },
+  {
+    "name": "influxdb-cli",
+    "repo": "influxdata/influx-cli",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "finch",
+    "repo": "runfinch/finch",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "colima",
+    "repo": "abiosoft/colima",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "lima",
+    "repo": "lima-vm/lima",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "huggingface-cli",
+    "repo": "huggingface/huggingface_hub",
+    "category": "misc",
+    "language": "Python"
+  },
+  {
+    "name": "ollama",
+    "repo": "ollama/ollama",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "llama-cpp",
+    "repo": "ggerganov/llama.cpp",
+    "category": "misc",
+    "language": "C++"
+  },
+  {
+    "name": "whisper-cpp",
+    "repo": "ggerganov/whisper.cpp",
+    "category": "misc",
+    "language": "C++"
+  },
+  {
+    "name": "figlet",
+    "repo": "cmatsuoka/figlet",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "cowsay",
+    "repo": "piuccio/cowsay",
+    "category": "misc",
+    "language": "JavaScript"
+  },
+  {
+    "name": "lolcat",
+    "repo": "busyloop/lolcat",
+    "category": "misc",
+    "language": "Ruby"
+  },
+  {
+    "name": "cmatrix",
+    "repo": "abishekvashok/cmatrix",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "fastfetch",
+    "repo": "fastfetch-cli/fastfetch",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "macchina",
+    "repo": "Macchina-CLI/macchina",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "pfetch",
+    "repo": "dylanaraps/pfetch",
+    "category": "system",
+    "language": "Shell"
+  },
+  {
+    "name": "gifski",
+    "repo": "ImageOptim/gifski",
+    "category": "media",
+    "language": "Rust"
+  },
+  {
+    "name": "gifsicle",
+    "repo": "kohler/gifsicle",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "termtosvg",
+    "repo": "nbedos/termtosvg",
+    "category": "misc",
+    "language": "Python"
+  },
+  {
+    "name": "carbon-now-cli",
+    "repo": "mixn/carbon-now-cli",
+    "category": "misc",
+    "language": "JavaScript"
+  },
+  {
+    "name": "strace",
+    "repo": "strace/strace",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "ltrace",
+    "repo": "dkogan/ltrace",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "perf",
+    "repo": "torvalds/linux",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "valgrind",
+    "repo": "valgrind/valgrind",
+    "category": "testing",
+    "language": "C"
+  },
+  {
+    "name": "gdb",
+    "repo": "bminor/binutils-gdb",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "lldb",
+    "repo": "llvm/llvm-project",
+    "category": "system",
+    "language": "C++"
+  },
+  {
+    "name": "pv",
+    "repo": "a-j-wood/pv",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "progress",
+    "repo": "Xfennec/progress",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "parallel",
+    "repo": "gnu-mirror/parallel",
+    "category": "shell",
+    "language": "Perl"
+  },
+  {
+    "name": "xargs",
+    "repo": "coreutils/coreutils",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "expect",
+    "repo": "aeruder/expect",
+    "category": "shell",
+    "language": "Tcl"
+  },
+  {
+    "name": "miller",
+    "repo": "johnkerl/miller",
+    "category": "search",
+    "language": "Go"
+  },
+  {
+    "name": "dasel",
+    "repo": "TomWright/dasel",
+    "category": "search",
+    "language": "Go"
+  },
+  {
+    "name": "fx",
+    "repo": "antonmedv/fx",
+    "category": "search",
+    "language": "Go"
+  },
+  {
+    "name": "jless",
+    "repo": "PaulJuliworker/jless",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "csvkit",
+    "repo": "wireservice/csvkit",
+    "category": "search",
+    "language": "Python"
+  },
+  {
+    "name": "xsv",
+    "repo": "BurntSushi/xsv",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "qsv",
+    "repo": "jqnatividad/qsv",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "pup",
+    "repo": "ericchiang/pup",
+    "category": "search",
+    "language": "Go"
+  },
+  {
+    "name": "htmlq",
+    "repo": "mgdm/htmlq",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "jc",
+    "repo": "kellyjonbrazil/jc",
+    "category": "search",
+    "language": "Python"
+  },
+  {
+    "name": "gron",
+    "repo": "tomnomnom/gron",
+    "category": "search",
+    "language": "Go"
+  },
+  {
+    "name": "grpcui",
+    "repo": "fullstorydev/grpcui",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "evans",
+    "repo": "ktr0731/evans",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "websocat",
+    "repo": "vi/websocat",
+    "category": "network",
+    "language": "Rust"
+  },
+  {
+    "name": "tcpflow",
+    "repo": "simsong/tcpflow",
+    "category": "network",
+    "language": "C++"
+  },
+  {
+    "name": "mitmproxy",
+    "repo": "mitmproxy/mitmproxy",
+    "category": "network",
+    "language": "Python"
+  },
+  {
+    "name": "charles",
+    "repo": "nickvdp/charles-hacking",
+    "category": "network",
+    "language": "Java"
+  },
+  {
+    "name": "brook",
+    "repo": "txthinking/brook",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "miniserve",
+    "repo": "svenstaro/miniserve",
+    "category": "network",
+    "language": "Rust"
+  },
+  {
+    "name": "pget",
+    "repo": "Code-Hex/pget",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "curlie",
+    "repo": "rs/curlie",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "rage",
+    "repo": "str4d/rage",
+    "category": "security",
+    "language": "Rust"
+  },
+  {
+    "name": "signify",
+    "repo": "aperezdc/signify",
+    "category": "security",
+    "language": "C"
+  },
+  {
+    "name": "rkhunter",
+    "repo": "installation/rkhunter",
+    "category": "security",
+    "language": "Shell"
+  },
+  {
+    "name": "binwalk",
+    "repo": "ReFirmLabs/binwalk",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "radare2",
+    "repo": "radareorg/radare2",
+    "category": "security",
+    "language": "C"
+  },
+  {
+    "name": "ghidra",
+    "repo": "NationalSecurityAgency/ghidra",
+    "category": "security",
+    "language": "Java"
+  },
+  {
+    "name": "sentinel",
+    "repo": "hashicorp/sentinel-sdk",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "task-spooler",
+    "repo": "justanhduc/task-spooler",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "at",
+    "repo": "coreutils/coreutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "cron",
+    "repo": "cronie-crond/cronie",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "anacron",
+    "repo": "cronie-crond/cronie",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "logrotate",
+    "repo": "logrotate/logrotate",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "ccache",
+    "repo": "ccache/ccache",
+    "category": "build-tool",
+    "language": "C++"
+  },
+  {
+    "name": "sccache",
+    "repo": "mozilla/sccache",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "platformio",
+    "repo": "platformio/platformio-core",
+    "category": "build-tool",
+    "language": "Python"
+  },
+  {
+    "name": "esptool",
+    "repo": "espressif/esptool",
+    "category": "system",
+    "language": "Python"
+  },
+  {
+    "name": "openocd",
+    "repo": "openocd-org/openocd",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "avrdude",
+    "repo": "avrdudes/avrdude",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "probe-rs",
+    "repo": "probe-rs/probe-rs",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-embed",
+    "repo": "probe-rs/cargo-embed",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-flash",
+    "repo": "probe-rs/cargo-flash",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "uf2conv",
+    "repo": "microsoft/uf2",
+    "category": "system",
+    "language": "Python"
+  },
+  {
+    "name": "stlink",
+    "repo": "stlink-org/stlink",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "defmt",
+    "repo": "knurling-rs/defmt",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "lshw",
+    "repo": "lyonel/lshw",
+    "category": "system",
+    "language": "C++"
+  },
+  {
+    "name": "lspci",
+    "repo": "pciutils/pciutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "lsusb",
+    "repo": "gregkh/usbutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "dmidecode",
+    "repo": "mirror/dmidecode",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "smartctl",
+    "repo": "smartmontools/smartmontools",
+    "category": "system",
+    "language": "C++"
+  },
+  {
+    "name": "hdparm",
+    "repo": "mirror/hdparm",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "nvme-cli",
+    "repo": "linux-nvme/nvme-cli",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "fio",
+    "repo": "axboe/fio",
+    "category": "testing",
+    "language": "C"
+  },
+  {
+    "name": "stress-ng",
+    "repo": "ColinIanKing/stress-ng",
+    "category": "testing",
+    "language": "C"
+  },
+  {
+    "name": "sysbench",
+    "repo": "akopytov/sysbench",
+    "category": "testing",
+    "language": "C"
+  },
+  {
+    "name": "memtester",
+    "repo": "jnavila/memtester",
+    "category": "testing",
+    "language": "C"
+  },
+  {
+    "name": "gnuplot",
+    "repo": "gnuplot/gnuplot",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "octave",
+    "repo": "gnu-octave/octave",
+    "category": "misc",
+    "language": "C++"
+  },
+  {
+    "name": "maxima",
+    "repo": "jvilk/maxima-mirror",
+    "category": "misc",
+    "language": "Common Lisp"
+  },
+  {
+    "name": "julia",
+    "repo": "JuliaLang/julia",
+    "category": "misc",
+    "language": "Julia"
+  },
+  {
+    "name": "geth",
+    "repo": "ethereum/go-ethereum",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "solc",
+    "repo": "ethereum/solidity",
+    "category": "build-tool",
+    "language": "C++"
+  },
+  {
+    "name": "forge",
+    "repo": "foundry-rs/foundry",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "cast",
+    "repo": "foundry-rs/foundry",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "anvil",
+    "repo": "foundry-rs/foundry",
+    "category": "testing",
+    "language": "Rust"
+  },
+  {
+    "name": "anchor",
+    "repo": "coral-xyz/anchor",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "solana-cli",
+    "repo": "solana-labs/solana",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "sox",
+    "repo": "chirlu/sox",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "lame",
+    "repo": "lameproject/lame",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "opus-tools",
+    "repo": "xiph/opus-tools",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "flac",
+    "repo": "xiph/flac",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "mpv",
+    "repo": "mpv-player/mpv",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "mpc",
+    "repo": "MusicPlayerDaemon/mpc",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "ncmpcpp",
+    "repo": "ncmpcpp/ncmpcpp",
+    "category": "media",
+    "language": "C++"
+  },
+  {
+    "name": "cmus",
+    "repo": "cmus/cmus",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "handbrake-cli",
+    "repo": "HandBrake/HandBrake",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "mkvtoolnix",
+    "repo": "nmaier/mkvtoolnix",
+    "category": "media",
+    "language": "C++"
+  },
+  {
+    "name": "x264",
+    "repo": "mirror/x264",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "x265",
+    "repo": "multicoreware/x265_git",
+    "category": "media",
+    "language": "C++"
+  },
+  {
+    "name": "aomenc",
+    "repo": "aspect-build/aom",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "svt-av1",
+    "repo": "AOMediaCodec/SVT-AV1",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "rav1e",
+    "repo": "xiph/rav1e",
+    "category": "media",
+    "language": "Rust"
+  },
+  {
+    "name": "fonttools",
+    "repo": "fonttools/fonttools",
+    "category": "media",
+    "language": "Python"
+  },
+  {
+    "name": "woff2",
+    "repo": "google/woff2",
+    "category": "media",
+    "language": "C++"
+  },
+  {
+    "name": "openscad",
+    "repo": "openscad/openscad",
+    "category": "media",
+    "language": "C++"
+  },
+  {
+    "name": "blender-cli",
+    "repo": "blender/blender",
+    "category": "media",
+    "language": "C++"
+  },
+  {
+    "name": "ghostscript",
+    "repo": "ArtifexSoftware/ghostpdl",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "qpdf",
+    "repo": "qpdf/qpdf",
+    "category": "media",
+    "language": "C++"
+  },
+  {
+    "name": "pdftk",
+    "repo": "pdftk-java/pdftk",
+    "category": "media",
+    "language": "Java"
+  },
+  {
+    "name": "pdftotext",
+    "repo": "freedesktop/poppler",
+    "category": "media",
+    "language": "C++"
+  },
+  {
+    "name": "mutt",
+    "repo": "muttmua/mutt",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "neomutt",
+    "repo": "neomutt/neomutt",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "aerc",
+    "repo": "rstrm/aerc",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "himalaya",
+    "repo": "sostrovsky/himalaya",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "notmuch",
+    "repo": "notmuchmail/notmuch",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "weechat",
+    "repo": "weechat/weechat",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "irssi",
+    "repo": "irssi/irssi",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "profanity",
+    "repo": "profanity-im/profanity",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "gomuks",
+    "repo": "tulir/gomuks",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "newsboat",
+    "repo": "newsboat/newsboat",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "khal",
+    "repo": "pimutils/khal",
+    "category": "misc",
+    "language": "Python"
+  },
+  {
+    "name": "nb",
+    "repo": "xwmx/nb",
+    "category": "misc",
+    "language": "Shell"
+  },
+  {
+    "name": "joplin-cli",
+    "repo": "laurent22/joplin",
+    "category": "misc",
+    "language": "TypeScript"
+  },
+  {
+    "name": "dnote",
+    "repo": "dnote/dnote",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "taskwarrior",
+    "repo": "GothenburgBitFactory/taskwarrior",
+    "category": "misc",
+    "language": "C++"
+  },
+  {
+    "name": "timewarrior",
+    "repo": "GothenburgBitFactory/timewarrior",
+    "category": "misc",
+    "language": "C++"
+  },
+  {
+    "name": "watson",
+    "repo": "TailorDev/Watson",
+    "category": "misc",
+    "language": "Python"
+  },
+  {
+    "name": "1password-cli",
+    "repo": "1Password/connect",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "keepassxc-cli",
+    "repo": "keepassxreboot/keepassxc",
+    "category": "security",
+    "language": "C++"
+  },
+  {
+    "name": "doppler",
+    "repo": "DopplerHQ/cli",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "teller",
+    "repo": "tellerops/teller",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "openvpn",
+    "repo": "OpenVPN/openvpn",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "strongswan",
+    "repo": "strongswan/strongswan",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "wireguard-tools",
+    "repo": "WireGuard/wireguard-tools",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "unbound",
+    "repo": "NLnetLabs/unbound",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "knot-resolver",
+    "repo": "CZ-NIC/knot-resolver",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "squid",
+    "repo": "squid-cache/squid",
+    "category": "network",
+    "language": "C++"
+  },
+  {
+    "name": "privoxy",
+    "repo": "fabiankeil/privoxy",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "linkerd",
+    "repo": "linkerd/linkerd2",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "telegraf",
+    "repo": "influxdata/telegraf",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "collectd",
+    "repo": "collectd/collectd",
+    "category": "monitoring",
+    "language": "C"
+  },
+  {
+    "name": "datadog-agent",
+    "repo": "DataDog/datadog-agent",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "newrelic-cli",
+    "repo": "newrelic/newrelic-cli",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "rsyslog",
+    "repo": "rsyslog/rsyslog",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "syslog-ng",
+    "repo": "syslog-ng/syslog-ng",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "fluentd",
+    "repo": "fluent/fluentd",
+    "category": "monitoring",
+    "language": "Ruby"
+  },
+  {
+    "name": "fluent-bit",
+    "repo": "fluent/fluent-bit",
+    "category": "monitoring",
+    "language": "C"
+  },
+  {
+    "name": "rdiff-backup",
+    "repo": "rdiff-backup/rdiff-backup",
+    "category": "file-management",
+    "language": "Python"
+  },
+  {
+    "name": "dar",
+    "repo": "Edrusb/DAR",
+    "category": "file-management",
+    "language": "C++"
+  },
+  {
+    "name": "qemu",
+    "repo": "qemu/qemu",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "virsh",
+    "repo": "libvirt/libvirt",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "vboxmanage",
+    "repo": "nicknisi/virtualbox",
+    "category": "system",
+    "language": "C++"
+  },
+  {
+    "name": "multipass",
+    "repo": "canonical/multipass",
+    "category": "system",
+    "language": "C++"
+  },
+  {
+    "name": "firecracker",
+    "repo": "firecracker-microvm/firecracker",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "cloud-hypervisor",
+    "repo": "cloud-hypervisor/cloud-hypervisor",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "kata-runtime",
+    "repo": "kata-containers/kata-containers",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "gocryptfs",
+    "repo": "rfjakob/gocryptfs",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "fscrypt",
+    "repo": "google/fscrypt",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "squashfs-tools",
+    "repo": "plougher/squashfs-tools",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "cargo-watch",
+    "repo": "watchexec/cargo-watch",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-expand",
+    "repo": "dtolnay/cargo-expand",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-clippy",
+    "repo": "rust-lang/rust-clippy",
+    "category": "linter",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-audit",
+    "repo": "rustsec/rustsec",
+    "category": "security",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-deny",
+    "repo": "EmbarkStudios/cargo-deny",
+    "category": "security",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-nextest",
+    "repo": "nextest-rs/nextest",
+    "category": "testing",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-tarpaulin",
+    "repo": "xd009642/tarpaulin",
+    "category": "testing",
+    "language": "Rust"
+  },
+  {
+    "name": "miri",
+    "repo": "rust-lang/miri",
+    "category": "testing",
+    "language": "Rust"
+  },
+  {
+    "name": "cppcheck",
+    "repo": "danmar/cppcheck",
+    "category": "linter",
+    "language": "C++"
+  },
+  {
+    "name": "clang-tidy",
+    "repo": "llvm/llvm-project",
+    "category": "linter",
+    "language": "C++"
+  },
+  {
+    "name": "clang-format",
+    "repo": "llvm/llvm-project",
+    "category": "formatter",
+    "language": "C++"
+  },
+  {
+    "name": "include-what-you-use",
+    "repo": "include-what-you-use/include-what-you-use",
+    "category": "linter",
+    "language": "C++"
+  },
+  {
+    "name": "bpftrace",
+    "repo": "bpftrace/bpftrace",
+    "category": "monitoring",
+    "language": "C++"
+  },
+  {
+    "name": "bcc",
+    "repo": "iovisor/bcc",
+    "category": "monitoring",
+    "language": "C++"
+  },
+  {
+    "name": "sysdig",
+    "repo": "draios/sysdig",
+    "category": "monitoring",
+    "language": "C++"
+  },
+  {
+    "name": "jo",
+    "repo": "jpmens/jo",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "q",
+    "repo": "harelba/q",
+    "category": "database",
+    "language": "Python"
+  },
+  {
+    "name": "trdsql",
+    "repo": "noborus/trdsql",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "sqlite-utils",
+    "repo": "simonw/sqlite-utils",
+    "category": "database",
+    "language": "Python"
+  },
+  {
+    "name": "datasette",
+    "repo": "simonw/datasette",
+    "category": "database",
+    "language": "Python"
+  },
+  {
+    "name": "s3cmd",
+    "repo": "s3tools/s3cmd",
+    "category": "cloud",
+    "language": "Python"
+  },
+  {
+    "name": "s5cmd",
+    "repo": "peak/s5cmd",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "cue",
+    "repo": "cue-lang/cue",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "jsonnet",
+    "repo": "google/jsonnet",
+    "category": "misc",
+    "language": "C++"
+  },
+  {
+    "name": "dhall",
+    "repo": "dhall-lang/dhall-haskell",
+    "category": "misc",
+    "language": "Haskell"
+  },
+  {
+    "name": "conftest",
+    "repo": "open-policy-agent/conftest",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "kubeval",
+    "repo": "instrumenta/kubeval",
+    "category": "linter",
+    "language": "Go"
+  },
+  {
+    "name": "kubeconform",
+    "repo": "yannh/kubeconform",
+    "category": "linter",
+    "language": "Go"
+  },
+  {
+    "name": "pluto",
+    "repo": "FairwindsOps/pluto",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "helmfile",
+    "repo": "helmfile/helmfile",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "kops",
+    "repo": "kubernetes/kops",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "calico",
+    "repo": "projectcalico/calico",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "crictl",
+    "repo": "kubernetes-sigs/cri-tools",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "ctr",
+    "repo": "containerd/containerd",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "runc",
+    "repo": "opencontainers/runc",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "crun",
+    "repo": "containers/crun",
+    "category": "container",
+    "language": "C"
+  },
+  {
+    "name": "youki",
+    "repo": "containers/youki",
+    "category": "container",
+    "language": "Rust"
+  },
+  {
+    "name": "kompose",
+    "repo": "kubernetes/kompose",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "ghz",
+    "repo": "bojand/ghz",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "dnscontrol",
+    "repo": "StackExchange/dnscontrol",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "opentofu",
+    "repo": "opentofu/opentofu",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "yamlfmt",
+    "repo": "google/yamlfmt",
+    "category": "formatter",
+    "language": "Go"
+  },
+  {
+    "name": "codespell",
+    "repo": "codespell-project/codespell",
+    "category": "linter",
+    "language": "Python"
+  },
+  {
+    "name": "editorconfig-checker",
+    "repo": "editorconfig-checker/editorconfig-checker",
+    "category": "linter",
+    "language": "Go"
+  },
+  {
+    "name": "oxipng",
+    "repo": "shssoichern/oxipng",
+    "category": "media",
+    "language": "Rust"
+  },
+  {
+    "name": "resvg",
+    "repo": "RazrFalcon/resvg",
+    "category": "media",
+    "language": "Rust"
+  },
+  {
+    "name": "dufs",
+    "repo": "sigoden/dufs",
+    "category": "network",
+    "language": "Rust"
+  },
+  {
+    "name": "drill",
+    "repo": "fcsonline/drill",
+    "category": "testing",
+    "language": "Rust"
+  },
+  {
+    "name": "hurl",
+    "repo": "Orange-OpenSource/hurl",
+    "category": "testing",
+    "language": "Rust"
+  },
+  {
+    "name": "csvlens",
+    "repo": "YS-L/csvlens",
+    "category": "file-management",
+    "language": "Rust"
+  },
+  {
+    "name": "visidata",
+    "repo": "saulpw/visidata",
+    "category": "file-management",
+    "language": "Python"
+  },
+  {
+    "name": "termshark",
+    "repo": "gcla/termshark",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "sniffnet",
+    "repo": "GyulyVGC/sniffnet",
+    "category": "network",
+    "language": "Rust"
+  },
+  {
+    "name": "zenith",
+    "repo": "bvaisvil/zenith",
+    "category": "monitoring",
+    "language": "Rust"
+  },
+  {
+    "name": "ytop",
+    "repo": "cjbassi/ytop",
+    "category": "monitoring",
+    "language": "Rust"
+  },
+  {
+    "name": "gotop",
+    "repo": "xxxserxxx/gotop",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "bpytop",
+    "repo": "aristocratos/bpytop",
+    "category": "monitoring",
+    "language": "Python"
+  },
+  {
+    "name": "werf",
+    "repo": "werf/werf",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "gefyra",
+    "repo": "gefyrahq/gefyra",
+    "category": "devops",
+    "language": "Python"
+  },
+  {
+    "name": "air",
+    "repo": "cosmtrek/air",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "gore",
+    "repo": "x-motemen/gore",
+    "category": "shell",
+    "language": "Go"
+  },
+  {
+    "name": "delve",
+    "repo": "go-delve/delve",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "gofumpt",
+    "repo": "mvdan/gofumpt",
+    "category": "formatter",
+    "language": "Go"
+  },
+  {
+    "name": "golines",
+    "repo": "segmentio/golines",
+    "category": "formatter",
+    "language": "Go"
+  },
+  {
+    "name": "goimports",
+    "repo": "golang/tools",
+    "category": "formatter",
+    "language": "Go"
+  },
+  {
+    "name": "govulncheck",
+    "repo": "golang/vuln",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "gotests",
+    "repo": "cweill/gotests",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "gotestsum",
+    "repo": "gotestyourself/gotestsum",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "goose",
+    "repo": "pressly/goose",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "migrate",
+    "repo": "golang-migrate/migrate",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "dbmate",
+    "repo": "amacneil/dbmate",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "atlas",
+    "repo": "ariga/atlas",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "sqlc",
+    "repo": "sqlc-dev/sqlc",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "nfpm",
+    "repo": "goreleaser/nfpm",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "fpm",
+    "repo": "jordansissel/fpm",
+    "category": "build-tool",
+    "language": "Ruby"
+  },
+  {
+    "name": "rubocop",
+    "repo": "rubocop/rubocop",
+    "category": "linter",
+    "language": "Ruby"
+  },
+  {
+    "name": "sorbet",
+    "repo": "sorbet/sorbet",
+    "category": "linter",
+    "language": "C++"
+  },
+  {
+    "name": "solargraph",
+    "repo": "castwide/solargraph",
+    "category": "linter",
+    "language": "Ruby"
+  },
+  {
+    "name": "pry",
+    "repo": "pry/pry",
+    "category": "shell",
+    "language": "Ruby"
+  },
+  {
+    "name": "thor",
+    "repo": "rails/thor",
+    "category": "build-tool",
+    "language": "Ruby"
+  },
+  {
+    "name": "rake",
+    "repo": "ruby/rake",
+    "category": "build-tool",
+    "language": "Ruby"
+  },
+  {
+    "name": "phpstan",
+    "repo": "phpstan/phpstan",
+    "category": "linter",
+    "language": "PHP"
+  },
+  {
+    "name": "psalm",
+    "repo": "vimeo/psalm",
+    "category": "linter",
+    "language": "PHP"
+  },
+  {
+    "name": "phpcs",
+    "repo": "squizlabs/PHP_CodeSniffer",
+    "category": "linter",
+    "language": "PHP"
+  },
+  {
+    "name": "pint",
+    "repo": "laravel/pint",
+    "category": "formatter",
+    "language": "PHP"
+  },
+  {
+    "name": "pest",
+    "repo": "pestphp/pest",
+    "category": "testing",
+    "language": "PHP"
+  },
+  {
+    "name": "rector",
+    "repo": "rectorphp/rector",
+    "category": "build-tool",
+    "language": "PHP"
+  },
+  {
+    "name": "wp-cli",
+    "repo": "wp-cli/wp-cli",
+    "category": "misc",
+    "language": "PHP"
+  },
+  {
+    "name": "symfony-cli",
+    "repo": "symfony-cli/symfony-cli",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "helm-diff",
+    "repo": "databus23/helm-diff",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "sealed-secrets",
+    "repo": "bitnami-labs/sealed-secrets",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "external-secrets",
+    "repo": "external-secrets/external-secrets",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "keda",
+    "repo": "kedacore/keda",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "knative-cli",
+    "repo": "knative/client",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "karpenter",
+    "repo": "aws/karpenter",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "rancher-cli",
+    "repo": "rancher/cli",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "mimir",
+    "repo": "grafana/mimir",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "pyroscope",
+    "repo": "grafana/pyroscope",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "alloy",
+    "repo": "grafana/alloy",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "promtool",
+    "repo": "prometheus/prometheus",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "amtool",
+    "repo": "prometheus/alertmanager",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "kubecost",
+    "repo": "kubecost/cost-analyzer-helm-chart",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "opencost",
+    "repo": "opencost/opencost",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "leapp",
+    "repo": "Noovolari/leapp",
+    "category": "cloud",
+    "language": "TypeScript"
+  },
+  {
+    "name": "ali",
+    "repo": "nakabonne/ali",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "toxiproxy",
+    "repo": "Shopify/toxiproxy",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "chaos-mesh",
+    "repo": "chaos-mesh/chaos-mesh",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "litmus",
+    "repo": "litmuschaos/litmus",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "pumba",
+    "repo": "alexei-led/pumba",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "metallb",
+    "repo": "metallb/metallb",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "contour",
+    "repo": "projectcontour/contour",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "hubble",
+    "repo": "cilium/hubble",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "cdk",
+    "repo": "aws/aws-cdk",
+    "category": "cloud",
+    "language": "TypeScript"
+  },
+  {
+    "name": "amplify-cli",
+    "repo": "aws-amplify/amplify-cli",
+    "category": "cloud",
+    "language": "TypeScript"
+  },
+  {
+    "name": "edgedb-cli",
+    "repo": "edgedb/edgedb-cli",
+    "category": "database",
+    "language": "Rust"
+  },
+  {
+    "name": "fauna-cli",
+    "repo": "fauna/fauna-shell",
+    "category": "database",
+    "language": "JavaScript"
+  },
+  {
+    "name": "convex-cli",
+    "repo": "get-convex/convex-backend",
+    "category": "database",
+    "language": "TypeScript"
+  },
+  {
+    "name": "upstash-cli",
+    "repo": "upstash/cli",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "tv",
+    "repo": "alexhallam/tv",
+    "category": "file-management",
+    "language": "Rust"
+  },
+  {
+    "name": "vivid",
+    "repo": "sharkdp/vivid",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "pastel",
+    "repo": "sharkdp/pastel",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "hexyl",
+    "repo": "sharkdp/hexyl",
+    "category": "file-management",
+    "language": "Rust"
+  },
+  {
+    "name": "binocle",
+    "repo": "sharkdp/binocle",
+    "category": "file-management",
+    "language": "Rust"
+  },
+  {
+    "name": "tealdeer",
+    "repo": "dbrgn/tealdeer",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "trunk",
+    "repo": "thedodd/trunk",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "wasm-pack",
+    "repo": "rustwasm/wasm-pack",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-flamegraph",
+    "repo": "flamegraph-rs/flamegraph",
+    "category": "monitoring",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-bloat",
+    "repo": "RazrFalcon/cargo-bloat",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "gitoxide",
+    "repo": "Byron/gitoxide",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "jujutsu",
+    "repo": "martinvonz/jj",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "sapling",
+    "repo": "facebook/sapling",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "pijul",
+    "repo": "pijul-scm/pijul",
+    "category": "version-control",
+    "language": "Rust"
+  },
+  {
+    "name": "watchman",
+    "repo": "facebook/watchman",
+    "category": "file-management",
+    "language": "C++"
+  },
+  {
+    "name": "dstat",
+    "repo": "dagwieers/dstat",
+    "category": "monitoring",
+    "language": "Python"
+  },
+  {
+    "name": "iotop",
+    "repo": "Tomas-M/iotop",
+    "category": "monitoring",
+    "language": "C"
+  },
+  {
+    "name": "sealer",
+    "repo": "sealerio/sealer",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "sealos",
+    "repo": "labring/sealos",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "kail",
+    "repo": "boz/kail",
+    "category": "monitoring",
+    "language": "Go"
+  },
+  {
+    "name": "kubetail",
+    "repo": "johanhaleby/kubetail",
+    "category": "monitoring",
+    "language": "Shell"
+  },
+  {
+    "name": "nova",
+    "repo": "FairwindsOps/nova",
+    "category": "linter",
+    "language": "Go"
+  },
+  {
+    "name": "kubeadm",
+    "repo": "kubernetes/kubernetes",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "clusterctl",
+    "repo": "kubernetes-sigs/cluster-api",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "talosctl",
+    "repo": "siderolabs/talos",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "pkl",
+    "repo": "apple/pkl",
+    "category": "build-tool",
+    "language": "Kotlin"
+  },
+  {
+    "name": "ytt",
+    "repo": "carvel-dev/ytt",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "kapp",
+    "repo": "carvel-dev/kapp",
+    "category": "devops",
+    "language": "Go"
+  },
+  {
+    "name": "imgpkg",
+    "repo": "carvel-dev/imgpkg",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "vendir",
+    "repo": "carvel-dev/vendir",
+    "category": "package-manager",
+    "language": "Go"
+  },
+  {
+    "name": "regctl",
+    "repo": "regclient/regclient",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "dockle",
+    "repo": "goodwithtech/dockle",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "slim",
+    "repo": "slimtoolkit/slim",
+    "category": "container",
+    "language": "Go"
+  },
+  {
+    "name": "ttyd",
+    "repo": "tsl0922/ttyd",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "upterm",
+    "repo": "owenthereal/upterm",
+    "category": "shell",
+    "language": "Go"
+  },
+  {
+    "name": "sshx",
+    "repo": "ekzhang/sshx",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "vals",
+    "repo": "helmfile/vals",
+    "category": "security",
+    "language": "Go"
+  },
+  {
+    "name": "transcrypt",
+    "repo": "elasticdog/transcrypt",
+    "category": "security",
+    "language": "Shell"
+  },
+  {
+    "name": "jsonlint",
+    "repo": "zaach/jsonlint",
+    "category": "linter",
+    "language": "JavaScript"
+  },
+  {
+    "name": "commitlint",
+    "repo": "conventional-changelog/commitlint",
+    "category": "linter",
+    "language": "JavaScript"
+  },
+  {
+    "name": "less",
+    "repo": "gnu-mirror/less",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "more",
+    "repo": "util-linux/util-linux",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "cat",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "head",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "tail",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "diff",
+    "repo": "gnu-mirror/diffutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "patch",
+    "repo": "gnu-mirror/patch",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "file",
+    "repo": "file/file",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "stat",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "dd",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "cp",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "mv",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "rm",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "mkdir",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "chmod",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "chown",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "ln",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "ls",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "touch",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "mktemp",
+    "repo": "coreutils/coreutils",
+    "category": "file-management",
+    "language": "C"
+  },
+  {
+    "name": "find",
+    "repo": "gnu-mirror/findutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "locate",
+    "repo": "gnu-mirror/findutils",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "grep",
+    "repo": "gnu-mirror/grep",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "bfs",
+    "repo": "tavianator/bfs",
+    "category": "search",
+    "language": "C"
+  },
+  {
+    "name": "ugrep",
+    "repo": "Genivia/ugrep",
+    "category": "search",
+    "language": "C++"
+  },
+  {
+    "name": "ast-grep",
+    "repo": "ast-grep/ast-grep",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "amber",
+    "repo": "dalance/amber",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "angle-grinder",
+    "repo": "rcoh/angle-grinder",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "jnv",
+    "repo": "ynqa/jnv",
+    "category": "search",
+    "language": "Rust"
+  },
+  {
+    "name": "which",
+    "repo": "gnu-mirror/which",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "env",
+    "repo": "coreutils/coreutils",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "test",
+    "repo": "coreutils/coreutils",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "bash",
+    "repo": "bminor/bash",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "dash",
+    "repo": "pbs/dash",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "pwsh",
+    "repo": "PowerShell/PowerShell",
+    "category": "shell",
+    "language": "C#"
+  },
+  {
+    "name": "elvish",
+    "repo": "elves/elvish",
+    "category": "shell",
+    "language": "Go"
+  },
+  {
+    "name": "xonsh",
+    "repo": "xonsh/xonsh",
+    "category": "shell",
+    "language": "Python"
+  },
+  {
+    "name": "oil",
+    "repo": "oilshell/oil",
+    "category": "shell",
+    "language": "Python"
+  },
+  {
+    "name": "murex",
+    "repo": "lmorg/murex",
+    "category": "shell",
+    "language": "Go"
+  },
+  {
+    "name": "oh-my-posh",
+    "repo": "JanDeDobbeleer/oh-my-posh",
+    "category": "shell",
+    "language": "Go"
+  },
+  {
+    "name": "carapace",
+    "repo": "carapace-sh/carapace-bin",
+    "category": "shell",
+    "language": "Go"
+  },
+  {
+    "name": "mcfly",
+    "repo": "cantino/mcfly",
+    "category": "shell",
+    "language": "Rust"
+  },
+  {
+    "name": "hstr",
+    "repo": "dvorka/hstr",
+    "category": "shell",
+    "language": "C"
+  },
+  {
+    "name": "watch",
+    "repo": "procps-ng/procps",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "timeout",
+    "repo": "coreutils/coreutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "nice",
+    "repo": "coreutils/coreutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "dmesg",
+    "repo": "util-linux/util-linux",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "journalctl",
+    "repo": "systemd/systemd",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "timedatectl",
+    "repo": "systemd/systemd",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "hostnamectl",
+    "repo": "systemd/systemd",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "loginctl",
+    "repo": "systemd/systemd",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "sysctl",
+    "repo": "procps-ng/procps",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "modprobe",
+    "repo": "kmod-project/kmod",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "lsmod",
+    "repo": "kmod-project/kmod",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "udevadm",
+    "repo": "systemd/systemd",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "blkid",
+    "repo": "util-linux/util-linux",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "lsblk",
+    "repo": "util-linux/util-linux",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "mount",
+    "repo": "util-linux/util-linux",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "findmnt",
+    "repo": "util-linux/util-linux",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "df",
+    "repo": "coreutils/coreutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "free",
+    "repo": "procps-ng/procps",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "uptime",
+    "repo": "procps-ng/procps",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "who",
+    "repo": "coreutils/coreutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "id",
+    "repo": "coreutils/coreutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "useradd",
+    "repo": "shadow-maint/shadow",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "passwd",
+    "repo": "shadow-maint/shadow",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "sudo",
+    "repo": "sudo-project/sudo",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "doas",
+    "repo": "Duncaen/OpenDoas",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "kill",
+    "repo": "procps-ng/procps",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "pkill",
+    "repo": "procps-ng/procps",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "nohup",
+    "repo": "coreutils/coreutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "crontab",
+    "repo": "cronie-crond/cronie",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "date",
+    "repo": "coreutils/coreutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "sleep",
+    "repo": "coreutils/coreutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "du",
+    "repo": "coreutils/coreutils",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "ps",
+    "repo": "procps-ng/procps",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "xsel",
+    "repo": "kfish/xsel",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "xclip",
+    "repo": "astrand/xclip",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "wl-clipboard",
+    "repo": "bugaevc/wl-clipboard",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "rofi",
+    "repo": "davatorium/rofi",
+    "category": "system",
+    "language": "C"
+  },
+  {
+    "name": "ip",
+    "repo": "iproute2/iproute2",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "ss",
+    "repo": "iproute2/iproute2",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "hostname",
+    "repo": "util-linux/util-linux",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "tc",
+    "repo": "iproute2/iproute2",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "ethtool",
+    "repo": "netoptimizer/ethtool",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "nmcli",
+    "repo": "NetworkManager/NetworkManager",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "dig",
+    "repo": "isc-projects/bind9",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "ping",
+    "repo": "iputils/iputils",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "traceroute",
+    "repo": "openbsd/src",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "netcat",
+    "repo": "openbsd/src",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "whois",
+    "repo": "rfc1036/whois",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "ssh",
+    "repo": "openssh/openssh-portable",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "scp",
+    "repo": "openssh/openssh-portable",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "sftp",
+    "repo": "openssh/openssh-portable",
+    "category": "network",
+    "language": "C"
+  },
+  {
+    "name": "doggo",
+    "repo": "mr-karan/doggo",
+    "category": "network",
+    "language": "Go"
+  },
+  {
+    "name": "vultr-cli",
+    "repo": "vultr/vultr-cli",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "scaleway-cli",
+    "repo": "scaleway/scaleway-cli",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "flarectl",
+    "repo": "cloudflare/cloudflare-go",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "railway-cli",
+    "repo": "railwayapp/cli",
+    "category": "cloud",
+    "language": "Rust"
+  },
+  {
+    "name": "render-cli",
+    "repo": "render-oss/render-cli",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "oci-cli",
+    "repo": "oracle/oci-cli",
+    "category": "cloud",
+    "language": "Python"
+  },
+  {
+    "name": "upcloud-cli",
+    "repo": "UpCloudLtd/upcloud-cli",
+    "category": "cloud",
+    "language": "Go"
+  },
+  {
+    "name": "pg_dump",
+    "repo": "postgres/postgres",
+    "category": "database",
+    "language": "C"
+  },
+  {
+    "name": "pg_restore",
+    "repo": "postgres/postgres",
+    "category": "database",
+    "language": "C"
+  },
+  {
+    "name": "pgbench",
+    "repo": "postgres/postgres",
+    "category": "database",
+    "language": "C"
+  },
+  {
+    "name": "percona-toolkit",
+    "repo": "percona/percona-toolkit",
+    "category": "database",
+    "language": "Perl"
+  },
+  {
+    "name": "gh-ost",
+    "repo": "github/gh-ost",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "tiup",
+    "repo": "pingcap/tiup",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "valkey-cli",
+    "repo": "valkey-io/valkey",
+    "category": "database",
+    "language": "C"
+  },
+  {
+    "name": "dragonfly",
+    "repo": "dragonflydb/dragonfly",
+    "category": "database",
+    "language": "C++"
+  },
+  {
+    "name": "keydb-cli",
+    "repo": "Snapchat/KeyDB",
+    "category": "database",
+    "language": "C++"
+  },
+  {
+    "name": "foundationdb-cli",
+    "repo": "apple/foundationdb",
+    "category": "database",
+    "language": "C++"
+  },
+  {
+    "name": "yugabyte-cli",
+    "repo": "yugabyte/yugabyte-db",
+    "category": "database",
+    "language": "Java"
+  },
+  {
+    "name": "pgloader",
+    "repo": "dimitri/pgloader",
+    "category": "database",
+    "language": "Common Lisp"
+  },
+  {
+    "name": "mydumper",
+    "repo": "mydumper/mydumper",
+    "category": "database",
+    "language": "C"
+  },
+  {
+    "name": "sqlboiler",
+    "repo": "volatiletech/sqlboiler",
+    "category": "database",
+    "language": "Go"
+  },
+  {
+    "name": "bacon",
+    "repo": "Canop/bacon",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-outdated",
+    "repo": "kbknapp/cargo-outdated",
+    "category": "package-manager",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-edit",
+    "repo": "killercup/cargo-edit",
+    "category": "package-manager",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-generate",
+    "repo": "cargo-generate/cargo-generate",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-release",
+    "repo": "crate-ci/cargo-release",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "cargo-make",
+    "repo": "sagiegurari/cargo-make",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "cross",
+    "repo": "cross-rs/cross",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "leptosfmt",
+    "repo": "bram209/leptosfmt",
+    "category": "formatter",
+    "language": "Rust"
+  },
+  {
+    "name": "dioxus-cli",
+    "repo": "DioxusLabs/dioxus",
+    "category": "build-tool",
+    "language": "Rust"
+  },
+  {
+    "name": "mdbook-mermaid",
+    "repo": "badboy/mdbook-mermaid",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "ouch",
+    "repo": "ouch-org/ouch",
+    "category": "file-management",
+    "language": "Rust"
+  },
+  {
+    "name": "silicon",
+    "repo": "Aloxaf/silicon",
+    "category": "misc",
+    "language": "Rust"
+  },
+  {
+    "name": "tokio-console",
+    "repo": "tokio-rs/console",
+    "category": "monitoring",
+    "language": "Rust"
+  },
+  {
+    "name": "cobra-cli",
+    "repo": "spf13/cobra-cli",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "templ",
+    "repo": "a-h/templ",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "gqlgen",
+    "repo": "99designs/gqlgen",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "ent",
+    "repo": "ent/ent",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "swag",
+    "repo": "swaggo/swag",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "oapi-codegen",
+    "repo": "deepmap/oapi-codegen",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "mockgen",
+    "repo": "uber-go/mock",
+    "category": "testing",
+    "language": "Go"
+  },
+  {
+    "name": "wire",
+    "repo": "google/wire",
+    "category": "build-tool",
+    "language": "Go"
+  },
+  {
+    "name": "npx",
+    "repo": "npm/npx",
+    "category": "package-manager",
+    "language": "JavaScript"
+  },
+  {
+    "name": "corepack",
+    "repo": "nodejs/corepack",
+    "category": "package-manager",
+    "language": "TypeScript"
+  },
+  {
+    "name": "volta",
+    "repo": "volta-cli/volta",
+    "category": "package-manager",
+    "language": "Rust"
+  },
+  {
+    "name": "fnm",
+    "repo": "Schniz/fnm",
+    "category": "package-manager",
+    "language": "Rust"
+  },
+  {
+    "name": "n",
+    "repo": "tj/n",
+    "category": "package-manager",
+    "language": "Shell"
+  },
+  {
+    "name": "ni",
+    "repo": "antfu/ni",
+    "category": "package-manager",
+    "language": "TypeScript"
+  },
+  {
+    "name": "taze",
+    "repo": "antfu/taze",
+    "category": "package-manager",
+    "language": "TypeScript"
+  },
+  {
+    "name": "publint",
+    "repo": "bluwy/publint",
+    "category": "linter",
+    "language": "JavaScript"
+  },
+  {
+    "name": "syncpack",
+    "repo": "JamieMason/syncpack",
+    "category": "package-manager",
+    "language": "TypeScript"
+  },
+  {
+    "name": "top",
+    "repo": "procps-ng/procps",
+    "category": "monitoring",
+    "language": "C"
+  },
+  {
+    "name": "lnav",
+    "repo": "tstack/lnav",
+    "category": "monitoring",
+    "language": "C++"
+  },
+  {
+    "name": "multitail",
+    "repo": "folkertvanheusden/multitail",
+    "category": "monitoring",
+    "language": "C"
+  },
+  {
+    "name": "btop",
+    "repo": "aristocratos/btop",
+    "category": "monitoring",
+    "language": "C++"
+  },
+  {
+    "name": "nmon",
+    "repo": "axibase/nmon",
+    "category": "monitoring",
+    "language": "C"
+  },
+  {
+    "name": "below",
+    "repo": "facebookincubator/below",
+    "category": "monitoring",
+    "language": "Rust"
+  },
+  {
+    "name": "atop",
+    "repo": "Atoptool/atop",
+    "category": "monitoring",
+    "language": "C"
+  },
+  {
+    "name": "tsung",
+    "repo": "processone/tsung",
+    "category": "testing",
+    "language": "Erlang"
+  },
+  {
+    "name": "bc",
+    "repo": "gnu-mirror/bc",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "seq",
+    "repo": "coreutils/coreutils",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "cal",
+    "repo": "util-linux/util-linux",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "yes",
+    "repo": "coreutils/coreutils",
+    "category": "misc",
+    "language": "C"
+  },
+  {
+    "name": "pet",
+    "repo": "knqyf263/pet",
+    "category": "misc",
+    "language": "Go"
+  },
+  {
+    "name": "chafa",
+    "repo": "hpjansson/chafa",
+    "category": "media",
+    "language": "C"
+  },
+  {
+    "name": "choose-gui",
+    "repo": "chipsenkbeil/choose",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "hwatch",
+    "repo": "blacknon/hwatch",
+    "category": "system",
+    "language": "Rust"
+  },
+  {
+    "name": "prr",
+    "repo": "danobi/prr",
+    "category": "version-control",
+    "language": "Rust"
+  }
+]

@@ -1,0 +1,5002 @@
+[
+  {
+    "name": "react",
+    "repo": "facebook/react",
+    "category": "ui-library"
+  },
+  {
+    "name": "vue",
+    "repo": "vuejs/core",
+    "category": "ui-library"
+  },
+  {
+    "name": "angular",
+    "repo": "angular/angular",
+    "category": "framework"
+  },
+  {
+    "name": "svelte",
+    "repo": "sveltejs/svelte",
+    "category": "ui-library"
+  },
+  {
+    "name": "solid",
+    "repo": "solidjs/solid",
+    "category": "ui-library"
+  },
+  {
+    "name": "preact",
+    "repo": "preactjs/preact",
+    "category": "ui-library"
+  },
+  {
+    "name": "qwik",
+    "repo": "QwikDev/qwik",
+    "category": "framework"
+  },
+  {
+    "name": "lit",
+    "repo": "lit/lit",
+    "category": "ui-library"
+  },
+  {
+    "name": "next.js",
+    "repo": "vercel/next.js",
+    "category": "meta-framework"
+  },
+  {
+    "name": "nuxt",
+    "repo": "nuxt/nuxt",
+    "category": "meta-framework"
+  },
+  {
+    "name": "remix",
+    "repo": "remix-run/remix",
+    "category": "meta-framework"
+  },
+  {
+    "name": "astro",
+    "repo": "withastro/astro",
+    "category": "meta-framework"
+  },
+  {
+    "name": "gatsby",
+    "repo": "gatsbyjs/gatsby",
+    "category": "meta-framework"
+  },
+  {
+    "name": "sveltekit",
+    "repo": "sveltejs/kit",
+    "category": "meta-framework"
+  },
+  {
+    "name": "fresh",
+    "repo": "denoland/fresh",
+    "category": "meta-framework"
+  },
+  {
+    "name": "hono",
+    "repo": "honojs/hono",
+    "category": "server"
+  },
+  {
+    "name": "express",
+    "repo": "expressjs/express",
+    "category": "server"
+  },
+  {
+    "name": "fastify",
+    "repo": "fastify/fastify",
+    "category": "server"
+  },
+  {
+    "name": "koa",
+    "repo": "koajs/koa",
+    "category": "server"
+  },
+  {
+    "name": "nestjs",
+    "repo": "nestjs/nest",
+    "category": "framework"
+  },
+  {
+    "name": "adonis",
+    "repo": "adonisjs/core",
+    "category": "framework"
+  },
+  {
+    "name": "hapi",
+    "repo": "hapijs/hapi",
+    "category": "server"
+  },
+  {
+    "name": "h3",
+    "repo": "unjs/h3",
+    "category": "server"
+  },
+  {
+    "name": "nitro",
+    "repo": "unjs/nitro",
+    "category": "server"
+  },
+  {
+    "name": "trpc",
+    "repo": "trpc/trpc",
+    "category": "rpc"
+  },
+  {
+    "name": "zod",
+    "repo": "colinhacks/zod",
+    "category": "schema"
+  },
+  {
+    "name": "yup",
+    "repo": "jquense/yup",
+    "category": "validation"
+  },
+  {
+    "name": "joi",
+    "repo": "hapijs/joi",
+    "category": "validation"
+  },
+  {
+    "name": "ajv",
+    "repo": "ajv-validator/ajv",
+    "category": "validation"
+  },
+  {
+    "name": "valibot",
+    "repo": "fabian-hiller/valibot",
+    "category": "schema"
+  },
+  {
+    "name": "typebox",
+    "repo": "sinclairzx81/typebox",
+    "category": "schema"
+  },
+  {
+    "name": "arktype",
+    "repo": "arktypeio/arktype",
+    "category": "schema"
+  },
+  {
+    "name": "effect",
+    "repo": "Effect-TS/effect",
+    "category": "utility"
+  },
+  {
+    "name": "fp-ts",
+    "repo": "gcanti/fp-ts",
+    "category": "utility"
+  },
+  {
+    "name": "ramda",
+    "repo": "ramda/ramda",
+    "category": "utility"
+  },
+  {
+    "name": "lodash",
+    "repo": "lodash/lodash",
+    "category": "utility"
+  },
+  {
+    "name": "date-fns",
+    "repo": "date-fns/date-fns",
+    "category": "date-time"
+  },
+  {
+    "name": "dayjs",
+    "repo": "iamkun/dayjs",
+    "category": "date-time"
+  },
+  {
+    "name": "luxon",
+    "repo": "moment/luxon",
+    "category": "date-time"
+  },
+  {
+    "name": "moment",
+    "repo": "moment/moment",
+    "category": "date-time"
+  },
+  {
+    "name": "axios",
+    "repo": "axios/axios",
+    "category": "http-client"
+  },
+  {
+    "name": "got",
+    "repo": "sindresorhus/got",
+    "category": "http-client"
+  },
+  {
+    "name": "ky",
+    "repo": "sindresorhus/ky",
+    "category": "http-client"
+  },
+  {
+    "name": "node-fetch",
+    "repo": "node-fetch/node-fetch",
+    "category": "http-client"
+  },
+  {
+    "name": "undici",
+    "repo": "nodejs/undici",
+    "category": "http-client"
+  },
+  {
+    "name": "cheerio",
+    "repo": "cheeriojs/cheerio",
+    "category": "scraping"
+  },
+  {
+    "name": "puppeteer",
+    "repo": "puppeteer/puppeteer",
+    "category": "browser"
+  },
+  {
+    "name": "playwright",
+    "repo": "microsoft/playwright",
+    "category": "browser"
+  },
+  {
+    "name": "prisma",
+    "repo": "prisma/prisma",
+    "category": "orm"
+  },
+  {
+    "name": "drizzle",
+    "repo": "drizzle-team/drizzle-orm",
+    "category": "orm"
+  },
+  {
+    "name": "typeorm",
+    "repo": "typeorm/typeorm",
+    "category": "orm"
+  },
+  {
+    "name": "sequelize",
+    "repo": "sequelize/sequelize",
+    "category": "orm"
+  },
+  {
+    "name": "knex",
+    "repo": "knex/knex",
+    "category": "database"
+  },
+  {
+    "name": "kysely",
+    "repo": "kysely-org/kysely",
+    "category": "database"
+  },
+  {
+    "name": "mikro-orm",
+    "repo": "mikro-orm/mikro-orm",
+    "category": "orm"
+  },
+  {
+    "name": "mongoose",
+    "repo": "Automattic/mongoose",
+    "category": "orm"
+  },
+  {
+    "name": "ioredis",
+    "repo": "redis/ioredis",
+    "category": "database"
+  },
+  {
+    "name": "bullmq",
+    "repo": "taskforcesh/bullmq",
+    "category": "utility"
+  },
+  {
+    "name": "winston",
+    "repo": "winstonjs/winston",
+    "category": "logging"
+  },
+  {
+    "name": "pino",
+    "repo": "pinojs/pino",
+    "category": "logging"
+  },
+  {
+    "name": "dotenv",
+    "repo": "motdotla/dotenv",
+    "category": "config"
+  },
+  {
+    "name": "jest",
+    "repo": "jestjs/jest",
+    "category": "testing"
+  },
+  {
+    "name": "vitest",
+    "repo": "vitest-dev/vitest",
+    "category": "testing"
+  },
+  {
+    "name": "chai",
+    "repo": "chaijs/chai",
+    "category": "testing"
+  },
+  {
+    "name": "cypress",
+    "repo": "cypress-io/cypress",
+    "category": "testing"
+  },
+  {
+    "name": "testing-library",
+    "repo": "testing-library/react-testing-library",
+    "category": "testing"
+  },
+  {
+    "name": "msw",
+    "repo": "mswjs/msw",
+    "category": "testing"
+  },
+  {
+    "name": "supertest",
+    "repo": "ladjs/supertest",
+    "category": "testing"
+  },
+  {
+    "name": "storybook",
+    "repo": "storybookjs/storybook",
+    "category": "devtools"
+  },
+  {
+    "name": "webpack",
+    "repo": "webpack/webpack",
+    "category": "bundler"
+  },
+  {
+    "name": "vite",
+    "repo": "vitejs/vite",
+    "category": "bundler"
+  },
+  {
+    "name": "esbuild",
+    "repo": "evanw/esbuild",
+    "category": "bundler"
+  },
+  {
+    "name": "rollup",
+    "repo": "rollup/rollup",
+    "category": "bundler"
+  },
+  {
+    "name": "parcel",
+    "repo": "parcel-bundler/parcel",
+    "category": "bundler"
+  },
+  {
+    "name": "turbopack",
+    "repo": "vercel/turbo",
+    "category": "bundler"
+  },
+  {
+    "name": "swc",
+    "repo": "swc-project/swc",
+    "category": "compiler"
+  },
+  {
+    "name": "babel",
+    "repo": "babel/babel",
+    "category": "compiler"
+  },
+  {
+    "name": "tsup",
+    "repo": "egoist/tsup",
+    "category": "bundler"
+  },
+  {
+    "name": "unbuild",
+    "repo": "unjs/unbuild",
+    "category": "bundler"
+  },
+  {
+    "name": "tsx",
+    "repo": "privatenumber/tsx",
+    "category": "runtime"
+  },
+  {
+    "name": "ts-node",
+    "repo": "TypeStrong/ts-node",
+    "category": "runtime"
+  },
+  {
+    "name": "typescript",
+    "repo": "microsoft/TypeScript",
+    "category": "type"
+  },
+  {
+    "name": "eslint",
+    "repo": "eslint/eslint",
+    "category": "linter"
+  },
+  {
+    "name": "prettier",
+    "repo": "prettier/prettier",
+    "category": "formatter"
+  },
+  {
+    "name": "biome",
+    "repo": "biomejs/biome",
+    "category": "linter"
+  },
+  {
+    "name": "oxlint",
+    "repo": "oxc-project/oxc",
+    "category": "linter"
+  },
+  {
+    "name": "stylelint",
+    "repo": "stylelint/stylelint",
+    "category": "linter"
+  },
+  {
+    "name": "tailwindcss",
+    "repo": "tailwindlabs/tailwindcss",
+    "category": "css"
+  },
+  {
+    "name": "unocss",
+    "repo": "unocss/unocss",
+    "category": "css"
+  },
+  {
+    "name": "postcss",
+    "repo": "postcss/postcss",
+    "category": "css"
+  },
+  {
+    "name": "sass",
+    "repo": "sass/dart-sass",
+    "category": "css"
+  },
+  {
+    "name": "styled-components",
+    "repo": "styled-components/styled-components",
+    "category": "css"
+  },
+  {
+    "name": "emotion",
+    "repo": "emotion-js/emotion",
+    "category": "css"
+  },
+  {
+    "name": "vanilla-extract",
+    "repo": "vanilla-extract-css/vanilla-extract",
+    "category": "css"
+  },
+  {
+    "name": "panda-css",
+    "repo": "chakra-ui/panda",
+    "category": "css"
+  },
+  {
+    "name": "radix-ui",
+    "repo": "radix-ui/primitives",
+    "category": "component"
+  },
+  {
+    "name": "shadcn-ui",
+    "repo": "shadcn-ui/ui",
+    "category": "component"
+  },
+  {
+    "name": "headless-ui",
+    "repo": "tailwindlabs/headlessui",
+    "category": "component"
+  },
+  {
+    "name": "ariakit",
+    "repo": "ariakit/ariakit",
+    "category": "component"
+  },
+  {
+    "name": "react-aria",
+    "repo": "adobe/react-spectrum",
+    "category": "component"
+  },
+  {
+    "name": "mantine",
+    "repo": "mantinedev/mantine",
+    "category": "component"
+  },
+  {
+    "name": "ant-design",
+    "repo": "ant-design/ant-design",
+    "category": "component"
+  },
+  {
+    "name": "material-ui",
+    "repo": "mui/material-ui",
+    "category": "component"
+  },
+  {
+    "name": "chakra-ui",
+    "repo": "chakra-ui/chakra-ui",
+    "category": "component"
+  },
+  {
+    "name": "nextui",
+    "repo": "nextui-org/nextui",
+    "category": "component"
+  },
+  {
+    "name": "bootstrap",
+    "repo": "twbs/bootstrap",
+    "category": "css"
+  },
+  {
+    "name": "framer-motion",
+    "repo": "framer/motion",
+    "category": "animation"
+  },
+  {
+    "name": "react-spring",
+    "repo": "pmndrs/react-spring",
+    "category": "animation"
+  },
+  {
+    "name": "gsap",
+    "repo": "greensock/GSAP",
+    "category": "animation"
+  },
+  {
+    "name": "lottie-web",
+    "repo": "airbnb/lottie-web",
+    "category": "animation"
+  },
+  {
+    "name": "three.js",
+    "repo": "mrdoob/three.js",
+    "category": "visualization"
+  },
+  {
+    "name": "react-three-fiber",
+    "repo": "pmndrs/react-three-fiber",
+    "category": "visualization"
+  },
+  {
+    "name": "d3",
+    "repo": "d3/d3",
+    "category": "visualization"
+  },
+  {
+    "name": "chart.js",
+    "repo": "chartjs/Chart.js",
+    "category": "chart"
+  },
+  {
+    "name": "echarts",
+    "repo": "apache/echarts",
+    "category": "chart"
+  },
+  {
+    "name": "recharts",
+    "repo": "recharts/recharts",
+    "category": "chart"
+  },
+  {
+    "name": "nivo",
+    "repo": "plouc/nivo",
+    "category": "chart"
+  },
+  {
+    "name": "visx",
+    "repo": "airbnb/visx",
+    "category": "chart"
+  },
+  {
+    "name": "apexcharts",
+    "repo": "apexcharts/apexcharts.js",
+    "category": "chart"
+  },
+  {
+    "name": "mapbox-gl",
+    "repo": "mapbox/mapbox-gl-js",
+    "category": "map"
+  },
+  {
+    "name": "leaflet",
+    "repo": "Leaflet/Leaflet",
+    "category": "map"
+  },
+  {
+    "name": "deck.gl",
+    "repo": "visgl/deck.gl",
+    "category": "map"
+  },
+  {
+    "name": "redux",
+    "repo": "reduxjs/redux",
+    "category": "state-management"
+  },
+  {
+    "name": "zustand",
+    "repo": "pmndrs/zustand",
+    "category": "state-management"
+  },
+  {
+    "name": "jotai",
+    "repo": "pmndrs/jotai",
+    "category": "state-management"
+  },
+  {
+    "name": "valtio",
+    "repo": "pmndrs/valtio",
+    "category": "state-management"
+  },
+  {
+    "name": "mobx",
+    "repo": "mobxjs/mobx",
+    "category": "state-management"
+  },
+  {
+    "name": "pinia",
+    "repo": "vuejs/pinia",
+    "category": "state-management"
+  },
+  {
+    "name": "xstate",
+    "repo": "statelyai/xstate",
+    "category": "state-management"
+  },
+  {
+    "name": "tanstack-query",
+    "repo": "TanStack/query",
+    "category": "state-management"
+  },
+  {
+    "name": "swr",
+    "repo": "vercel/swr",
+    "category": "http-client"
+  },
+  {
+    "name": "apollo-client",
+    "repo": "apollographql/apollo-client",
+    "category": "graphql"
+  },
+  {
+    "name": "urql",
+    "repo": "urql-graphql/urql",
+    "category": "graphql"
+  },
+  {
+    "name": "relay",
+    "repo": "facebook/relay",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-js",
+    "repo": "graphql/graphql-js",
+    "category": "graphql"
+  },
+  {
+    "name": "type-graphql",
+    "repo": "MichalLyworski/type-graphql",
+    "category": "graphql"
+  },
+  {
+    "name": "pothos",
+    "repo": "hayes/pothos",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-yoga",
+    "repo": "dotansimha/graphql-yoga",
+    "category": "graphql"
+  },
+  {
+    "name": "socket.io",
+    "repo": "socketio/socket.io",
+    "category": "websocket"
+  },
+  {
+    "name": "ws",
+    "repo": "websockets/ws",
+    "category": "websocket"
+  },
+  {
+    "name": "mqtt.js",
+    "repo": "mqttjs/MQTT.js",
+    "category": "realtime"
+  },
+  {
+    "name": "supabase-js",
+    "repo": "supabase/supabase-js",
+    "category": "database"
+  },
+  {
+    "name": "firebase",
+    "repo": "firebase/firebase-js-sdk",
+    "category": "database"
+  },
+  {
+    "name": "aws-amplify",
+    "repo": "aws-amplify/amplify-js",
+    "category": "framework"
+  },
+  {
+    "name": "clerk",
+    "repo": "clerk/javascript",
+    "category": "auth"
+  },
+  {
+    "name": "lucia",
+    "repo": "lucia-auth/lucia",
+    "category": "auth"
+  },
+  {
+    "name": "next-auth",
+    "repo": "nextauthjs/next-auth",
+    "category": "auth"
+  },
+  {
+    "name": "passport",
+    "repo": "jaredhanson/passport",
+    "category": "auth"
+  },
+  {
+    "name": "jsonwebtoken",
+    "repo": "auth0/node-jsonwebtoken",
+    "category": "auth"
+  },
+  {
+    "name": "bcrypt",
+    "repo": "kelektiv/node.bcrypt.js",
+    "category": "crypto"
+  },
+  {
+    "name": "nanoid",
+    "repo": "ai/nanoid",
+    "category": "utility"
+  },
+  {
+    "name": "uuid",
+    "repo": "uuidjs/uuid",
+    "category": "utility"
+  },
+  {
+    "name": "react-hook-form",
+    "repo": "react-hook-form/react-hook-form",
+    "category": "form"
+  },
+  {
+    "name": "formik",
+    "repo": "jaredpalmer/formik",
+    "category": "form"
+  },
+  {
+    "name": "react-select",
+    "repo": "JedWatson/react-select",
+    "category": "component"
+  },
+  {
+    "name": "tanstack-table",
+    "repo": "TanStack/table",
+    "category": "component"
+  },
+  {
+    "name": "tanstack-virtual",
+    "repo": "TanStack/virtual",
+    "category": "component"
+  },
+  {
+    "name": "react-router",
+    "repo": "remix-run/react-router",
+    "category": "routing"
+  },
+  {
+    "name": "next-intl",
+    "repo": "amannn/next-intl",
+    "category": "utility"
+  },
+  {
+    "name": "i18next",
+    "repo": "i18next/i18next",
+    "category": "utility"
+  },
+  {
+    "name": "sharp",
+    "repo": "lovell/sharp",
+    "category": "media"
+  },
+  {
+    "name": "pdfkit",
+    "repo": "foliojs/pdfkit",
+    "category": "pdf"
+  },
+  {
+    "name": "jspdf",
+    "repo": "parallax/jsPDF",
+    "category": "pdf"
+  },
+  {
+    "name": "pdf-lib",
+    "repo": "Hopding/pdf-lib",
+    "category": "pdf"
+  },
+  {
+    "name": "exceljs",
+    "repo": "exceljs/exceljs",
+    "category": "file"
+  },
+  {
+    "name": "sheetjs",
+    "repo": "SheetJS/sheetjs",
+    "category": "file"
+  },
+  {
+    "name": "papaparse",
+    "repo": "mholt/PapaParse",
+    "category": "file"
+  },
+  {
+    "name": "nodemailer",
+    "repo": "nodemailer/nodemailer",
+    "category": "email"
+  },
+  {
+    "name": "react-email",
+    "repo": "resend/react-email",
+    "category": "email"
+  },
+  {
+    "name": "stripe",
+    "repo": "stripe/stripe-node",
+    "category": "payment"
+  },
+  {
+    "name": "openai",
+    "repo": "openai/openai-node",
+    "category": "ai"
+  },
+  {
+    "name": "anthropic-sdk",
+    "repo": "anthropics/anthropic-sdk-typescript",
+    "category": "ai"
+  },
+  {
+    "name": "langchain",
+    "repo": "langchain-ai/langchainjs",
+    "category": "ai"
+  },
+  {
+    "name": "vercel-ai",
+    "repo": "vercel/ai",
+    "category": "ai"
+  },
+  {
+    "name": "tensorflow.js",
+    "repo": "tensorflow/tfjs",
+    "category": "ml"
+  },
+  {
+    "name": "commander",
+    "repo": "tj/commander.js",
+    "category": "cli"
+  },
+  {
+    "name": "yargs",
+    "repo": "yargs/yargs",
+    "category": "cli"
+  },
+  {
+    "name": "inquirer",
+    "repo": "SBoudrias/Inquirer.js",
+    "category": "cli"
+  },
+  {
+    "name": "prompts",
+    "repo": "terkelg/prompts",
+    "category": "cli"
+  },
+  {
+    "name": "clack",
+    "repo": "natemoo-re/clack",
+    "category": "cli"
+  },
+  {
+    "name": "chalk",
+    "repo": "chalk/chalk",
+    "category": "cli"
+  },
+  {
+    "name": "picocolors",
+    "repo": "alexeyraspopov/picocolors",
+    "category": "cli"
+  },
+  {
+    "name": "ora",
+    "repo": "sindresorhus/ora",
+    "category": "cli"
+  },
+  {
+    "name": "ink",
+    "repo": "vadimdemedes/ink",
+    "category": "cli"
+  },
+  {
+    "name": "execa",
+    "repo": "sindresorhus/execa",
+    "category": "cli"
+  },
+  {
+    "name": "zx",
+    "repo": "google/zx",
+    "category": "cli"
+  },
+  {
+    "name": "glob",
+    "repo": "isaacs/node-glob",
+    "category": "file"
+  },
+  {
+    "name": "fast-glob",
+    "repo": "mrmlnc/fast-glob",
+    "category": "file"
+  },
+  {
+    "name": "chokidar",
+    "repo": "paulmillr/chokidar",
+    "category": "file"
+  },
+  {
+    "name": "fs-extra",
+    "repo": "jprichardson/node-fs-extra",
+    "category": "file"
+  },
+  {
+    "name": "lerna",
+    "repo": "lerna/lerna",
+    "category": "monorepo"
+  },
+  {
+    "name": "nx",
+    "repo": "nrwl/nx",
+    "category": "monorepo"
+  },
+  {
+    "name": "turborepo",
+    "repo": "vercel/turbo",
+    "category": "monorepo"
+  },
+  {
+    "name": "changesets",
+    "repo": "changesets/changesets",
+    "category": "monorepo"
+  },
+  {
+    "name": "semantic-release",
+    "repo": "semantic-release/semantic-release",
+    "category": "devtools"
+  },
+  {
+    "name": "electron",
+    "repo": "electron/electron",
+    "category": "desktop"
+  },
+  {
+    "name": "tauri",
+    "repo": "tauri-apps/tauri",
+    "category": "desktop"
+  },
+  {
+    "name": "react-native",
+    "repo": "facebook/react-native",
+    "category": "mobile"
+  },
+  {
+    "name": "expo",
+    "repo": "expo/expo",
+    "category": "mobile"
+  },
+  {
+    "name": "capacitor",
+    "repo": "ionic-team/capacitor",
+    "category": "mobile"
+  },
+  {
+    "name": "mocha",
+    "repo": "mochajs/mocha",
+    "category": "testing"
+  },
+  {
+    "name": "sinon",
+    "repo": "sinonjs/sinon",
+    "category": "testing"
+  },
+  {
+    "name": "ava",
+    "repo": "avajs/ava",
+    "category": "testing"
+  },
+  {
+    "name": "tape",
+    "repo": "ljharb/tape",
+    "category": "testing"
+  },
+  {
+    "name": "node-tap",
+    "repo": "tapjs/node-tap",
+    "category": "testing"
+  },
+  {
+    "name": "uvu",
+    "repo": "lukeed/uvu",
+    "category": "testing"
+  },
+  {
+    "name": "happy-dom",
+    "repo": "capricorn86/happy-dom",
+    "category": "testing"
+  },
+  {
+    "name": "jsdom",
+    "repo": "jsdom/jsdom",
+    "category": "testing"
+  },
+  {
+    "name": "linkedom",
+    "repo": "WebReflection/linkedom",
+    "category": "testing"
+  },
+  {
+    "name": "nock",
+    "repo": "nock/nock",
+    "category": "testing"
+  },
+  {
+    "name": "miragejs",
+    "repo": "miragejs/miragejs",
+    "category": "testing"
+  },
+  {
+    "name": "json-server",
+    "repo": "typicode/json-server",
+    "category": "devtools"
+  },
+  {
+    "name": "concurrently",
+    "repo": "open-cli-tools/concurrently",
+    "category": "devtools"
+  },
+  {
+    "name": "npm-run-all",
+    "repo": "mysticatea/npm-run-all",
+    "category": "devtools"
+  },
+  {
+    "name": "cross-env",
+    "repo": "kentcdodds/cross-env",
+    "category": "devtools"
+  },
+  {
+    "name": "rimraf",
+    "repo": "isaacs/rimraf",
+    "category": "file"
+  },
+  {
+    "name": "mkdirp",
+    "repo": "isaacs/node-mkdirp",
+    "category": "file"
+  },
+  {
+    "name": "shelljs",
+    "repo": "shelljs/shelljs",
+    "category": "cli"
+  },
+  {
+    "name": "listr2",
+    "repo": "listr2/listr2",
+    "category": "cli"
+  },
+  {
+    "name": "consola",
+    "repo": "unjs/consola",
+    "category": "logging"
+  },
+  {
+    "name": "defu",
+    "repo": "unjs/defu",
+    "category": "utility"
+  },
+  {
+    "name": "ofetch",
+    "repo": "unjs/ofetch",
+    "category": "http-client"
+  },
+  {
+    "name": "ufo",
+    "repo": "unjs/ufo",
+    "category": "utility"
+  },
+  {
+    "name": "pathe",
+    "repo": "unjs/pathe",
+    "category": "utility"
+  },
+  {
+    "name": "destr",
+    "repo": "unjs/destr",
+    "category": "utility"
+  },
+  {
+    "name": "changelogen",
+    "repo": "unjs/changelogen",
+    "category": "devtools"
+  },
+  {
+    "name": "pkg",
+    "repo": "vercel/pkg",
+    "category": "bundler"
+  },
+  {
+    "name": "ncc",
+    "repo": "vercel/ncc",
+    "category": "bundler"
+  },
+  {
+    "name": "nexe",
+    "repo": "nexe/nexe",
+    "category": "bundler"
+  },
+  {
+    "name": "boxen",
+    "repo": "sindresorhus/boxen",
+    "category": "cli"
+  },
+  {
+    "name": "figures",
+    "repo": "sindresorhus/figures",
+    "category": "cli"
+  },
+  {
+    "name": "gradient-string",
+    "repo": "bokub/gradient-string",
+    "category": "cli"
+  },
+  {
+    "name": "terminal-link",
+    "repo": "sindresorhus/terminal-link",
+    "category": "cli"
+  },
+  {
+    "name": "update-notifier",
+    "repo": "yeoman/update-notifier",
+    "category": "cli"
+  },
+  {
+    "name": "meow",
+    "repo": "sindresorhus/meow",
+    "category": "cli"
+  },
+  {
+    "name": "cac",
+    "repo": "cacjs/cac",
+    "category": "cli"
+  },
+  {
+    "name": "mri",
+    "repo": "lukeed/mri",
+    "category": "cli"
+  },
+  {
+    "name": "arg",
+    "repo": "vercel/arg",
+    "category": "cli"
+  },
+  {
+    "name": "minimist",
+    "repo": "minimistjs/minimist",
+    "category": "cli"
+  },
+  {
+    "name": "cosmiconfig",
+    "repo": "cosmiconfig/cosmiconfig",
+    "category": "config"
+  },
+  {
+    "name": "c12",
+    "repo": "unjs/c12",
+    "category": "config"
+  },
+  {
+    "name": "unconfig",
+    "repo": "antfu/unconfig",
+    "category": "config"
+  },
+  {
+    "name": "giget",
+    "repo": "unjs/giget",
+    "category": "devtools"
+  },
+  {
+    "name": "degit",
+    "repo": "Rich-Harris/degit",
+    "category": "devtools"
+  },
+  {
+    "name": "create-t3-app",
+    "repo": "t3-oss/create-t3-app",
+    "category": "scaffold"
+  },
+  {
+    "name": "yeoman",
+    "repo": "yeoman/yo",
+    "category": "scaffold"
+  },
+  {
+    "name": "plop",
+    "repo": "plopjs/plop",
+    "category": "scaffold"
+  },
+  {
+    "name": "hygen",
+    "repo": "jondot/hygen",
+    "category": "scaffold"
+  },
+  {
+    "name": "projen",
+    "repo": "projen/projen",
+    "category": "scaffold"
+  },
+  {
+    "name": "cookie",
+    "repo": "jshttp/cookie",
+    "category": "server"
+  },
+  {
+    "name": "tough-cookie",
+    "repo": "salesforce/tough-cookie",
+    "category": "http-client"
+  },
+  {
+    "name": "express-session",
+    "repo": "expressjs/session",
+    "category": "server"
+  },
+  {
+    "name": "cors",
+    "repo": "expressjs/cors",
+    "category": "server"
+  },
+  {
+    "name": "helmet",
+    "repo": "helmetjs/helmet",
+    "category": "server"
+  },
+  {
+    "name": "express-rate-limit",
+    "repo": "express-rate-limit/express-rate-limit",
+    "category": "server"
+  },
+  {
+    "name": "express-validator",
+    "repo": "express-validator/express-validator",
+    "category": "validation"
+  },
+  {
+    "name": "multer",
+    "repo": "expressjs/multer",
+    "category": "server"
+  },
+  {
+    "name": "formidable",
+    "repo": "node-formidable/formidable",
+    "category": "server"
+  },
+  {
+    "name": "busboy",
+    "repo": "mscdex/busboy",
+    "category": "server"
+  },
+  {
+    "name": "body-parser",
+    "repo": "expressjs/body-parser",
+    "category": "server"
+  },
+  {
+    "name": "compression",
+    "repo": "expressjs/compression",
+    "category": "server"
+  },
+  {
+    "name": "serve-static",
+    "repo": "expressjs/serve-static",
+    "category": "server"
+  },
+  {
+    "name": "morgan",
+    "repo": "expressjs/morgan",
+    "category": "logging"
+  },
+  {
+    "name": "http-proxy-middleware",
+    "repo": "chimurai/http-proxy-middleware",
+    "category": "server"
+  },
+  {
+    "name": "proxy-agent",
+    "repo": "TooTallNate/proxy-agents",
+    "category": "http-client"
+  },
+  {
+    "name": "https-proxy-agent",
+    "repo": "TooTallNate/proxy-agents",
+    "category": "http-client"
+  },
+  {
+    "name": "agentkeepalive",
+    "repo": "node-modules/agentkeepalive",
+    "category": "http-client"
+  },
+  {
+    "name": "p-retry",
+    "repo": "sindresorhus/p-retry",
+    "category": "utility"
+  },
+  {
+    "name": "p-limit",
+    "repo": "sindresorhus/p-limit",
+    "category": "utility"
+  },
+  {
+    "name": "p-queue",
+    "repo": "sindresorhus/p-queue",
+    "category": "utility"
+  },
+  {
+    "name": "p-map",
+    "repo": "sindresorhus/p-map",
+    "category": "utility"
+  },
+  {
+    "name": "p-throttle",
+    "repo": "sindresorhus/p-throttle",
+    "category": "utility"
+  },
+  {
+    "name": "bottleneck",
+    "repo": "SGrondin/bottleneck",
+    "category": "utility"
+  },
+  {
+    "name": "rate-limiter-flexible",
+    "repo": "animir/node-rate-limiter-flexible",
+    "category": "utility"
+  },
+  {
+    "name": "keyv",
+    "repo": "jaredwray/keyv",
+    "category": "database"
+  },
+  {
+    "name": "lru-cache",
+    "repo": "isaacs/node-lru-cache",
+    "category": "utility"
+  },
+  {
+    "name": "quick-lru",
+    "repo": "sindresorhus/quick-lru",
+    "category": "utility"
+  },
+  {
+    "name": "node-cache",
+    "repo": "node-cache/node-cache",
+    "category": "utility"
+  },
+  {
+    "name": "unstorage",
+    "repo": "unjs/unstorage",
+    "category": "database"
+  },
+  {
+    "name": "upstash-redis",
+    "repo": "upstash/upstash-redis",
+    "category": "database"
+  },
+  {
+    "name": "nitropack",
+    "repo": "unjs/nitro",
+    "category": "server"
+  },
+  {
+    "name": "vinxi",
+    "repo": "nksaraf/vinxi",
+    "category": "meta-framework"
+  },
+  {
+    "name": "tanstack-router",
+    "repo": "TanStack/router",
+    "category": "routing"
+  },
+  {
+    "name": "tanstack-form",
+    "repo": "TanStack/form",
+    "category": "form"
+  },
+  {
+    "name": "tanstack-start",
+    "repo": "TanStack/start",
+    "category": "meta-framework"
+  },
+  {
+    "name": "wouter",
+    "repo": "molefrog/wouter",
+    "category": "routing"
+  },
+  {
+    "name": "path-to-regexp",
+    "repo": "pillarjs/path-to-regexp",
+    "category": "routing"
+  },
+  {
+    "name": "cron",
+    "repo": "kelektiv/node-cron",
+    "category": "utility"
+  },
+  {
+    "name": "node-schedule",
+    "repo": "node-schedule/node-schedule",
+    "category": "utility"
+  },
+  {
+    "name": "bree",
+    "repo": "breejs/bree",
+    "category": "utility"
+  },
+  {
+    "name": "croner",
+    "repo": "Hexagon/croner",
+    "category": "utility"
+  },
+  {
+    "name": "octokit",
+    "repo": "octokit/octokit.js",
+    "category": "api"
+  },
+  {
+    "name": "simple-git",
+    "repo": "steveukx/git-js",
+    "category": "devtools"
+  },
+  {
+    "name": "isomorphic-git",
+    "repo": "isomorphic-git/isomorphic-git",
+    "category": "devtools"
+  },
+  {
+    "name": "docusaurus",
+    "repo": "facebook/docusaurus",
+    "category": "meta-framework"
+  },
+  {
+    "name": "nextra",
+    "repo": "shuding/nextra",
+    "category": "meta-framework"
+  },
+  {
+    "name": "vuepress",
+    "repo": "vuejs/vuepress",
+    "category": "meta-framework"
+  },
+  {
+    "name": "mdx",
+    "repo": "mdx-js/mdx",
+    "category": "markdown"
+  },
+  {
+    "name": "remark",
+    "repo": "remarkjs/remark",
+    "category": "markdown"
+  },
+  {
+    "name": "rehype",
+    "repo": "rehypejs/rehype",
+    "category": "markdown"
+  },
+  {
+    "name": "unified",
+    "repo": "unifiedjs/unified",
+    "category": "markdown"
+  },
+  {
+    "name": "shiki",
+    "repo": "shikijs/shiki",
+    "category": "syntax-highlight"
+  },
+  {
+    "name": "prismjs",
+    "repo": "PrismJS/prism",
+    "category": "syntax-highlight"
+  },
+  {
+    "name": "highlight.js",
+    "repo": "highlightjs/highlight.js",
+    "category": "syntax-highlight"
+  },
+  {
+    "name": "monaco-editor",
+    "repo": "microsoft/monaco-editor",
+    "category": "editor"
+  },
+  {
+    "name": "codemirror",
+    "repo": "codemirror/dev",
+    "category": "editor"
+  },
+  {
+    "name": "tiptap",
+    "repo": "ueberdosis/tiptap",
+    "category": "editor"
+  },
+  {
+    "name": "lexical",
+    "repo": "facebook/lexical",
+    "category": "editor"
+  },
+  {
+    "name": "quill",
+    "repo": "slab/quill",
+    "category": "editor"
+  },
+  {
+    "name": "slate",
+    "repo": "ianstormtaylor/slate",
+    "category": "editor"
+  },
+  {
+    "name": "prosemirror",
+    "repo": "ProseMirror/prosemirror",
+    "category": "editor"
+  },
+  {
+    "name": "draft-js",
+    "repo": "facebookarchive/draft-js",
+    "category": "editor"
+  },
+  {
+    "name": "editor-js",
+    "repo": "codex-team/editor.js",
+    "category": "editor"
+  },
+  {
+    "name": "milkdown",
+    "repo": "Milkdown/milkdown",
+    "category": "editor"
+  },
+  {
+    "name": "blocknote",
+    "repo": "TypeCellOS/BlockNote",
+    "category": "editor"
+  },
+  {
+    "name": "novel",
+    "repo": "steven-tey/novel",
+    "category": "editor"
+  },
+  {
+    "name": "plate",
+    "repo": "udecode/plate",
+    "category": "editor"
+  },
+  {
+    "name": "sanity",
+    "repo": "sanity-io/sanity",
+    "category": "cms"
+  },
+  {
+    "name": "strapi",
+    "repo": "strapi/strapi",
+    "category": "cms"
+  },
+  {
+    "name": "payload",
+    "repo": "payloadcms/payload",
+    "category": "cms"
+  },
+  {
+    "name": "directus",
+    "repo": "directus/directus",
+    "category": "cms"
+  },
+  {
+    "name": "ghost",
+    "repo": "TryGhost/Ghost",
+    "category": "cms"
+  },
+  {
+    "name": "keystone",
+    "repo": "keystonejs/keystone",
+    "category": "cms"
+  },
+  {
+    "name": "medusa",
+    "repo": "medusajs/medusa",
+    "category": "ecommerce"
+  },
+  {
+    "name": "vendure",
+    "repo": "vendure-ecommerce/vendure",
+    "category": "ecommerce"
+  },
+  {
+    "name": "saleor",
+    "repo": "saleor/saleor-storefront",
+    "category": "ecommerce"
+  },
+  {
+    "name": "shopify-api",
+    "repo": "Shopify/shopify-api-js",
+    "category": "ecommerce"
+  },
+  {
+    "name": "contentlayer",
+    "repo": "contentlayerdev/contentlayer",
+    "category": "cms"
+  },
+  {
+    "name": "fumadocs",
+    "repo": "fuma-nama/fumadocs",
+    "category": "meta-framework"
+  },
+  {
+    "name": "keystatic",
+    "repo": "Thinkmill/keystatic",
+    "category": "cms"
+  },
+  {
+    "name": "marked",
+    "repo": "markedjs/marked",
+    "category": "markdown"
+  },
+  {
+    "name": "markdown-it",
+    "repo": "markdown-it/markdown-it",
+    "category": "markdown"
+  },
+  {
+    "name": "turndown",
+    "repo": "mixmark-io/turndown",
+    "category": "markdown"
+  },
+  {
+    "name": "dompurify",
+    "repo": "cure53/DOMPurify",
+    "category": "security"
+  },
+  {
+    "name": "sanitize-html",
+    "repo": "apostrophecms/sanitize-html",
+    "category": "security"
+  },
+  {
+    "name": "helmet-csp",
+    "repo": "helmetjs/csp",
+    "category": "security"
+  },
+  {
+    "name": "class-validator",
+    "repo": "typestack/class-validator",
+    "category": "validation"
+  },
+  {
+    "name": "class-transformer",
+    "repo": "typestack/class-transformer",
+    "category": "utility"
+  },
+  {
+    "name": "reflect-metadata",
+    "repo": "rbuckton/reflect-metadata",
+    "category": "utility"
+  },
+  {
+    "name": "tsyringe",
+    "repo": "microsoft/tsyringe",
+    "category": "utility"
+  },
+  {
+    "name": "inversify",
+    "repo": "inversify/InversifyJS",
+    "category": "utility"
+  },
+  {
+    "name": "awilix",
+    "repo": "jeffijoe/awilix",
+    "category": "utility"
+  },
+  {
+    "name": "typedi",
+    "repo": "typestack/typedi",
+    "category": "utility"
+  },
+  {
+    "name": "rxjs",
+    "repo": "ReactiveX/rxjs",
+    "category": "utility"
+  },
+  {
+    "name": "immer",
+    "repo": "immerjs/immer",
+    "category": "utility"
+  },
+  {
+    "name": "immutable",
+    "repo": "immutable-js/immutable-js",
+    "category": "utility"
+  },
+  {
+    "name": "superjson",
+    "repo": "blitz-js/superjson",
+    "category": "utility"
+  },
+  {
+    "name": "devalue",
+    "repo": "Rich-Harris/devalue",
+    "category": "utility"
+  },
+  {
+    "name": "qs",
+    "repo": "ljharb/qs",
+    "category": "utility"
+  },
+  {
+    "name": "query-string",
+    "repo": "sindresorhus/query-string",
+    "category": "utility"
+  },
+  {
+    "name": "eventemitter3",
+    "repo": "primus/eventemitter3",
+    "category": "utility"
+  },
+  {
+    "name": "mitt",
+    "repo": "developit/mitt",
+    "category": "utility"
+  },
+  {
+    "name": "on-change",
+    "repo": "sindresorhus/on-change",
+    "category": "utility"
+  },
+  {
+    "name": "type-fest",
+    "repo": "sindresorhus/type-fest",
+    "category": "type"
+  },
+  {
+    "name": "ts-pattern",
+    "repo": "gvergnaud/ts-pattern",
+    "category": "type"
+  },
+  {
+    "name": "ts-morph",
+    "repo": "dsherret/ts-morph",
+    "category": "type"
+  },
+  {
+    "name": "ts-toolbelt",
+    "repo": "millsp/ts-toolbelt",
+    "category": "type"
+  },
+  {
+    "name": "zx-cpy",
+    "repo": "sindresorhus/cpy",
+    "category": "file"
+  },
+  {
+    "name": "del",
+    "repo": "sindresorhus/del",
+    "category": "file"
+  },
+  {
+    "name": "globby",
+    "repo": "sindresorhus/globby",
+    "category": "file"
+  },
+  {
+    "name": "tempy",
+    "repo": "sindresorhus/tempy",
+    "category": "file"
+  },
+  {
+    "name": "env-cmd",
+    "repo": "toddbluhm/env-cmd",
+    "category": "config"
+  },
+  {
+    "name": "envalid",
+    "repo": "af/envalid",
+    "category": "config"
+  },
+  {
+    "name": "convict",
+    "repo": "mozilla/node-convict",
+    "category": "config"
+  },
+  {
+    "name": "rc",
+    "repo": "dominictarr/rc",
+    "category": "config"
+  },
+  {
+    "name": "conf",
+    "repo": "sindresorhus/conf",
+    "category": "config"
+  },
+  {
+    "name": "nconf",
+    "repo": "indexzero/nconf",
+    "category": "config"
+  },
+  {
+    "name": "husky",
+    "repo": "typicode/husky",
+    "category": "devtools"
+  },
+  {
+    "name": "lint-staged",
+    "repo": "lint-staged/lint-staged",
+    "category": "devtools"
+  },
+  {
+    "name": "commitlint",
+    "repo": "conventional-changelog/commitlint",
+    "category": "devtools"
+  },
+  {
+    "name": "standard-version",
+    "repo": "conventional-changelog/standard-version",
+    "category": "devtools"
+  },
+  {
+    "name": "release-it",
+    "repo": "release-it/release-it",
+    "category": "devtools"
+  },
+  {
+    "name": "auto-changelog",
+    "repo": "cookpete/auto-changelog",
+    "category": "devtools"
+  },
+  {
+    "name": "size-limit",
+    "repo": "ai/size-limit",
+    "category": "devtools"
+  },
+  {
+    "name": "bundlewatch",
+    "repo": "bundlewatch/bundlewatch",
+    "category": "devtools"
+  },
+  {
+    "name": "madge",
+    "repo": "pahen/madge",
+    "category": "devtools"
+  },
+  {
+    "name": "depcheck",
+    "repo": "depcheck/depcheck",
+    "category": "devtools"
+  },
+  {
+    "name": "knip",
+    "repo": "webpro/knip",
+    "category": "devtools"
+  },
+  {
+    "name": "socket.io-client",
+    "repo": "socketio/socket.io-client",
+    "category": "websocket"
+  },
+  {
+    "name": "engine.io",
+    "repo": "socketio/engine.io",
+    "category": "websocket"
+  },
+  {
+    "name": "faye-websocket",
+    "repo": "faye/faye-websocket-node",
+    "category": "websocket"
+  },
+  {
+    "name": "peerjs",
+    "repo": "peers/peerjs",
+    "category": "realtime"
+  },
+  {
+    "name": "y-js",
+    "repo": "yjs/yjs",
+    "category": "realtime"
+  },
+  {
+    "name": "automerge",
+    "repo": "automerge/automerge",
+    "category": "realtime"
+  },
+  {
+    "name": "liveblocks",
+    "repo": "liveblocks/liveblocks",
+    "category": "realtime"
+  },
+  {
+    "name": "partykit",
+    "repo": "partykit/partykit",
+    "category": "realtime"
+  },
+  {
+    "name": "onnxruntime-web",
+    "repo": "microsoft/onnxruntime",
+    "category": "ml"
+  },
+  {
+    "name": "transformers-js",
+    "repo": "xenova/transformers.js",
+    "category": "ml"
+  },
+  {
+    "name": "brain.js",
+    "repo": "BrainJS/brain.js",
+    "category": "ml"
+  },
+  {
+    "name": "ml5",
+    "repo": "ml5js/ml5-library",
+    "category": "ml"
+  },
+  {
+    "name": "nsfwjs",
+    "repo": "infinitered/nsfwjs",
+    "category": "ml"
+  },
+  {
+    "name": "jimp",
+    "repo": "jimp-dev/jimp",
+    "category": "media"
+  },
+  {
+    "name": "pica",
+    "repo": "nodeca/pica",
+    "category": "media"
+  },
+  {
+    "name": "blurhash",
+    "repo": "woltapp/blurhash",
+    "category": "media"
+  },
+  {
+    "name": "sqip",
+    "repo": "axe312ger/sqip",
+    "category": "media"
+  },
+  {
+    "name": "ffmpeg-wasm",
+    "repo": "ffmpegwasm/ffmpeg.wasm",
+    "category": "media"
+  },
+  {
+    "name": "howler",
+    "repo": "goldfire/howler.js",
+    "category": "media"
+  },
+  {
+    "name": "tone",
+    "repo": "Tonejs/Tone.js",
+    "category": "media"
+  },
+  {
+    "name": "wavesurfer",
+    "repo": "katspaugh/wavesurfer.js",
+    "category": "media"
+  },
+  {
+    "name": "video-js",
+    "repo": "videojs/video.js",
+    "category": "media"
+  },
+  {
+    "name": "canvas",
+    "repo": "Automattic/node-canvas",
+    "category": "image-processing"
+  },
+  {
+    "name": "image-size",
+    "repo": "image-size/image-size",
+    "category": "image-processing"
+  },
+  {
+    "name": "probe-image-size",
+    "repo": "nodeca/probe-image-size",
+    "category": "image-processing"
+  },
+  {
+    "name": "thumbhash",
+    "repo": "evanw/thumbhash",
+    "category": "image-processing"
+  },
+  {
+    "name": "plaiceholder",
+    "repo": "joe-bell/plaiceholder",
+    "category": "image-processing"
+  },
+  {
+    "name": "cloudinary",
+    "repo": "cloudinary/cloudinary_npm",
+    "category": "image-processing"
+  },
+  {
+    "name": "cropperjs",
+    "repo": "fengyuanchen/cropperjs",
+    "category": "image-processing"
+  },
+  {
+    "name": "fluent-ffmpeg",
+    "repo": "fluent-ffmpeg/node-fluent-ffmpeg",
+    "category": "video-audio"
+  },
+  {
+    "name": "hls.js",
+    "repo": "video-dev/hls.js",
+    "category": "video-audio"
+  },
+  {
+    "name": "video.js",
+    "repo": "videojs/video.js",
+    "category": "video-audio"
+  },
+  {
+    "name": "plyr",
+    "repo": "sampotts/plyr",
+    "category": "video-audio"
+  },
+  {
+    "name": "shaka-player",
+    "repo": "shaka-project/shaka-player",
+    "category": "video-audio"
+  },
+  {
+    "name": "dash.js",
+    "repo": "Dash-Industry-Forum/dash.js",
+    "category": "video-audio"
+  },
+  {
+    "name": "mediasoup",
+    "repo": "versatica/mediasoup",
+    "category": "video-audio"
+  },
+  {
+    "name": "livekit",
+    "repo": "livekit/client-sdk-js",
+    "category": "video-audio"
+  },
+  {
+    "name": "tone.js",
+    "repo": "Tonejs/Tone.js",
+    "category": "video-audio"
+  },
+  {
+    "name": "howler.js",
+    "repo": "goldfire/howler.js",
+    "category": "video-audio"
+  },
+  {
+    "name": "wavesurfer.js",
+    "repo": "katspaugh/wavesurfer.js",
+    "category": "video-audio"
+  },
+  {
+    "name": "peaks.js",
+    "repo": "bbc/peaks.js",
+    "category": "video-audio"
+  },
+  {
+    "name": "babylon.js",
+    "repo": "BabylonJS/Babylon.js",
+    "category": "3d-webgl"
+  },
+  {
+    "name": "aframe",
+    "repo": "aframevr/aframe",
+    "category": "3d-webgl"
+  },
+  {
+    "name": "playcanvas",
+    "repo": "playcanvas/engine",
+    "category": "3d-webgl"
+  },
+  {
+    "name": "ogl",
+    "repo": "oframe/ogl",
+    "category": "3d-webgl"
+  },
+  {
+    "name": "regl",
+    "repo": "regl-project/regl",
+    "category": "3d-webgl"
+  },
+  {
+    "name": "gpu.js",
+    "repo": "gpujs/gpu.js",
+    "category": "3d-webgl"
+  },
+  {
+    "name": "model-viewer",
+    "repo": "google/model-viewer",
+    "category": "3d-webgl"
+  },
+  {
+    "name": "turf",
+    "repo": "Turfjs/turf",
+    "category": "maps-geo"
+  },
+  {
+    "name": "maplibre-gl",
+    "repo": "maplibre/maplibre-gl-js",
+    "category": "maps-geo"
+  },
+  {
+    "name": "openlayers",
+    "repo": "openlayers/openlayers",
+    "category": "maps-geo"
+  },
+  {
+    "name": "cesium",
+    "repo": "CesiumGS/cesium",
+    "category": "maps-geo"
+  },
+  {
+    "name": "h3-js",
+    "repo": "uber/h3-js",
+    "category": "maps-geo"
+  },
+  {
+    "name": "supercluster",
+    "repo": "mapbox/supercluster",
+    "category": "maps-geo"
+  },
+  {
+    "name": "rbush",
+    "repo": "mourner/rbush",
+    "category": "maps-geo"
+  },
+  {
+    "name": "proj4",
+    "repo": "proj4js/proj4js",
+    "category": "maps-geo"
+  },
+  {
+    "name": "geolib",
+    "repo": "manuelbieh/geolib",
+    "category": "maps-geo"
+  },
+  {
+    "name": "anime.js",
+    "repo": "juliangarnier/anime",
+    "category": "animation"
+  },
+  {
+    "name": "popmotion",
+    "repo": "Popmotion/popmotion",
+    "category": "animation"
+  },
+  {
+    "name": "motion-one",
+    "repo": "motiondivision/motionone",
+    "category": "animation"
+  },
+  {
+    "name": "auto-animate",
+    "repo": "formkit/auto-animate",
+    "category": "animation"
+  },
+  {
+    "name": "paper.js",
+    "repo": "paperjs/paper.js",
+    "category": "animation"
+  },
+  {
+    "name": "two.js",
+    "repo": "jonobr1/two.js",
+    "category": "animation"
+  },
+  {
+    "name": "p5",
+    "repo": "processing/p5.js",
+    "category": "creative-coding"
+  },
+  {
+    "name": "konva",
+    "repo": "konvajs/konva",
+    "category": "canvas"
+  },
+  {
+    "name": "fabric.js",
+    "repo": "fabricjs/fabric.js",
+    "category": "canvas"
+  },
+  {
+    "name": "pixijs",
+    "repo": "pixijs/pixijs",
+    "category": "canvas"
+  },
+  {
+    "name": "phaser",
+    "repo": "phaserjs/phaser",
+    "category": "game-engine"
+  },
+  {
+    "name": "matter-js",
+    "repo": "liabru/matter-js",
+    "category": "physics"
+  },
+  {
+    "name": "cannon-es",
+    "repo": "pmndrs/cannon-es",
+    "category": "physics"
+  },
+  {
+    "name": "rapier-js",
+    "repo": "dimforge/rapier.js",
+    "category": "physics"
+  },
+  {
+    "name": "react-pdf",
+    "repo": "diegomura/react-pdf",
+    "category": "pdf-document"
+  },
+  {
+    "name": "pdf-parse",
+    "repo": "modesty/pdf-parse",
+    "category": "pdf-document"
+  },
+  {
+    "name": "docxtemplater",
+    "repo": "open-xml-templating/docxtemplater",
+    "category": "pdf-document"
+  },
+  {
+    "name": "mammoth",
+    "repo": "mwilliamson/mammoth.js",
+    "category": "pdf-document"
+  },
+  {
+    "name": "showdown",
+    "repo": "showdownjs/showdown",
+    "category": "pdf-document"
+  },
+  {
+    "name": "micromark",
+    "repo": "micromark/micromark",
+    "category": "markdown"
+  },
+  {
+    "name": "gray-matter",
+    "repo": "jonschlinkert/gray-matter",
+    "category": "markdown"
+  },
+  {
+    "name": "yaml",
+    "repo": "eemeli/yaml",
+    "category": "serialization"
+  },
+  {
+    "name": "json5",
+    "repo": "json5/json5",
+    "category": "serialization"
+  },
+  {
+    "name": "serialize-javascript",
+    "repo": "yahoo/serialize-javascript",
+    "category": "serialization"
+  },
+  {
+    "name": "mjml",
+    "repo": "mjmlio/mjml",
+    "category": "email"
+  },
+  {
+    "name": "mailing",
+    "repo": "sofn-xyz/mailing",
+    "category": "email"
+  },
+  {
+    "name": "sendgrid-js",
+    "repo": "sendgrid/sendgrid-nodejs",
+    "category": "email"
+  },
+  {
+    "name": "postmark",
+    "repo": "ActiveCampaign/postmark.js",
+    "category": "email"
+  },
+  {
+    "name": "oslo",
+    "repo": "pilcrowOnPaper/oslo",
+    "category": "auth"
+  },
+  {
+    "name": "arctic",
+    "repo": "pilcrowOnPaper/arctic",
+    "category": "auth"
+  },
+  {
+    "name": "better-auth",
+    "repo": "better-auth/better-auth",
+    "category": "auth"
+  },
+  {
+    "name": "iron-session",
+    "repo": "vvo/iron-session",
+    "category": "auth"
+  },
+  {
+    "name": "keycloak-js",
+    "repo": "keycloak/keycloak",
+    "category": "auth"
+  },
+  {
+    "name": "auth0-js",
+    "repo": "auth0/auth0.js",
+    "category": "auth"
+  },
+  {
+    "name": "magic-sdk",
+    "repo": "magiclabs/magic-js",
+    "category": "auth"
+  },
+  {
+    "name": "ethers",
+    "repo": "ethers-io/ethers.js",
+    "category": "web3"
+  },
+  {
+    "name": "web3.js",
+    "repo": "web3/web3.js",
+    "category": "web3"
+  },
+  {
+    "name": "viem",
+    "repo": "wagmi-dev/viem",
+    "category": "web3"
+  },
+  {
+    "name": "wagmi",
+    "repo": "wagmi-dev/wagmi",
+    "category": "web3"
+  },
+  {
+    "name": "rainbowkit",
+    "repo": "rainbow-me/rainbowkit",
+    "category": "web3"
+  },
+  {
+    "name": "thirdweb",
+    "repo": "thirdweb-dev/js",
+    "category": "web3"
+  },
+  {
+    "name": "moralis",
+    "repo": "MoralisWeb3/Moralis-JS-SDK",
+    "category": "web3"
+  },
+  {
+    "name": "lemonsqueezy",
+    "repo": "lmsqueezy/lemonsqueezy.js",
+    "category": "payment"
+  },
+  {
+    "name": "paddle-js",
+    "repo": "PaddleHQ/paddle-node-sdk",
+    "category": "payment"
+  },
+  {
+    "name": "paypal-js",
+    "repo": "paypal/paypal-js",
+    "category": "payment"
+  },
+  {
+    "name": "braintree",
+    "repo": "braintree/braintree_node",
+    "category": "payment"
+  },
+  {
+    "name": "ably",
+    "repo": "ably/ably-js",
+    "category": "realtime"
+  },
+  {
+    "name": "pusher-js",
+    "repo": "pusher/pusher-js",
+    "category": "realtime"
+  },
+  {
+    "name": "yjs",
+    "repo": "yjs/yjs",
+    "category": "realtime"
+  },
+  {
+    "name": "gun",
+    "repo": "amark/gun",
+    "category": "realtime"
+  },
+  {
+    "name": "simple-peer",
+    "repo": "feross/simple-peer",
+    "category": "realtime"
+  },
+  {
+    "name": "libp2p",
+    "repo": "libp2p/js-libp2p",
+    "category": "realtime"
+  },
+  {
+    "name": "sst",
+    "repo": "sst/sst",
+    "category": "serverless"
+  },
+  {
+    "name": "serverless-framework",
+    "repo": "serverless/serverless",
+    "category": "serverless"
+  },
+  {
+    "name": "middy",
+    "repo": "middyjs/middy",
+    "category": "serverless"
+  },
+  {
+    "name": "powertools-lambda-ts",
+    "repo": "aws-powertools/powertools-lambda-typescript",
+    "category": "serverless"
+  },
+  {
+    "name": "nightwatch",
+    "repo": "nightwatchjs/nightwatch",
+    "category": "testing"
+  },
+  {
+    "name": "webdriverio",
+    "repo": "webdriverio/webdriverio",
+    "category": "testing"
+  },
+  {
+    "name": "detox",
+    "repo": "wix/Detox",
+    "category": "testing"
+  },
+  {
+    "name": "testcafe",
+    "repo": "DevExpress/testcafe",
+    "category": "testing"
+  },
+  {
+    "name": "pactjs",
+    "repo": "pact-foundation/pact-js",
+    "category": "testing"
+  },
+  {
+    "name": "codeceptjs",
+    "repo": "codeceptjs/CodeceptJS",
+    "category": "testing"
+  },
+  {
+    "name": "lingui",
+    "repo": "lingui/js-lingui",
+    "category": "i18n"
+  },
+  {
+    "name": "typesafe-i18n",
+    "repo": "ivanhofer/typesafe-i18n",
+    "category": "i18n"
+  },
+  {
+    "name": "paraglide",
+    "repo": "opral/monorepo",
+    "category": "i18n"
+  },
+  {
+    "name": "messageformat",
+    "repo": "messageformat/messageformat",
+    "category": "i18n"
+  },
+  {
+    "name": "rosetta",
+    "repo": "lukeed/rosetta",
+    "category": "i18n"
+  },
+  {
+    "name": "axe-core",
+    "repo": "dequelabs/axe-core",
+    "category": "accessibility"
+  },
+  {
+    "name": "pa11y",
+    "repo": "pa11y/pa11y",
+    "category": "accessibility"
+  },
+  {
+    "name": "lighthouse",
+    "repo": "GoogleChrome/lighthouse",
+    "category": "accessibility"
+  },
+  {
+    "name": "unlighthouse",
+    "repo": "harlan-zw/unlighthouse",
+    "category": "accessibility"
+  },
+  {
+    "name": "jsx-a11y",
+    "repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+    "category": "accessibility"
+  },
+  {
+    "name": "next-seo",
+    "repo": "garmeeh/next-seo",
+    "category": "seo"
+  },
+  {
+    "name": "next-sitemap",
+    "repo": "iamvishnusankar/next-sitemap",
+    "category": "seo"
+  },
+  {
+    "name": "schema-dts",
+    "repo": "google/schema-dts",
+    "category": "seo"
+  },
+  {
+    "name": "sentry-js",
+    "repo": "getsentry/sentry-javascript",
+    "category": "monitoring"
+  },
+  {
+    "name": "logrocket",
+    "repo": "LogRocket/logrocket",
+    "category": "monitoring"
+  },
+  {
+    "name": "posthog-js",
+    "repo": "PostHog/posthog-js",
+    "category": "monitoring"
+  },
+  {
+    "name": "mixpanel",
+    "repo": "mixpanel/mixpanel-js",
+    "category": "monitoring"
+  },
+  {
+    "name": "amplitude",
+    "repo": "amplitude/Amplitude-TypeScript",
+    "category": "monitoring"
+  },
+  {
+    "name": "segment",
+    "repo": "segmentio/analytics-next",
+    "category": "monitoring"
+  },
+  {
+    "name": "plausible-tracker",
+    "repo": "plausible/plausible-tracker",
+    "category": "monitoring"
+  },
+  {
+    "name": "fathom-client",
+    "repo": "derrickreimer/fathom-client",
+    "category": "monitoring"
+  },
+  {
+    "name": "unleash-proxy",
+    "repo": "Unleash/unleash-client-node",
+    "category": "feature-flags"
+  },
+  {
+    "name": "flagsmith",
+    "repo": "Flagsmith/flagsmith-js-client",
+    "category": "feature-flags"
+  },
+  {
+    "name": "launchdarkly",
+    "repo": "launchdarkly/js-core",
+    "category": "feature-flags"
+  },
+  {
+    "name": "growthbook",
+    "repo": "growthbook/growthbook",
+    "category": "feature-flags"
+  },
+  {
+    "name": "openfeature",
+    "repo": "open-feature/js-sdk",
+    "category": "feature-flags"
+  },
+  {
+    "name": "transformers.js",
+    "repo": "xenova/transformers.js",
+    "category": "ml"
+  },
+  {
+    "name": "face-api.js",
+    "repo": "justadudewhohacks/face-api.js",
+    "category": "ml"
+  },
+  {
+    "name": "dnd-kit",
+    "repo": "clauderic/dnd-kit",
+    "category": "component"
+  },
+  {
+    "name": "react-beautiful-dnd",
+    "repo": "atlassian/react-beautiful-dnd",
+    "category": "component"
+  },
+  {
+    "name": "react-dropzone",
+    "repo": "react-dropzone/react-dropzone",
+    "category": "component"
+  },
+  {
+    "name": "react-window",
+    "repo": "bvaughn/react-window",
+    "category": "component"
+  },
+  {
+    "name": "react-virtuoso",
+    "repo": "petyosi/react-virtuoso",
+    "category": "component"
+  },
+  {
+    "name": "swiper",
+    "repo": "nolimits4web/swiper",
+    "category": "component"
+  },
+  {
+    "name": "embla-carousel",
+    "repo": "davidjerleke/embla-carousel",
+    "category": "component"
+  },
+  {
+    "name": "react-toastify",
+    "repo": "fkhadra/react-toastify",
+    "category": "component"
+  },
+  {
+    "name": "sonner",
+    "repo": "emilkowalski/sonner",
+    "category": "component"
+  },
+  {
+    "name": "cmdk",
+    "repo": "pacocoursey/cmdk",
+    "category": "component"
+  },
+  {
+    "name": "vaul",
+    "repo": "emilkowalski/vaul",
+    "category": "component"
+  },
+  {
+    "name": "react-hot-toast",
+    "repo": "timolins/react-hot-toast",
+    "category": "component"
+  },
+  {
+    "name": "neverthrow",
+    "repo": "supermacro/neverthrow",
+    "category": "utility"
+  },
+  {
+    "name": "ts-reset",
+    "repo": "total-typescript/ts-reset",
+    "category": "utility"
+  },
+  {
+    "name": "ulid",
+    "repo": "ulid/javascript",
+    "category": "utility"
+  },
+  {
+    "name": "faker-js",
+    "repo": "faker-js/faker",
+    "category": "testing"
+  },
+  {
+    "name": "chancejs",
+    "repo": "chancejs/chancejs",
+    "category": "testing"
+  },
+  {
+    "name": "polka",
+    "repo": "lukeed/polka",
+    "category": "server"
+  },
+  {
+    "name": "sirv",
+    "repo": "lukeed/sirv",
+    "category": "server"
+  },
+  {
+    "name": "agenda",
+    "repo": "agenda/agenda",
+    "category": "scheduling"
+  },
+  {
+    "name": "archiver",
+    "repo": "archiverjs/node-archiver",
+    "category": "file"
+  },
+  {
+    "name": "adm-zip",
+    "repo": "cthackers/adm-zip",
+    "category": "file"
+  },
+  {
+    "name": "tar",
+    "repo": "isaacs/node-tar",
+    "category": "file"
+  },
+  {
+    "name": "tmp",
+    "repo": "raszi/node-tmp",
+    "category": "file"
+  },
+  {
+    "name": "mime-types",
+    "repo": "jshttp/mime-types",
+    "category": "file"
+  },
+  {
+    "name": "file-type",
+    "repo": "sindresorhus/file-type",
+    "category": "file"
+  },
+  {
+    "name": "tus-js-client",
+    "repo": "tus/tus-js-client",
+    "category": "file-upload"
+  },
+  {
+    "name": "uppy",
+    "repo": "transloadit/uppy",
+    "category": "file-upload"
+  },
+  {
+    "name": "filepond",
+    "repo": "pqina/filepond",
+    "category": "file-upload"
+  },
+  {
+    "name": "tinypool",
+    "repo": "tinylibs/tinypool",
+    "category": "concurrency"
+  },
+  {
+    "name": "workerpool",
+    "repo": "josdejong/workerpool",
+    "category": "concurrency"
+  },
+  {
+    "name": "piscina",
+    "repo": "piscinajs/piscina",
+    "category": "concurrency"
+  },
+  {
+    "name": "comlink",
+    "repo": "GoogleChromeLabs/comlink",
+    "category": "concurrency"
+  },
+  {
+    "name": "redux-devtools",
+    "repo": "reduxjs/redux-devtools",
+    "category": "devtools"
+  },
+  {
+    "name": "why-did-you-render",
+    "repo": "welldone-software/why-did-you-render",
+    "category": "devtools"
+  },
+  {
+    "name": "react-scan",
+    "repo": "aidenybai/react-scan",
+    "category": "devtools"
+  },
+  {
+    "name": "million",
+    "repo": "aidenybai/million",
+    "category": "performance"
+  },
+  {
+    "name": "partytown",
+    "repo": "BuilderIO/partytown",
+    "category": "performance"
+  },
+  {
+    "name": "quicklink",
+    "repo": "GoogleChromeLabs/quicklink",
+    "category": "performance"
+  },
+  {
+    "name": "idb",
+    "repo": "jakearchibald/idb",
+    "category": "storage"
+  },
+  {
+    "name": "dexie",
+    "repo": "dexie/Dexie.js",
+    "category": "storage"
+  },
+  {
+    "name": "localforage",
+    "repo": "localForage/localForage",
+    "category": "storage"
+  },
+  {
+    "name": "sql.js",
+    "repo": "sql-js/sql.js",
+    "category": "database"
+  },
+  {
+    "name": "better-sqlite3",
+    "repo": "WiseLibs/better-sqlite3",
+    "category": "database"
+  },
+  {
+    "name": "postgres",
+    "repo": "porsager/postgres",
+    "category": "database"
+  },
+  {
+    "name": "slonik",
+    "repo": "gajus/slonik",
+    "category": "database"
+  },
+  {
+    "name": "redis",
+    "repo": "redis/node-redis",
+    "category": "database"
+  },
+  {
+    "name": "robot",
+    "repo": "matthewp/robot",
+    "category": "state-machines"
+  },
+  {
+    "name": "machina",
+    "repo": "ifandelse/machina.js",
+    "category": "state-machines"
+  },
+  {
+    "name": "vest",
+    "repo": "ealush/vest",
+    "category": "forms"
+  },
+  {
+    "name": "react-final-form",
+    "repo": "final-form/react-final-form",
+    "category": "forms"
+  },
+  {
+    "name": "conform",
+    "repo": "edmundhung/conform",
+    "category": "forms"
+  },
+  {
+    "name": "superforms",
+    "repo": "ciscoheat/sveltekit-superforms",
+    "category": "forms"
+  },
+  {
+    "name": "remix-validated-form",
+    "repo": "airjp73/remix-validated-form",
+    "category": "forms"
+  },
+  {
+    "name": "ag-grid",
+    "repo": "ag-grid/ag-grid",
+    "category": "tables-data-grid"
+  },
+  {
+    "name": "handsontable",
+    "repo": "handsontable/handsontable",
+    "category": "tables-data-grid"
+  },
+  {
+    "name": "tabulator",
+    "repo": "olifolkerd/tabulator",
+    "category": "tables-data-grid"
+  },
+  {
+    "name": "glide-data-grid",
+    "repo": "glideapps/glide-data-grid",
+    "category": "tables-data-grid"
+  },
+  {
+    "name": "react-data-grid",
+    "repo": "adazzle/react-data-grid",
+    "category": "tables-data-grid"
+  },
+  {
+    "name": "primereact",
+    "repo": "primefaces/primereact",
+    "category": "tables-data-grid"
+  },
+  {
+    "name": "primevue",
+    "repo": "primefaces/primevue",
+    "category": "tables-data-grid"
+  },
+  {
+    "name": "primeng",
+    "repo": "primefaces/primeng",
+    "category": "tables-data-grid"
+  },
+  {
+    "name": "dropzone",
+    "repo": "dropzone/dropzone",
+    "category": "file-upload"
+  },
+  {
+    "name": "uploadthing",
+    "repo": "pingdotgg/uploadthing",
+    "category": "file-upload"
+  },
+  {
+    "name": "pragmatic-drag-and-drop",
+    "repo": "atlassian/pragmatic-drag-and-drop",
+    "category": "drag-drop"
+  },
+  {
+    "name": "sortablejs",
+    "repo": "SortableJS/Sortable",
+    "category": "drag-drop"
+  },
+  {
+    "name": "vuedraggable",
+    "repo": "SortableJS/vue.draggable.next",
+    "category": "drag-drop"
+  },
+  {
+    "name": "svelte-dnd-action",
+    "repo": "isaacHagworthy/svelte-dnd-action",
+    "category": "drag-drop"
+  },
+  {
+    "name": "vue-virtual-scroller",
+    "repo": "Akryum/vue-virtual-scroller",
+    "category": "virtual-scroll"
+  },
+  {
+    "name": "keen-slider",
+    "repo": "rcbyr/keen-slider",
+    "category": "carousel"
+  },
+  {
+    "name": "flicking",
+    "repo": "naver/egjs-flicking",
+    "category": "carousel"
+  },
+  {
+    "name": "splide",
+    "repo": "Splidejs/splide",
+    "category": "carousel"
+  },
+  {
+    "name": "glidejs",
+    "repo": "glidejs/glide",
+    "category": "carousel"
+  },
+  {
+    "name": "react-modal",
+    "repo": "reactjs/react-modal",
+    "category": "modal-dialog"
+  },
+  {
+    "name": "sweetalert2",
+    "repo": "sweetalert2/sweetalert2",
+    "category": "modal-dialog"
+  },
+  {
+    "name": "notistack",
+    "repo": "iamhosseindhv/notistack",
+    "category": "modal-dialog"
+  },
+  {
+    "name": "vue-toastification",
+    "repo": "Maronato/vue-toastification",
+    "category": "modal-dialog"
+  },
+  {
+    "name": "tippy.js",
+    "repo": "atomiks/tippyjs",
+    "category": "tooltip"
+  },
+  {
+    "name": "floating-ui",
+    "repo": "floating-ui/floating-ui",
+    "category": "tooltip"
+  },
+  {
+    "name": "react-datepicker",
+    "repo": "Hacker0x01/react-datepicker",
+    "category": "date-picker"
+  },
+  {
+    "name": "flatpickr",
+    "repo": "flatpickr/flatpickr",
+    "category": "date-picker"
+  },
+  {
+    "name": "pikaday",
+    "repo": "Pikaday/Pikaday",
+    "category": "date-picker"
+  },
+  {
+    "name": "litepicker",
+    "repo": "wakirin/Litepicker",
+    "category": "date-picker"
+  },
+  {
+    "name": "chroma-js",
+    "repo": "gka/chroma.js",
+    "category": "color"
+  },
+  {
+    "name": "tinycolor2",
+    "repo": "bgrins/TinyColor",
+    "category": "color"
+  },
+  {
+    "name": "culori",
+    "repo": "Evercoder/culori",
+    "category": "color"
+  },
+  {
+    "name": "mathjs",
+    "repo": "josdejong/mathjs",
+    "category": "math"
+  },
+  {
+    "name": "decimal.js",
+    "repo": "MikeMcl/decimal.js",
+    "category": "math"
+  },
+  {
+    "name": "big.js",
+    "repo": "MikeMcl/big.js",
+    "category": "math"
+  },
+  {
+    "name": "bignumber.js",
+    "repo": "MikeMcl/bignumber.js",
+    "category": "math"
+  },
+  {
+    "name": "fraction.js",
+    "repo": "infusion/Fraction.js",
+    "category": "math"
+  },
+  {
+    "name": "complex.js",
+    "repo": "infusion/Complex.js",
+    "category": "math"
+  },
+  {
+    "name": "crypto-js",
+    "repo": "brix/crypto-js",
+    "category": "crypto"
+  },
+  {
+    "name": "tweetnacl",
+    "repo": "dchest/tweetnacl-js",
+    "category": "crypto"
+  },
+  {
+    "name": "noble-curves",
+    "repo": "paulmillr/noble-curves",
+    "category": "crypto"
+  },
+  {
+    "name": "noble-hashes",
+    "repo": "paulmillr/noble-hashes",
+    "category": "crypto"
+  },
+  {
+    "name": "scure-base",
+    "repo": "paulmillr/scure-base",
+    "category": "crypto"
+  },
+  {
+    "name": "jose",
+    "repo": "panva/jose",
+    "category": "crypto"
+  },
+  {
+    "name": "node-forge",
+    "repo": "digitalbazaar/forge",
+    "category": "crypto"
+  },
+  {
+    "name": "openpgp",
+    "repo": "openpgpjs/openpgpjs",
+    "category": "crypto"
+  },
+  {
+    "name": "fflate",
+    "repo": "101arrowz/fflate",
+    "category": "compression"
+  },
+  {
+    "name": "pako",
+    "repo": "nodeca/pako",
+    "category": "compression"
+  },
+  {
+    "name": "lz-string",
+    "repo": "pieroxy/lz-string",
+    "category": "compression"
+  },
+  {
+    "name": "rxdb",
+    "repo": "pubkey/rxdb",
+    "category": "storage"
+  },
+  {
+    "name": "watermelondb",
+    "repo": "Nozbe/WatermelonDB",
+    "category": "storage"
+  },
+  {
+    "name": "pouchdb",
+    "repo": "pouchdb/pouchdb",
+    "category": "storage"
+  },
+  {
+    "name": "neon-serverless",
+    "repo": "neondatabase/serverless",
+    "category": "storage"
+  },
+  {
+    "name": "convex",
+    "repo": "get-convex/convex-js",
+    "category": "storage"
+  },
+  {
+    "name": "svgo",
+    "repo": "svg/svgo",
+    "category": "image-optimization"
+  },
+  {
+    "name": "imagemin",
+    "repo": "imagemin/imagemin",
+    "category": "image-optimization"
+  },
+  {
+    "name": "unpic",
+    "repo": "ascorbic/unpic",
+    "category": "image-optimization"
+  },
+  {
+    "name": "unplugin",
+    "repo": "unjs/unplugin",
+    "category": "bundler-plugins"
+  },
+  {
+    "name": "vite-plugin-pwa",
+    "repo": "vite-pwa/vite-plugin-pwa",
+    "category": "bundler-plugins"
+  },
+  {
+    "name": "rollup-plugin-visualizer",
+    "repo": "btd/rollup-plugin-visualizer",
+    "category": "bundler-plugins"
+  },
+  {
+    "name": "webpack-bundle-analyzer",
+    "repo": "webpack-contrib/webpack-bundle-analyzer",
+    "category": "bundler-plugins"
+  },
+  {
+    "name": "mini-css-extract-plugin",
+    "repo": "webpack-contrib/mini-css-extract-plugin",
+    "category": "bundler-plugins"
+  },
+  {
+    "name": "terser-webpack-plugin",
+    "repo": "webpack-contrib/terser-webpack-plugin",
+    "category": "bundler-plugins"
+  },
+  {
+    "name": "html-webpack-plugin",
+    "repo": "jantimon/html-webpack-plugin",
+    "category": "bundler-plugins"
+  },
+  {
+    "name": "node-gyp",
+    "repo": "nodejs/node-gyp",
+    "category": "node-native"
+  },
+  {
+    "name": "node-addon-api",
+    "repo": "nodejs/node-addon-api",
+    "category": "node-native"
+  },
+  {
+    "name": "napi-rs",
+    "repo": "napi-rs/napi-rs",
+    "category": "node-native"
+  },
+  {
+    "name": "xterm.js",
+    "repo": "xtermjs/xterm.js",
+    "category": "cli-frameworks"
+  },
+  {
+    "name": "node-pty",
+    "repo": "microsoft/node-pty",
+    "category": "cli-frameworks"
+  },
+  {
+    "name": "blessed",
+    "repo": "chjj/blessed",
+    "category": "cli-frameworks"
+  },
+  {
+    "name": "blessed-contrib",
+    "repo": "yaronn/blessed-contrib",
+    "category": "cli-frameworks"
+  },
+  {
+    "name": "terminal-kit",
+    "repo": "cronvel/terminal-kit",
+    "category": "cli-frameworks"
+  },
+  {
+    "name": "gluegun",
+    "repo": "infinitered/gluegun",
+    "category": "cli-frameworks"
+  },
+  {
+    "name": "pastel",
+    "repo": "vadimdemedes/pastel",
+    "category": "cli-frameworks"
+  },
+  {
+    "name": "caporal",
+    "repo": "mattallty/Caporal.js",
+    "category": "cli-frameworks"
+  },
+  {
+    "name": "http-proxy",
+    "repo": "http-party/node-http-proxy",
+    "category": "networking"
+  },
+  {
+    "name": "trigger-dev",
+    "repo": "triggerdotdev/trigger.dev",
+    "category": "scheduling"
+  },
+  {
+    "name": "inngest",
+    "repo": "inngest/inngest-js",
+    "category": "scheduling"
+  },
+  {
+    "name": "n8n",
+    "repo": "n8n-io/n8n",
+    "category": "workflow"
+  },
+  {
+    "name": "activepieces",
+    "repo": "activepieces/activepieces",
+    "category": "workflow"
+  },
+  {
+    "name": "windmill-client",
+    "repo": "windmill-labs/windmill",
+    "category": "workflow"
+  },
+  {
+    "name": "contentful",
+    "repo": "contentful/contentful.js",
+    "category": "headless-cms"
+  },
+  {
+    "name": "storyblok",
+    "repo": "storyblok/storyblok-js-client",
+    "category": "headless-cms"
+  },
+  {
+    "name": "prismic",
+    "repo": "prismicio/prismic-client",
+    "category": "headless-cms"
+  },
+  {
+    "name": "builder-io",
+    "repo": "BuilderIO/builder",
+    "category": "headless-cms"
+  },
+  {
+    "name": "sanity-client",
+    "repo": "sanity-io/client",
+    "category": "headless-cms"
+  },
+  {
+    "name": "tina",
+    "repo": "tinacms/tinacms",
+    "category": "headless-cms"
+  },
+  {
+    "name": "decap-cms",
+    "repo": "decaporg/decap-cms",
+    "category": "headless-cms"
+  },
+  {
+    "name": "outstatic",
+    "repo": "avitorio/outstatic",
+    "category": "headless-cms"
+  },
+  {
+    "name": "kontent-ai",
+    "repo": "kontent-ai/delivery-sdk-js",
+    "category": "headless-cms"
+  },
+  {
+    "name": "meilisearch-js",
+    "repo": "meilisearch/meilisearch-js",
+    "category": "search"
+  },
+  {
+    "name": "typesense-js",
+    "repo": "typesense/typesense-js",
+    "category": "search"
+  },
+  {
+    "name": "orama",
+    "repo": "oramasearch/orama",
+    "category": "search"
+  },
+  {
+    "name": "flexsearch",
+    "repo": "nextapps-de/flexsearch",
+    "category": "search"
+  },
+  {
+    "name": "fuse.js",
+    "repo": "krisk/Fuse",
+    "category": "search"
+  },
+  {
+    "name": "lunr",
+    "repo": "olivernn/lunr.js",
+    "category": "search"
+  },
+  {
+    "name": "minisearch",
+    "repo": "lucaong/minisearch",
+    "category": "search"
+  },
+  {
+    "name": "pagefind",
+    "repo": "CloudCannon/pagefind",
+    "category": "search"
+  },
+  {
+    "name": "neutralino",
+    "repo": "nicolo-ribaudo/neutralinojs",
+    "category": "desktop"
+  },
+  {
+    "name": "nativewind",
+    "repo": "marklawlor/nativewind",
+    "category": "mobile"
+  },
+  {
+    "name": "tamagui",
+    "repo": "tamagui/tamagui",
+    "category": "mobile"
+  },
+  {
+    "name": "solito",
+    "repo": "nandorojo/solito",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-web",
+    "repo": "nicolo-ribaudo/react-native-web",
+    "category": "mobile"
+  },
+  {
+    "name": "restyle",
+    "repo": "Shopify/restyle",
+    "category": "mobile"
+  },
+  {
+    "name": "dripsy",
+    "repo": "nandorojo/dripsy",
+    "category": "mobile"
+  },
+  {
+    "name": "unistyles",
+    "repo": "jpudysz/react-native-unistyles",
+    "category": "mobile"
+  },
+  {
+    "name": "snipcart",
+    "repo": "snipcart/snipcart-theme-v2",
+    "category": "e-commerce"
+  },
+  {
+    "name": "swell-js",
+    "repo": "swellstores/swell-js",
+    "category": "e-commerce"
+  },
+  {
+    "name": "react-virtualized",
+    "repo": "bvaughn/react-virtualized",
+    "category": "virtual-scroll"
+  },
+  {
+    "name": "clsx",
+    "repo": "lukeed/clsx",
+    "category": "utility"
+  },
+  {
+    "name": "classnames",
+    "repo": "JedWatson/classnames",
+    "category": "utility"
+  },
+  {
+    "name": "deepmerge",
+    "repo": "TehShrike/deepmerge",
+    "category": "utility"
+  },
+  {
+    "name": "wretch",
+    "repo": "elbywan/wretch",
+    "category": "http-client"
+  },
+  {
+    "name": "redaxios",
+    "repo": "developit/redaxios",
+    "category": "http-client"
+  },
+  {
+    "name": "superstruct",
+    "repo": "ianstormtaylor/superstruct",
+    "category": "validation"
+  },
+  {
+    "name": "ow",
+    "repo": "sindresorhus/ow",
+    "category": "validation"
+  },
+  {
+    "name": "tsconfig-paths",
+    "repo": "dividab/tsconfig-paths",
+    "category": "typescript-utility"
+  },
+  {
+    "name": "elysia",
+    "repo": "elysiajs/elysia",
+    "category": "server-framework"
+  },
+  {
+    "name": "restify",
+    "repo": "restify/node-restify",
+    "category": "server-framework"
+  },
+  {
+    "name": "micro",
+    "repo": "vercel/micro",
+    "category": "server-framework"
+  },
+  {
+    "name": "autocannon",
+    "repo": "mcollina/autocannon",
+    "category": "testing-benchmarking"
+  },
+  {
+    "name": "clinic",
+    "repo": "clinicjs/node-clinic",
+    "category": "testing-benchmarking"
+  },
+  {
+    "name": "0x",
+    "repo": "davidmarkclements/0x",
+    "category": "testing-benchmarking"
+  },
+  {
+    "name": "testcontainers-node",
+    "repo": "testcontainers/testcontainers-node",
+    "category": "testing"
+  },
+  {
+    "name": "citty",
+    "repo": "unjs/citty",
+    "category": "cli-utility"
+  },
+  {
+    "name": "cleye",
+    "repo": "privatenumber/cleye",
+    "category": "cli-utility"
+  },
+  {
+    "name": "radash",
+    "repo": "sodiray/radash",
+    "category": "utility"
+  },
+  {
+    "name": "es-toolkit",
+    "repo": "toss/es-toolkit",
+    "category": "utility"
+  },
+  {
+    "name": "remeda",
+    "repo": "remeda/remeda",
+    "category": "utility"
+  },
+  {
+    "name": "cva",
+    "repo": "joe-bell/cva",
+    "category": "styling"
+  },
+  {
+    "name": "tailwind-merge",
+    "repo": "dcastil/tailwind-merge",
+    "category": "styling"
+  },
+  {
+    "name": "tailwind-variants",
+    "repo": "nextui-org/tailwind-variants",
+    "category": "styling"
+  },
+  {
+    "name": "stitches",
+    "repo": "stitchesjs/stitches",
+    "category": "styling"
+  },
+  {
+    "name": "lightningcss",
+    "repo": "parcel-bundler/lightningcss",
+    "category": "styling"
+  },
+  {
+    "name": "graphql-request",
+    "repo": "jasonkuhrt/graphql-request",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-tag",
+    "repo": "apollographql/graphql-tag",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-tools",
+    "repo": "ardatan/graphql-tools",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-shield",
+    "repo": "dimatill/graphql-shield",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-scalars",
+    "repo": "Urigo/graphql-scalars",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-ws",
+    "repo": "enisdenjo/graphql-ws",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-sse",
+    "repo": "enisdenjo/graphql-sse",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-codegen",
+    "repo": "dotansimha/graphql-code-generator",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-mesh",
+    "repo": "Urigo/graphql-mesh",
+    "category": "graphql"
+  },
+  {
+    "name": "envelop",
+    "repo": "n1ru4l/envelop",
+    "category": "graphql"
+  },
+  {
+    "name": "genql",
+    "repo": "remorses/genql",
+    "category": "graphql"
+  },
+  {
+    "name": "gqty",
+    "repo": "gqty-dev/gqty",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-upload",
+    "repo": "jaydenseric/graphql-upload",
+    "category": "graphql"
+  },
+  {
+    "name": "graphql-helix",
+    "repo": "contra/graphql-helix",
+    "category": "graphql"
+  },
+  {
+    "name": "spectral",
+    "repo": "stoplightio/spectral",
+    "category": "api-tools"
+  },
+  {
+    "name": "redocly",
+    "repo": "Redocly/redocly-cli",
+    "category": "api-tools"
+  },
+  {
+    "name": "swagger-ui",
+    "repo": "swagger-api/swagger-ui",
+    "category": "api-tools"
+  },
+  {
+    "name": "swagger-jsdoc",
+    "repo": "Surnet/swagger-jsdoc",
+    "category": "api-tools"
+  },
+  {
+    "name": "tsoa",
+    "repo": "lukeautry/tsoa",
+    "category": "api-framework"
+  },
+  {
+    "name": "routing-controllers",
+    "repo": "typestack/routing-controllers",
+    "category": "api-framework"
+  },
+  {
+    "name": "io-ts",
+    "repo": "gcanti/io-ts",
+    "category": "validation"
+  },
+  {
+    "name": "runtypes",
+    "repo": "pelotom/runtypes",
+    "category": "validation"
+  },
+  {
+    "name": "t3-env",
+    "repo": "t3-oss/t3-env",
+    "category": "validation"
+  },
+  {
+    "name": "typedoc",
+    "repo": "TypeStrong/typedoc",
+    "category": "documentation"
+  },
+  {
+    "name": "api-extractor",
+    "repo": "microsoft/rushstack",
+    "category": "documentation"
+  },
+  {
+    "name": "aws-cdk",
+    "repo": "aws/aws-cdk",
+    "category": "devops-infra"
+  },
+  {
+    "name": "pulumi",
+    "repo": "pulumi/pulumi",
+    "category": "devops-infra"
+  },
+  {
+    "name": "cdktf",
+    "repo": "hashicorp/terraform-cdk",
+    "category": "devops-infra"
+  },
+  {
+    "name": "cdk8s",
+    "repo": "cdk8s-team/cdk8s",
+    "category": "devops-infra"
+  },
+  {
+    "name": "workbox",
+    "repo": "GoogleChrome/workbox",
+    "category": "web-apis"
+  },
+  {
+    "name": "threads",
+    "repo": "andywer/threads.js",
+    "category": "web-apis"
+  },
+  {
+    "name": "cross-fetch",
+    "repo": "lquixada/cross-fetch",
+    "category": "data-fetching"
+  },
+  {
+    "name": "serwist",
+    "repo": "serwist/serwist",
+    "category": "pwa"
+  },
+  {
+    "name": "vite-pwa",
+    "repo": "vite-pwa/vite-plugin-pwa",
+    "category": "pwa"
+  },
+  {
+    "name": "next-pwa",
+    "repo": "shadowwalker/next-pwa",
+    "category": "pwa"
+  },
+  {
+    "name": "lusca",
+    "repo": "krakenjs/lusca",
+    "category": "security"
+  },
+  {
+    "name": "hpp",
+    "repo": "analog-nico/hpp",
+    "category": "security"
+  },
+  {
+    "name": "csurf",
+    "repo": "expressjs/csurf",
+    "category": "security"
+  },
+  {
+    "name": "highland",
+    "repo": "caolan/highland",
+    "category": "streams"
+  },
+  {
+    "name": "through2",
+    "repo": "rvagg/through2",
+    "category": "streams"
+  },
+  {
+    "name": "pump",
+    "repo": "mafintosh/pump",
+    "category": "streams"
+  },
+  {
+    "name": "get-stream",
+    "repo": "sindresorhus/get-stream",
+    "category": "streams"
+  },
+  {
+    "name": "JSONStream",
+    "repo": "dominictarr/JSONStream",
+    "category": "streams"
+  },
+  {
+    "name": "readable-stream",
+    "repo": "nodejs/readable-stream",
+    "category": "streams"
+  },
+  {
+    "name": "supports-color",
+    "repo": "chalk/supports-color",
+    "category": "cli-utilities"
+  },
+  {
+    "name": "strip-ansi",
+    "repo": "chalk/strip-ansi",
+    "category": "cli-utilities"
+  },
+  {
+    "name": "wrap-ansi",
+    "repo": "chalk/wrap-ansi",
+    "category": "cli-utilities"
+  },
+  {
+    "name": "ansi-escapes",
+    "repo": "sindresorhus/ansi-escapes",
+    "category": "cli-utilities"
+  },
+  {
+    "name": "string-width",
+    "repo": "sindresorhus/string-width",
+    "category": "cli-utilities"
+  },
+  {
+    "name": "cli-table3",
+    "repo": "cli-table/cli-table3",
+    "category": "cli-utilities"
+  },
+  {
+    "name": "log-update",
+    "repo": "sindresorhus/log-update",
+    "category": "cli-utilities"
+  },
+  {
+    "name": "enquirer",
+    "repo": "enquirer/enquirer",
+    "category": "cli-utilities"
+  },
+  {
+    "name": "cli-spinners",
+    "repo": "sindresorhus/cli-spinners",
+    "category": "cli-utilities"
+  },
+  {
+    "name": "columnify",
+    "repo": "timoxley/columnify",
+    "category": "cli-utilities"
+  },
+  {
+    "name": "ms",
+    "repo": "vercel/ms",
+    "category": "date-time"
+  },
+  {
+    "name": "pretty-ms",
+    "repo": "sindresorhus/pretty-ms",
+    "category": "date-time"
+  },
+  {
+    "name": "spacetime",
+    "repo": "spencermountain/spacetime",
+    "category": "date-time"
+  },
+  {
+    "name": "timeago.js",
+    "repo": "hustcc/timeago.js",
+    "category": "date-time"
+  },
+  {
+    "name": "change-case",
+    "repo": "blakeembrey/change-case",
+    "category": "string"
+  },
+  {
+    "name": "slugify",
+    "repo": "simov/slugify",
+    "category": "string"
+  },
+  {
+    "name": "pluralize",
+    "repo": "blakeembrey/pluralize",
+    "category": "string"
+  },
+  {
+    "name": "he",
+    "repo": "mathiasbynens/he",
+    "category": "string"
+  },
+  {
+    "name": "entities",
+    "repo": "fb55/entities",
+    "category": "string"
+  },
+  {
+    "name": "autolinker",
+    "repo": "gregjacobs/Autolinker.js",
+    "category": "string"
+  },
+  {
+    "name": "escape-html",
+    "repo": "component/escape-html",
+    "category": "string"
+  },
+  {
+    "name": "fastest-validator",
+    "repo": "icebob/fastest-validator",
+    "category": "validation"
+  },
+  {
+    "name": "fluent-json-schema",
+    "repo": "fastify/fluent-json-schema",
+    "category": "validation"
+  },
+  {
+    "name": "react-icons",
+    "repo": "react-icons/react-icons",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "lucide",
+    "repo": "lucide-icons/lucide",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "iconify",
+    "repo": "iconify/iconify",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "tabler-icons",
+    "repo": "tabler/tabler-icons",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "react-use",
+    "repo": "streamich/react-use",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "ahooks",
+    "repo": "alibaba/hooks",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "usehooks-ts",
+    "repo": "juliencrn/usehooks-ts",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "react-helmet-async",
+    "repo": "staylor/react-helmet-async",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "next-themes",
+    "repo": "pacocoursey/next-themes",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "next-mdx-remote",
+    "repo": "hashicorp/next-mdx-remote",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "mdx-bundler",
+    "repo": "kentcdodds/mdx-bundler",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "next-safe-action",
+    "repo": "TheEdoRan/next-safe-action",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "velite",
+    "repo": "zce/velite",
+    "category": "content"
+  },
+  {
+    "name": "starlight",
+    "repo": "withastro/starlight",
+    "category": "documentation"
+  },
+  {
+    "name": "rspress",
+    "repo": "web-infra-dev/rspress",
+    "category": "documentation"
+  },
+  {
+    "name": "vocs",
+    "repo": "wevm/vocs",
+    "category": "documentation"
+  },
+  {
+    "name": "histoire",
+    "repo": "histoire-dev/histoire",
+    "category": "documentation"
+  },
+  {
+    "name": "ladle",
+    "repo": "tajo/ladle",
+    "category": "documentation"
+  },
+  {
+    "name": "chromatic",
+    "repo": "chromaui/chromatic-cli",
+    "category": "testing"
+  },
+  {
+    "name": "nuxt-content",
+    "repo": "nuxt/content",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "nuxt-image",
+    "repo": "nuxt/image",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "nuxt-ui",
+    "repo": "nuxt/ui",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "nuxt-devtools",
+    "repo": "nuxt/devtools",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "vueuse",
+    "repo": "vueuse/vueuse",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "vee-validate",
+    "repo": "logaretm/vee-validate",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "vue-i18n",
+    "repo": "intlify/vue-i18n-next",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "pinia-plugin-persistedstate",
+    "repo": "prazdevs/pinia-plugin-persistedstate",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "unhead",
+    "repo": "unjs/unhead",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "unenv",
+    "repo": "unjs/unenv",
+    "category": "runtime"
+  },
+  {
+    "name": "hookable",
+    "repo": "unjs/hookable",
+    "category": "utility"
+  },
+  {
+    "name": "mlly",
+    "repo": "unjs/mlly",
+    "category": "utility"
+  },
+  {
+    "name": "pkg-types",
+    "repo": "unjs/pkg-types",
+    "category": "utility"
+  },
+  {
+    "name": "drizzle-kit",
+    "repo": "drizzle-team/drizzle-kit-mirror",
+    "category": "database"
+  },
+  {
+    "name": "postgres-js",
+    "repo": "porsager/postgres",
+    "category": "database"
+  },
+  {
+    "name": "pg-promise",
+    "repo": "vitaly-t/pg-promise",
+    "category": "database"
+  },
+  {
+    "name": "massive-js",
+    "repo": "dmfay/massive-js",
+    "category": "database"
+  },
+  {
+    "name": "objection",
+    "repo": "vincit/objection.js",
+    "category": "database"
+  },
+  {
+    "name": "bookshelf",
+    "repo": "bookshelf/bookshelf",
+    "category": "database"
+  },
+  {
+    "name": "ts-essentials",
+    "repo": "ts-essentials/ts-essentials",
+    "category": "typescript"
+  },
+  {
+    "name": "utility-types",
+    "repo": "piotrwitek/utility-types",
+    "category": "typescript"
+  },
+  {
+    "name": "emittery",
+    "repo": "sindresorhus/emittery",
+    "category": "utility"
+  },
+  {
+    "name": "nanoevents",
+    "repo": "ai/nanoevents",
+    "category": "utility"
+  },
+  {
+    "name": "rspack",
+    "repo": "web-infra-dev/rspack",
+    "category": "build-tool"
+  },
+  {
+    "name": "farm",
+    "repo": "farm-fe/farm",
+    "category": "build-tool"
+  },
+  {
+    "name": "bun",
+    "repo": "oven-sh/bun",
+    "category": "runtime"
+  },
+  {
+    "name": "deno",
+    "repo": "denoland/deno",
+    "category": "runtime"
+  },
+  {
+    "name": "oxc",
+    "repo": "oxc-project/oxc",
+    "category": "build-tool"
+  },
+  {
+    "name": "jiti",
+    "repo": "unjs/jiti",
+    "category": "runtime"
+  },
+  {
+    "name": "mitosis",
+    "repo": "BuilderIO/mitosis",
+    "category": "framework"
+  },
+  {
+    "name": "windicss",
+    "repo": "windicss/windicss",
+    "category": "styling"
+  },
+  {
+    "name": "twind",
+    "repo": "tw-in-js/twind",
+    "category": "styling"
+  },
+  {
+    "name": "linaria",
+    "repo": "callstack/linaria",
+    "category": "styling"
+  },
+  {
+    "name": "goober",
+    "repo": "cristianbote/goober",
+    "category": "styling"
+  },
+  {
+    "name": "stylex",
+    "repo": "facebook/stylex",
+    "category": "styling"
+  },
+  {
+    "name": "react-day-picker",
+    "repo": "gpbl/react-day-picker",
+    "category": "ui-component"
+  },
+  {
+    "name": "react-resizable-panels",
+    "repo": "bvaughn/react-resizable-panels",
+    "category": "ui-component"
+  },
+  {
+    "name": "react-markdown",
+    "repo": "remarkjs/react-markdown",
+    "category": "ui-component"
+  },
+  {
+    "name": "react-syntax-highlighter",
+    "repo": "react-syntax-highlighter/react-syntax-highlighter",
+    "category": "ui-component"
+  },
+  {
+    "name": "react-error-boundary",
+    "repo": "bvaughn/react-error-boundary",
+    "category": "react-ecosystem"
+  },
+  {
+    "name": "zustand-middleware-immer",
+    "repo": "pmndrs/zustand",
+    "category": "state-management"
+  },
+  {
+    "name": "nanostores",
+    "repo": "nanostores/nanostores",
+    "category": "state-management"
+  },
+  {
+    "name": "recoil",
+    "repo": "facebookexperimental/Recoil",
+    "category": "state-management"
+  },
+  {
+    "name": "legendstate",
+    "repo": "LegendApp/legend-state",
+    "category": "state-management"
+  },
+  {
+    "name": "rete",
+    "repo": "retejs/rete",
+    "category": "ui-component"
+  },
+  {
+    "name": "reactflow",
+    "repo": "xyflow/xyflow",
+    "category": "ui-component"
+  },
+  {
+    "name": "elkjs",
+    "repo": "kieler/elkjs",
+    "category": "ui-component"
+  },
+  {
+    "name": "dagre",
+    "repo": "dagrejs/dagre",
+    "category": "ui-component"
+  },
+  {
+    "name": "tRPC-openapi",
+    "repo": "jlalmes/trpc-openapi",
+    "category": "api-tools"
+  },
+  {
+    "name": "react-navigation",
+    "repo": "react-navigation/react-navigation",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-reanimated",
+    "repo": "software-mansion/react-native-reanimated",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-gesture-handler",
+    "repo": "software-mansion/react-native-gesture-handler",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-screens",
+    "repo": "software-mansion/react-native-screens",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-safe-area-context",
+    "repo": "th3rdwave/react-native-safe-area-context",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-svg",
+    "repo": "software-mansion/react-native-svg",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-vector-icons",
+    "repo": "oblador/react-native-vector-icons",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-paper",
+    "repo": "callstack/react-native-paper",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-elements",
+    "repo": "react-native-elements/react-native-elements",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-maps",
+    "repo": "react-native-maps/react-native-maps",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-vision-camera",
+    "repo": "mrousavy/react-native-vision-camera",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-image-picker",
+    "repo": "react-native-image-picker/react-native-image-picker",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-fs",
+    "repo": "itinance/react-native-fs",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-async-storage",
+    "repo": "react-native-async-storage/async-storage",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-mmkv",
+    "repo": "mrousavy/react-native-mmkv",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-keychain",
+    "repo": "oblador/react-native-keychain",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-firebase",
+    "repo": "invertase/react-native-firebase",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-device-info",
+    "repo": "react-native-device-info/react-native-device-info",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-permissions",
+    "repo": "zoontek/react-native-permissions",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-share",
+    "repo": "react-native-share/react-native-share",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-webview",
+    "repo": "react-native-webview/react-native-webview",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-skia",
+    "repo": "Shopify/react-native-skia",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-bottom-sheet",
+    "repo": "gorhom/react-native-bottom-sheet",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-modal",
+    "repo": "react-native-modal/react-native-modal",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-calendars",
+    "repo": "wix/react-native-calendars",
+    "category": "mobile"
+  },
+  {
+    "name": "react-native-date-picker",
+    "repo": "henninghall/react-native-date-picker",
+    "category": "mobile"
+  },
+  {
+    "name": "expo-router",
+    "repo": "expo/router",
+    "category": "mobile"
+  },
+  {
+    "name": "expo-notifications",
+    "repo": "expo/expo",
+    "category": "mobile"
+  },
+  {
+    "name": "expo-camera",
+    "repo": "expo/expo",
+    "category": "mobile"
+  },
+  {
+    "name": "expo-file-system",
+    "repo": "expo/expo",
+    "category": "mobile"
+  },
+  {
+    "name": "expo-av",
+    "repo": "expo/expo",
+    "category": "mobile"
+  },
+  {
+    "name": "expo-image",
+    "repo": "expo/expo",
+    "category": "mobile"
+  },
+  {
+    "name": "expo-location",
+    "repo": "expo/expo",
+    "category": "mobile"
+  },
+  {
+    "name": "expo-haptics",
+    "repo": "expo/expo",
+    "category": "mobile"
+  },
+  {
+    "name": "vuetify",
+    "repo": "vuetifyjs/vuetify",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "element-plus",
+    "repo": "element-plus/element-plus",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "naive-ui",
+    "repo": "tusen-ai/naive-ui",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "quasar",
+    "repo": "quasarframework/quasar",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "vant",
+    "repo": "youzan/vant",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "arco-design-vue",
+    "repo": "arco-design/arco-design-vue",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "radix-vue",
+    "repo": "radix-vue/radix-vue",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "nuxt-icon",
+    "repo": "nuxt/icon",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "nuxt-color-mode",
+    "repo": "nuxt-modules/color-mode",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "vue-router",
+    "repo": "vuejs/router",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "vue-chartjs",
+    "repo": "apertureless/vue-chartjs",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "vue-echarts",
+    "repo": "ecomfe/vue-echarts",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "skeleton",
+    "repo": "skeletonlabs/skeleton",
+    "category": "svelte-ecosystem"
+  },
+  {
+    "name": "flowbite-svelte",
+    "repo": "themesberg/flowbite-svelte",
+    "category": "svelte-ecosystem"
+  },
+  {
+    "name": "svelte-french-toast",
+    "repo": "kbrgl/svelte-french-toast",
+    "category": "svelte-ecosystem"
+  },
+  {
+    "name": "formsnap",
+    "repo": "huntabyte/formsnap",
+    "category": "svelte-ecosystem"
+  },
+  {
+    "name": "bits-ui",
+    "repo": "huntabyte/bits-ui",
+    "category": "svelte-ecosystem"
+  },
+  {
+    "name": "melt-ui",
+    "repo": "melt-ui/melt-ui",
+    "category": "svelte-ecosystem"
+  },
+  {
+    "name": "svelte-headless-table",
+    "repo": "bryanmylee/svelte-headless-table",
+    "category": "svelte-ecosystem"
+  },
+  {
+    "name": "ng-zorro-antd",
+    "repo": "NG-ZORRO/ng-zorro-antd",
+    "category": "angular-ecosystem"
+  },
+  {
+    "name": "ngx-bootstrap",
+    "repo": "valor-software/ngx-bootstrap",
+    "category": "angular-ecosystem"
+  },
+  {
+    "name": "ng-select",
+    "repo": "ng-select/ng-select",
+    "category": "angular-ecosystem"
+  },
+  {
+    "name": "ngrx",
+    "repo": "ngrx/platform",
+    "category": "angular-ecosystem"
+  },
+  {
+    "name": "ngxs",
+    "repo": "ngxs/store",
+    "category": "angular-ecosystem"
+  },
+  {
+    "name": "transloco",
+    "repo": "ngneat/transloco",
+    "category": "angular-ecosystem"
+  },
+  {
+    "name": "angular-formly",
+    "repo": "ngx-formly/ngx-formly",
+    "category": "angular-ecosystem"
+  },
+  {
+    "name": "apollo-angular",
+    "repo": "kamilkisiela/apollo-angular",
+    "category": "angular-ecosystem"
+  },
+  {
+    "name": "angular-fire",
+    "repo": "angular/angularfire",
+    "category": "angular-ecosystem"
+  },
+  {
+    "name": "browserslist",
+    "repo": "browserslist/browserslist",
+    "category": "build-tool"
+  },
+  {
+    "name": "caniuse-lite",
+    "repo": "browserslist/caniuse-lite",
+    "category": "build-tool"
+  },
+  {
+    "name": "autoprefixer",
+    "repo": "postcss/autoprefixer",
+    "category": "css"
+  },
+  {
+    "name": "cssnano",
+    "repo": "cssnano/cssnano",
+    "category": "css"
+  },
+  {
+    "name": "clean-css",
+    "repo": "clean-css/clean-css",
+    "category": "css"
+  },
+  {
+    "name": "purgecss",
+    "repo": "FullHuman/purgecss",
+    "category": "css"
+  },
+  {
+    "name": "critical",
+    "repo": "addyosmani/critical",
+    "category": "css"
+  },
+  {
+    "name": "critters",
+    "repo": "GoogleChromeLabs/critters",
+    "category": "css"
+  },
+  {
+    "name": "fontsource",
+    "repo": "fontsource/fontsource",
+    "category": "css"
+  },
+  {
+    "name": "dotenv-expand",
+    "repo": "motdotla/dotenv-expand",
+    "category": "config"
+  },
+  {
+    "name": "cross-spawn",
+    "repo": "moxystudio/node-cross-spawn",
+    "category": "utility"
+  },
+  {
+    "name": "which",
+    "repo": "npm/node-which",
+    "category": "utility"
+  },
+  {
+    "name": "npm-run-path",
+    "repo": "sindresorhus/npm-run-path",
+    "category": "utility"
+  },
+  {
+    "name": "resolve",
+    "repo": "browserify/resolve",
+    "category": "utility"
+  },
+  {
+    "name": "enhanced-resolve",
+    "repo": "webpack/enhanced-resolve",
+    "category": "utility"
+  },
+  {
+    "name": "find-up",
+    "repo": "sindresorhus/find-up",
+    "category": "utility"
+  },
+  {
+    "name": "locate-path",
+    "repo": "sindresorhus/locate-path",
+    "category": "utility"
+  },
+  {
+    "name": "pkg-dir",
+    "repo": "sindresorhus/pkg-dir",
+    "category": "utility"
+  },
+  {
+    "name": "escalade",
+    "repo": "lukeed/escalade",
+    "category": "utility"
+  },
+  {
+    "name": "yocto-queue",
+    "repo": "sindresorhus/yocto-queue",
+    "category": "utility"
+  },
+  {
+    "name": "p-locate",
+    "repo": "sindresorhus/p-locate",
+    "category": "utility"
+  },
+  {
+    "name": "p-cancelable",
+    "repo": "sindresorhus/p-cancelable",
+    "category": "utility"
+  },
+  {
+    "name": "is-glob",
+    "repo": "micromatch/is-glob",
+    "category": "utility"
+  },
+  {
+    "name": "picomatch",
+    "repo": "micromatch/picomatch",
+    "category": "utility"
+  },
+  {
+    "name": "micromatch",
+    "repo": "micromatch/micromatch",
+    "category": "utility"
+  },
+  {
+    "name": "minimatch",
+    "repo": "isaacs/minimatch",
+    "category": "utility"
+  },
+  {
+    "name": "braces",
+    "repo": "micromatch/braces",
+    "category": "utility"
+  },
+  {
+    "name": "fill-range",
+    "repo": "jonschlinkert/fill-range",
+    "category": "utility"
+  },
+  {
+    "name": "to-regex-range",
+    "repo": "micromatch/to-regex-range",
+    "category": "utility"
+  },
+  {
+    "name": "is-number",
+    "repo": "jonschlinkert/is-number",
+    "category": "utility"
+  },
+  {
+    "name": "enzyme",
+    "repo": "enzymejs/enzyme",
+    "category": "testing"
+  },
+  {
+    "name": "istanbul",
+    "repo": "istanbuljs/istanbuljs",
+    "category": "testing"
+  },
+  {
+    "name": "c8",
+    "repo": "bcoe/c8",
+    "category": "testing"
+  },
+  {
+    "name": "nyc",
+    "repo": "istanbuljs/nyc",
+    "category": "testing"
+  },
+  {
+    "name": "fast-check",
+    "repo": "dubzzz/fast-check",
+    "category": "testing"
+  },
+  {
+    "name": "dockerode",
+    "repo": "apocas/dockerode",
+    "category": "devops-infra"
+  },
+  {
+    "name": "tiny-invariant",
+    "repo": "alexreardon/tiny-invariant",
+    "category": "utility"
+  },
+  {
+    "name": "tiny-warning",
+    "repo": "alexreardon/tiny-warning",
+    "category": "utility"
+  },
+  {
+    "name": "class-variance-authority",
+    "repo": "joe-bell/cva",
+    "category": "styling"
+  },
+  {
+    "name": "theme-ui",
+    "repo": "system-ui/theme-ui",
+    "category": "styling"
+  },
+  {
+    "name": "rebass",
+    "repo": "rebassjs/rebass",
+    "category": "styling"
+  },
+  {
+    "name": "styled-system",
+    "repo": "styled-system/styled-system",
+    "category": "styling"
+  },
+  {
+    "name": "debug",
+    "repo": "debug-js/debug",
+    "category": "utility"
+  },
+  {
+    "name": "semver",
+    "repo": "npm/node-semver",
+    "category": "utility"
+  },
+  {
+    "name": "signal-exit",
+    "repo": "tapjs/signal-exit",
+    "category": "utility"
+  },
+  {
+    "name": "graceful-fs",
+    "repo": "isaacs/node-graceful-fs",
+    "category": "file"
+  },
+  {
+    "name": "globrex",
+    "repo": "terkelg/globrex",
+    "category": "utility"
+  },
+  {
+    "name": "deferred-promise",
+    "repo": "nicolo-ribaudo/deferred-promise",
+    "category": "utility"
+  },
+  {
+    "name": "open",
+    "repo": "sindresorhus/open",
+    "category": "utility"
+  },
+  {
+    "name": "strip-json-comments",
+    "repo": "sindresorhus/strip-json-comments",
+    "category": "utility"
+  },
+  {
+    "name": "toml",
+    "repo": "BinaryMuse/toml-node",
+    "category": "serialization"
+  },
+  {
+    "name": "ini",
+    "repo": "npm/ini",
+    "category": "serialization"
+  },
+  {
+    "name": "dotenv-vault",
+    "repo": "dotenv-org/dotenv-vault",
+    "category": "config"
+  },
+  {
+    "name": "form-data",
+    "repo": "form-data/form-data",
+    "category": "http-client"
+  },
+  {
+    "name": "cheerio-select",
+    "repo": "cheeriojs/cheerio-select",
+    "category": "scraping"
+  },
+  {
+    "name": "crawlee",
+    "repo": "apify/crawlee",
+    "category": "scraping"
+  },
+  {
+    "name": "playwright-core",
+    "repo": "microsoft/playwright",
+    "category": "testing"
+  },
+  {
+    "name": "puppeteer-core",
+    "repo": "puppeteer/puppeteer",
+    "category": "testing"
+  },
+  {
+    "name": "happy-dom-global-registrar",
+    "repo": "capricorn86/happy-dom",
+    "category": "testing"
+  },
+  {
+    "name": "socket.io-adapter",
+    "repo": "socketio/socket.io-adapter",
+    "category": "websocket"
+  },
+  {
+    "name": "uwebsockets",
+    "repo": "uNetworking/uWebSockets.js",
+    "category": "websocket"
+  },
+  {
+    "name": "denokv",
+    "repo": "denoland/denokv",
+    "category": "database"
+  },
+  {
+    "name": "drizzle-zod",
+    "repo": "drizzle-team/drizzle-orm",
+    "category": "database"
+  },
+  {
+    "name": "lucia-adapter-prisma",
+    "repo": "lucia-auth/lucia",
+    "category": "auth"
+  },
+  {
+    "name": "hattip",
+    "repo": "hattipjs/hattip",
+    "category": "server"
+  },
+  {
+    "name": "listhen",
+    "repo": "unjs/listhen",
+    "category": "server"
+  },
+  {
+    "name": "serve-handler",
+    "repo": "vercel/serve-handler",
+    "category": "server"
+  },
+  {
+    "name": "http-errors",
+    "repo": "jshttp/http-errors",
+    "category": "server"
+  },
+  {
+    "name": "on-finished",
+    "repo": "jshttp/on-finished",
+    "category": "server"
+  },
+  {
+    "name": "raw-body",
+    "repo": "stream-utils/raw-body",
+    "category": "server"
+  },
+  {
+    "name": "accepts",
+    "repo": "jshttp/accepts",
+    "category": "server"
+  },
+  {
+    "name": "content-type",
+    "repo": "jshttp/content-type",
+    "category": "server"
+  },
+  {
+    "name": "type-is",
+    "repo": "jshttp/type-is",
+    "category": "server"
+  },
+  {
+    "name": "vary",
+    "repo": "jshttp/vary",
+    "category": "server"
+  },
+  {
+    "name": "etag",
+    "repo": "jshttp/etag",
+    "category": "server"
+  },
+  {
+    "name": "fresh-check",
+    "repo": "jshttp/fresh",
+    "category": "server"
+  },
+  {
+    "name": "range-parser",
+    "repo": "jshttp/range-parser",
+    "category": "server"
+  },
+  {
+    "name": "send",
+    "repo": "pillarjs/send",
+    "category": "server"
+  },
+  {
+    "name": "finalhandler",
+    "repo": "pillarjs/finalhandler",
+    "category": "server"
+  },
+  {
+    "name": "depd",
+    "repo": "dougwilson/nodejs-depd",
+    "category": "utility"
+  },
+  {
+    "name": "statuses",
+    "repo": "jshttp/statuses",
+    "category": "server"
+  },
+  {
+    "name": "merge-descriptors",
+    "repo": "sindresorhus/merge-descriptors",
+    "category": "utility"
+  },
+  {
+    "name": "react-native-push-notification",
+    "repo": "zo0r/react-native-push-notification",
+    "category": "mobile"
+  },
+  {
+    "name": "vue-flow",
+    "repo": "bcakmakoglu/vue-flow",
+    "category": "vue-ecosystem"
+  },
+  {
+    "name": "svelte-motion",
+    "repo": "mattjennings/svelte-motion",
+    "category": "svelte-ecosystem"
+  },
+  {
+    "name": "ag-grid-angular",
+    "repo": "ag-grid/ag-grid",
+    "category": "angular-ecosystem"
+  },
+  {
+    "name": "penthouse",
+    "repo": "pocketjoso/penthouse",
+    "category": "css"
+  },
+  {
+    "name": "capsize",
+    "repo": "seek-oss/capsize",
+    "category": "css"
+  },
+  {
+    "name": "react-test-renderer",
+    "repo": "facebook/react",
+    "category": "testing"
+  },
+  {
+    "name": "v8-to-istanbul",
+    "repo": "istanbuljs/v8-to-istanbul",
+    "category": "testing"
+  }
+]

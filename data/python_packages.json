@@ -1,0 +1,5002 @@
+[
+  {
+    "name": "django",
+    "repo": "django/django",
+    "category": "web-framework"
+  },
+  {
+    "name": "flask",
+    "repo": "pallets/flask",
+    "category": "web-framework"
+  },
+  {
+    "name": "fastapi",
+    "repo": "tiangolo/fastapi",
+    "category": "web-framework"
+  },
+  {
+    "name": "starlette",
+    "repo": "encode/starlette",
+    "category": "web-framework"
+  },
+  {
+    "name": "tornado",
+    "repo": "tornadoweb/tornado",
+    "category": "web-framework"
+  },
+  {
+    "name": "sanic",
+    "repo": "sanic-org/sanic",
+    "category": "web-framework"
+  },
+  {
+    "name": "uvicorn",
+    "repo": "encode/uvicorn",
+    "category": "web-framework"
+  },
+  {
+    "name": "gunicorn",
+    "repo": "benoitc/gunicorn",
+    "category": "web-framework"
+  },
+  {
+    "name": "django-rest-framework",
+    "repo": "encode/django-rest-framework",
+    "category": "api"
+  },
+  {
+    "name": "graphene",
+    "repo": "graphql-python/graphene",
+    "category": "api"
+  },
+  {
+    "name": "grpcio",
+    "repo": "grpc/grpc",
+    "category": "protocol"
+  },
+  {
+    "name": "aiohttp",
+    "repo": "aio-libs/aiohttp",
+    "category": "async"
+  },
+  {
+    "name": "trio",
+    "repo": "python-trio/trio",
+    "category": "async"
+  },
+  {
+    "name": "anyio",
+    "repo": "agronholm/anyio",
+    "category": "async"
+  },
+  {
+    "name": "celery",
+    "repo": "celery/celery",
+    "category": "task-queue"
+  },
+  {
+    "name": "rq",
+    "repo": "rq/rq",
+    "category": "task-queue"
+  },
+  {
+    "name": "huey",
+    "repo": "coleifer/huey",
+    "category": "task-queue"
+  },
+  {
+    "name": "redis-py",
+    "repo": "redis/redis-py",
+    "category": "database"
+  },
+  {
+    "name": "pymongo",
+    "repo": "mongodb/mongo-python-driver",
+    "category": "database"
+  },
+  {
+    "name": "motor",
+    "repo": "mongodb/motor",
+    "category": "database"
+  },
+  {
+    "name": "psycopg2",
+    "repo": "psycopg/psycopg2",
+    "category": "database"
+  },
+  {
+    "name": "psycopg3",
+    "repo": "psycopg/psycopg",
+    "category": "database"
+  },
+  {
+    "name": "asyncpg",
+    "repo": "MagicStack/asyncpg",
+    "category": "database"
+  },
+  {
+    "name": "aiomysql",
+    "repo": "aio-libs/aiomysql",
+    "category": "database"
+  },
+  {
+    "name": "aiosqlite",
+    "repo": "omnilib/aiosqlite",
+    "category": "database"
+  },
+  {
+    "name": "tinydb",
+    "repo": "msiemens/tinydb",
+    "category": "database"
+  },
+  {
+    "name": "elasticsearch-py",
+    "repo": "elastic/elasticsearch-py",
+    "category": "database"
+  },
+  {
+    "name": "sqlalchemy",
+    "repo": "sqlalchemy/sqlalchemy",
+    "category": "orm"
+  },
+  {
+    "name": "alembic",
+    "repo": "sqlalchemy/alembic",
+    "category": "orm"
+  },
+  {
+    "name": "peewee",
+    "repo": "coleifer/peewee",
+    "category": "orm"
+  },
+  {
+    "name": "tortoise-orm",
+    "repo": "tortoise/tortoise-orm",
+    "category": "orm"
+  },
+  {
+    "name": "sqlmodel",
+    "repo": "tiangolo/sqlmodel",
+    "category": "orm"
+  },
+  {
+    "name": "pydantic",
+    "repo": "pydantic/pydantic",
+    "category": "validation"
+  },
+  {
+    "name": "marshmallow",
+    "repo": "marshmallow-code/marshmallow",
+    "category": "serialization"
+  },
+  {
+    "name": "attrs",
+    "repo": "python-attrs/attrs",
+    "category": "validation"
+  },
+  {
+    "name": "orjson",
+    "repo": "ijl/orjson",
+    "category": "serialization"
+  },
+  {
+    "name": "msgpack",
+    "repo": "msgpack/msgpack-python",
+    "category": "serialization"
+  },
+  {
+    "name": "protobuf",
+    "repo": "protocolbuffers/protobuf",
+    "category": "serialization"
+  },
+  {
+    "name": "numpy",
+    "repo": "numpy/numpy",
+    "category": "scientific"
+  },
+  {
+    "name": "pandas",
+    "repo": "pandas-dev/pandas",
+    "category": "data-processing"
+  },
+  {
+    "name": "polars",
+    "repo": "pola-rs/polars",
+    "category": "data-processing"
+  },
+  {
+    "name": "dask",
+    "repo": "dask/dask",
+    "category": "data-processing"
+  },
+  {
+    "name": "modin",
+    "repo": "modin-project/modin",
+    "category": "data-processing"
+  },
+  {
+    "name": "pyarrow",
+    "repo": "apache/arrow",
+    "category": "data-processing"
+  },
+  {
+    "name": "scipy",
+    "repo": "scipy/scipy",
+    "category": "scientific"
+  },
+  {
+    "name": "sympy",
+    "repo": "sympy/sympy",
+    "category": "math"
+  },
+  {
+    "name": "statsmodels",
+    "repo": "statsmodels/statsmodels",
+    "category": "scientific"
+  },
+  {
+    "name": "networkx",
+    "repo": "networkx/networkx",
+    "category": "scientific"
+  },
+  {
+    "name": "scikit-learn",
+    "repo": "scikit-learn/scikit-learn",
+    "category": "ml"
+  },
+  {
+    "name": "xgboost",
+    "repo": "dmlc/xgboost",
+    "category": "ml"
+  },
+  {
+    "name": "lightgbm",
+    "repo": "microsoft/LightGBM",
+    "category": "ml"
+  },
+  {
+    "name": "catboost",
+    "repo": "catboost/catboost",
+    "category": "ml"
+  },
+  {
+    "name": "optuna",
+    "repo": "optuna/optuna",
+    "category": "ml"
+  },
+  {
+    "name": "mlflow",
+    "repo": "mlflow/mlflow",
+    "category": "ml"
+  },
+  {
+    "name": "wandb",
+    "repo": "wandb/wandb",
+    "category": "ml"
+  },
+  {
+    "name": "ray",
+    "repo": "ray-project/ray",
+    "category": "ml"
+  },
+  {
+    "name": "dvc",
+    "repo": "iterative/dvc",
+    "category": "ml"
+  },
+  {
+    "name": "great-expectations",
+    "repo": "great-expectations/great_expectations",
+    "category": "validation"
+  },
+  {
+    "name": "pandera",
+    "repo": "unionai-oss/pandera",
+    "category": "validation"
+  },
+  {
+    "name": "pytorch",
+    "repo": "pytorch/pytorch",
+    "category": "dl"
+  },
+  {
+    "name": "tensorflow",
+    "repo": "tensorflow/tensorflow",
+    "category": "dl"
+  },
+  {
+    "name": "keras",
+    "repo": "keras-team/keras",
+    "category": "dl"
+  },
+  {
+    "name": "jax",
+    "repo": "google/jax",
+    "category": "dl"
+  },
+  {
+    "name": "flax",
+    "repo": "google/flax",
+    "category": "dl"
+  },
+  {
+    "name": "transformers",
+    "repo": "huggingface/transformers",
+    "category": "nlp"
+  },
+  {
+    "name": "datasets",
+    "repo": "huggingface/datasets",
+    "category": "data-processing"
+  },
+  {
+    "name": "tokenizers",
+    "repo": "huggingface/tokenizers",
+    "category": "nlp"
+  },
+  {
+    "name": "accelerate",
+    "repo": "huggingface/accelerate",
+    "category": "dl"
+  },
+  {
+    "name": "peft",
+    "repo": "huggingface/peft",
+    "category": "dl"
+  },
+  {
+    "name": "trl",
+    "repo": "huggingface/trl",
+    "category": "dl"
+  },
+  {
+    "name": "diffusers",
+    "repo": "huggingface/diffusers",
+    "category": "dl"
+  },
+  {
+    "name": "safetensors",
+    "repo": "huggingface/safetensors",
+    "category": "dl"
+  },
+  {
+    "name": "sentence-transformers",
+    "repo": "UKPLab/sentence-transformers",
+    "category": "nlp"
+  },
+  {
+    "name": "spacy",
+    "repo": "explosion/spaCy",
+    "category": "nlp"
+  },
+  {
+    "name": "nltk",
+    "repo": "nltk/nltk",
+    "category": "nlp"
+  },
+  {
+    "name": "gensim",
+    "repo": "RaRe-Technologies/gensim",
+    "category": "nlp"
+  },
+  {
+    "name": "flair",
+    "repo": "flairNLP/flair",
+    "category": "nlp"
+  },
+  {
+    "name": "langchain",
+    "repo": "langchain-ai/langchain",
+    "category": "ml"
+  },
+  {
+    "name": "llama-index",
+    "repo": "run-llama/llama_index",
+    "category": "ml"
+  },
+  {
+    "name": "openai",
+    "repo": "openai/openai-python",
+    "category": "api"
+  },
+  {
+    "name": "anthropic",
+    "repo": "anthropics/anthropic-sdk-python",
+    "category": "api"
+  },
+  {
+    "name": "litellm",
+    "repo": "BerriAI/litellm",
+    "category": "api"
+  },
+  {
+    "name": "vllm",
+    "repo": "vllm-project/vllm",
+    "category": "ml"
+  },
+  {
+    "name": "ollama",
+    "repo": "ollama/ollama-python",
+    "category": "api"
+  },
+  {
+    "name": "guidance",
+    "repo": "guidance-ai/guidance",
+    "category": "ml"
+  },
+  {
+    "name": "outlines",
+    "repo": "outlines-dev/outlines",
+    "category": "ml"
+  },
+  {
+    "name": "instructor",
+    "repo": "jxnl/instructor",
+    "category": "ml"
+  },
+  {
+    "name": "dspy",
+    "repo": "stanfordnlp/dspy",
+    "category": "ml"
+  },
+  {
+    "name": "crewai",
+    "repo": "crewAIInc/crewAI",
+    "category": "ml"
+  },
+  {
+    "name": "autogen",
+    "repo": "microsoft/autogen",
+    "category": "ml"
+  },
+  {
+    "name": "pillow",
+    "repo": "python-pillow/Pillow",
+    "category": "image"
+  },
+  {
+    "name": "opencv-python",
+    "repo": "opencv/opencv-python",
+    "category": "cv"
+  },
+  {
+    "name": "torchvision",
+    "repo": "pytorch/vision",
+    "category": "cv"
+  },
+  {
+    "name": "albumentations",
+    "repo": "albumentations-team/albumentations",
+    "category": "cv"
+  },
+  {
+    "name": "matplotlib",
+    "repo": "matplotlib/matplotlib",
+    "category": "visualization"
+  },
+  {
+    "name": "seaborn",
+    "repo": "mwaskom/seaborn",
+    "category": "visualization"
+  },
+  {
+    "name": "plotly",
+    "repo": "plotly/plotly.py",
+    "category": "visualization"
+  },
+  {
+    "name": "bokeh",
+    "repo": "bokeh/bokeh",
+    "category": "visualization"
+  },
+  {
+    "name": "altair",
+    "repo": "altair-viz/altair",
+    "category": "visualization"
+  },
+  {
+    "name": "streamlit",
+    "repo": "streamlit/streamlit",
+    "category": "visualization"
+  },
+  {
+    "name": "gradio",
+    "repo": "gradio-app/gradio",
+    "category": "visualization"
+  },
+  {
+    "name": "panel",
+    "repo": "holoviz/panel",
+    "category": "visualization"
+  },
+  {
+    "name": "dash",
+    "repo": "plotly/dash",
+    "category": "visualization"
+  },
+  {
+    "name": "nicegui",
+    "repo": "zauberzeug/nicegui",
+    "category": "gui"
+  },
+  {
+    "name": "reflex",
+    "repo": "reflex-dev/reflex",
+    "category": "web-framework"
+  },
+  {
+    "name": "taipy",
+    "repo": "Avaiga/taipy",
+    "category": "visualization"
+  },
+  {
+    "name": "requests",
+    "repo": "psf/requests",
+    "category": "http-client"
+  },
+  {
+    "name": "httpx",
+    "repo": "encode/httpx",
+    "category": "http-client"
+  },
+  {
+    "name": "urllib3",
+    "repo": "urllib3/urllib3",
+    "category": "http-client"
+  },
+  {
+    "name": "beautifulsoup4",
+    "repo": "wention/BeautifulSoup4",
+    "category": "scraping"
+  },
+  {
+    "name": "scrapy",
+    "repo": "scrapy/scrapy",
+    "category": "scraping"
+  },
+  {
+    "name": "selenium",
+    "repo": "SeleniumHQ/selenium",
+    "category": "scraping"
+  },
+  {
+    "name": "playwright",
+    "repo": "microsoft/playwright-python",
+    "category": "scraping"
+  },
+  {
+    "name": "lxml",
+    "repo": "lxml/lxml",
+    "category": "scraping"
+  },
+  {
+    "name": "pytest",
+    "repo": "pytest-dev/pytest",
+    "category": "testing"
+  },
+  {
+    "name": "tox",
+    "repo": "tox-dev/tox",
+    "category": "testing"
+  },
+  {
+    "name": "coverage",
+    "repo": "nedbat/coveragepy",
+    "category": "testing"
+  },
+  {
+    "name": "hypothesis",
+    "repo": "HypothesisWorks/hypothesis",
+    "category": "testing"
+  },
+  {
+    "name": "faker",
+    "repo": "joke2k/faker",
+    "category": "testing"
+  },
+  {
+    "name": "factory-boy",
+    "repo": "FactoryBoy/factory_boy",
+    "category": "testing"
+  },
+  {
+    "name": "click",
+    "repo": "pallets/click",
+    "category": "cli"
+  },
+  {
+    "name": "typer",
+    "repo": "tiangolo/typer",
+    "category": "cli"
+  },
+  {
+    "name": "rich",
+    "repo": "Textualize/rich",
+    "category": "tui"
+  },
+  {
+    "name": "textual",
+    "repo": "Textualize/textual",
+    "category": "tui"
+  },
+  {
+    "name": "prompt-toolkit",
+    "repo": "prompt-toolkit/python-prompt-toolkit",
+    "category": "tui"
+  },
+  {
+    "name": "fire",
+    "repo": "google/python-fire",
+    "category": "cli"
+  },
+  {
+    "name": "prefect",
+    "repo": "PrefectHQ/prefect",
+    "category": "devops"
+  },
+  {
+    "name": "airflow",
+    "repo": "apache/airflow",
+    "category": "devops"
+  },
+  {
+    "name": "luigi",
+    "repo": "spotify/luigi",
+    "category": "devops"
+  },
+  {
+    "name": "dagster",
+    "repo": "dagster-io/dagster",
+    "category": "devops"
+  },
+  {
+    "name": "boto3",
+    "repo": "boto/boto3",
+    "category": "aws"
+  },
+  {
+    "name": "google-cloud-storage",
+    "repo": "googleapis/python-storage",
+    "category": "gcp"
+  },
+  {
+    "name": "azure-storage-blob",
+    "repo": "Azure/azure-sdk-for-python",
+    "category": "azure"
+  },
+  {
+    "name": "paramiko",
+    "repo": "paramiko/paramiko",
+    "category": "network"
+  },
+  {
+    "name": "fabric",
+    "repo": "fabric/fabric",
+    "category": "automation"
+  },
+  {
+    "name": "invoke",
+    "repo": "pyinvoke/invoke",
+    "category": "automation"
+  },
+  {
+    "name": "ansible-core",
+    "repo": "ansible/ansible",
+    "category": "devops"
+  },
+  {
+    "name": "docker-py",
+    "repo": "docker/docker-py",
+    "category": "devops"
+  },
+  {
+    "name": "kubernetes",
+    "repo": "kubernetes-client/python",
+    "category": "devops"
+  },
+  {
+    "name": "pulumi",
+    "repo": "pulumi/pulumi",
+    "category": "devops"
+  },
+  {
+    "name": "loguru",
+    "repo": "Delgan/loguru",
+    "category": "logging"
+  },
+  {
+    "name": "structlog",
+    "repo": "hynek/structlog",
+    "category": "logging"
+  },
+  {
+    "name": "python-dotenv",
+    "repo": "theskumar/python-dotenv",
+    "category": "config"
+  },
+  {
+    "name": "dynaconf",
+    "repo": "dynaconf/dynaconf",
+    "category": "config"
+  },
+  {
+    "name": "hydra-core",
+    "repo": "facebookresearch/hydra",
+    "category": "config"
+  },
+  {
+    "name": "pyyaml",
+    "repo": "yaml/pyyaml",
+    "category": "config"
+  },
+  {
+    "name": "toml",
+    "repo": "uiri/toml",
+    "category": "config"
+  },
+  {
+    "name": "mypy",
+    "repo": "python/mypy",
+    "category": "typing"
+  },
+  {
+    "name": "pyright",
+    "repo": "microsoft/pyright",
+    "category": "typing"
+  },
+  {
+    "name": "ruff",
+    "repo": "astral-sh/ruff",
+    "category": "linter"
+  },
+  {
+    "name": "black",
+    "repo": "psf/black",
+    "category": "formatter"
+  },
+  {
+    "name": "isort",
+    "repo": "PyCQA/isort",
+    "category": "formatter"
+  },
+  {
+    "name": "flake8",
+    "repo": "PyCQA/flake8",
+    "category": "linter"
+  },
+  {
+    "name": "pylint",
+    "repo": "pylint-dev/pylint",
+    "category": "linter"
+  },
+  {
+    "name": "bandit",
+    "repo": "PyCQA/bandit",
+    "category": "security"
+  },
+  {
+    "name": "safety",
+    "repo": "pyupio/safety",
+    "category": "security"
+  },
+  {
+    "name": "cryptography",
+    "repo": "pyca/cryptography",
+    "category": "crypto"
+  },
+  {
+    "name": "pyjwt",
+    "repo": "jpadilla/pyjwt",
+    "category": "auth"
+  },
+  {
+    "name": "passlib",
+    "repo": "ThirVondukr/passlib",
+    "category": "auth"
+  },
+  {
+    "name": "python-jose",
+    "repo": "mpdavis/python-jose",
+    "category": "auth"
+  },
+  {
+    "name": "authlib",
+    "repo": "lepture/authlib",
+    "category": "auth"
+  },
+  {
+    "name": "social-auth-core",
+    "repo": "python-social-auth/social-core",
+    "category": "auth"
+  },
+  {
+    "name": "oauthlib",
+    "repo": "oauthlib/oauthlib",
+    "category": "auth"
+  },
+  {
+    "name": "stripe",
+    "repo": "stripe/stripe-python",
+    "category": "payment"
+  },
+  {
+    "name": "twilio",
+    "repo": "twilio/twilio-python",
+    "category": "sms"
+  },
+  {
+    "name": "sendgrid",
+    "repo": "sendgrid/sendgrid-python",
+    "category": "email"
+  },
+  {
+    "name": "slack-sdk",
+    "repo": "slackapi/python-slack-sdk",
+    "category": "api"
+  },
+  {
+    "name": "discord-py",
+    "repo": "Rapptz/discord.py",
+    "category": "api"
+  },
+  {
+    "name": "python-telegram-bot",
+    "repo": "python-telegram-bot/python-telegram-bot",
+    "category": "api"
+  },
+  {
+    "name": "arrow",
+    "repo": "arrow-py/arrow",
+    "category": "date-time"
+  },
+  {
+    "name": "pendulum",
+    "repo": "sdispater/pendulum",
+    "category": "date-time"
+  },
+  {
+    "name": "python-dateutil",
+    "repo": "dateutil/dateutil",
+    "category": "date-time"
+  },
+  {
+    "name": "pytz",
+    "repo": "stub42/pytz",
+    "category": "date-time"
+  },
+  {
+    "name": "babel",
+    "repo": "python-babel/babel",
+    "category": "text"
+  },
+  {
+    "name": "jinja2",
+    "repo": "pallets/jinja",
+    "category": "template"
+  },
+  {
+    "name": "mako",
+    "repo": "sqlalchemy/mako",
+    "category": "template"
+  },
+  {
+    "name": "sphinx",
+    "repo": "sphinx-doc/sphinx",
+    "category": "documentation"
+  },
+  {
+    "name": "mkdocs",
+    "repo": "mkdocs/mkdocs",
+    "category": "documentation"
+  },
+  {
+    "name": "h5py",
+    "repo": "h5py/h5py",
+    "category": "file-processing"
+  },
+  {
+    "name": "openpyxl",
+    "repo": "fluidware/openpyxl",
+    "category": "excel"
+  },
+  {
+    "name": "xlsxwriter",
+    "repo": "jmcnamara/XlsxWriter",
+    "category": "excel"
+  },
+  {
+    "name": "python-pptx",
+    "repo": "scanny/python-pptx",
+    "category": "file-processing"
+  },
+  {
+    "name": "python-docx",
+    "repo": "python-openxml/python-docx",
+    "category": "file-processing"
+  },
+  {
+    "name": "reportlab",
+    "repo": "MrBitBucket/reportlab-mirror",
+    "category": "pdf"
+  },
+  {
+    "name": "pypdf",
+    "repo": "py-pdf/pypdf",
+    "category": "pdf"
+  },
+  {
+    "name": "camelot-py",
+    "repo": "camelot-dev/camelot",
+    "category": "pdf"
+  },
+  {
+    "name": "pdfplumber",
+    "repo": "jsvine/pdfplumber",
+    "category": "pdf"
+  },
+  {
+    "name": "graphviz",
+    "repo": "xflr6/graphviz",
+    "category": "visualization"
+  },
+  {
+    "name": "igraph",
+    "repo": "igraph/python-igraph",
+    "category": "scientific"
+  },
+  {
+    "name": "sentry-sdk",
+    "repo": "getsentry/sentry-python",
+    "category": "monitoring"
+  },
+  {
+    "name": "prometheus-client",
+    "repo": "prometheus/client_python",
+    "category": "monitoring"
+  },
+  {
+    "name": "setuptools",
+    "repo": "pypa/setuptools",
+    "category": "packaging"
+  },
+  {
+    "name": "poetry",
+    "repo": "python-poetry/poetry",
+    "category": "packaging"
+  },
+  {
+    "name": "hatch",
+    "repo": "pypa/hatch",
+    "category": "packaging"
+  },
+  {
+    "name": "pygments",
+    "repo": "pygments/pygments",
+    "category": "text"
+  },
+  {
+    "name": "pexpect",
+    "repo": "pexpect/pexpect",
+    "category": "automation"
+  },
+  {
+    "name": "watchdog",
+    "repo": "gorakhargosh/watchdog",
+    "category": "file-processing"
+  },
+  {
+    "name": "tqdm",
+    "repo": "tqdm/tqdm",
+    "category": "cli"
+  },
+  {
+    "name": "tenacity",
+    "repo": "jd/tenacity",
+    "category": "misc"
+  },
+  {
+    "name": "more-itertools",
+    "repo": "more-itertools/more-itertools",
+    "category": "misc"
+  },
+  {
+    "name": "nox",
+    "repo": "wntrblm/nox",
+    "category": "testing"
+  },
+  {
+    "name": "pre-commit",
+    "repo": "pre-commit/pre-commit",
+    "category": "dev-tools"
+  },
+  {
+    "name": "blinker",
+    "repo": "pallets-eco/blinker",
+    "category": "misc"
+  },
+  {
+    "name": "wrapt",
+    "repo": "GrahamDumpleton/wrapt",
+    "category": "misc"
+  },
+  {
+    "name": "decorator",
+    "repo": "micheles/decorator",
+    "category": "misc"
+  },
+  {
+    "name": "boltons",
+    "repo": "mahmoud/boltons",
+    "category": "misc"
+  },
+  {
+    "name": "toolz",
+    "repo": "pytoolz/toolz",
+    "category": "functional"
+  },
+  {
+    "name": "cytoolz",
+    "repo": "pytoolz/cytoolz",
+    "category": "functional"
+  },
+  {
+    "name": "funcy",
+    "repo": "Suor/funcy",
+    "category": "functional"
+  },
+  {
+    "name": "returns",
+    "repo": "dry-python/returns",
+    "category": "functional"
+  },
+  {
+    "name": "pyrsistent",
+    "repo": "tobgu/pyrsistent",
+    "category": "data-structures"
+  },
+  {
+    "name": "immutables",
+    "repo": "MagicStack/immutables",
+    "category": "data-structures"
+  },
+  {
+    "name": "frozendict",
+    "repo": "Marco-Sulla/python-frozendict",
+    "category": "data-structures"
+  },
+  {
+    "name": "sortedcontainers",
+    "repo": "grantjenks/python-sortedcontainers",
+    "category": "data-structures"
+  },
+  {
+    "name": "intervaltree",
+    "repo": "chaimleib/intervaltree",
+    "category": "data-structures"
+  },
+  {
+    "name": "bitarray",
+    "repo": "ilanschnell/bitarray",
+    "category": "data-structures"
+  },
+  {
+    "name": "ciso8601",
+    "repo": "closeio/ciso8601",
+    "category": "date-time"
+  },
+  {
+    "name": "tzdata",
+    "repo": "python/tzdata",
+    "category": "date-time"
+  },
+  {
+    "name": "backoff",
+    "repo": "litl/backoff",
+    "category": "misc"
+  },
+  {
+    "name": "stamina",
+    "repo": "hynek/stamina",
+    "category": "misc"
+  },
+  {
+    "name": "apscheduler",
+    "repo": "agronholm/apscheduler",
+    "category": "scheduling"
+  },
+  {
+    "name": "schedule",
+    "repo": "dbader/schedule",
+    "category": "scheduling"
+  },
+  {
+    "name": "dramatiq",
+    "repo": "Bogdanp/dramatiq",
+    "category": "task-queue"
+  },
+  {
+    "name": "arq",
+    "repo": "samuelcolvin/arq",
+    "category": "task-queue"
+  },
+  {
+    "name": "taskiq",
+    "repo": "taskiq-python/taskiq",
+    "category": "task-queue"
+  },
+  {
+    "name": "saq",
+    "repo": "tobymao/saq",
+    "category": "task-queue"
+  },
+  {
+    "name": "faststream",
+    "repo": "airtai/faststream",
+    "category": "messaging"
+  },
+  {
+    "name": "faust-streaming",
+    "repo": "faust-streaming/faust",
+    "category": "streaming"
+  },
+  {
+    "name": "confluent-kafka",
+    "repo": "confluentinc/confluent-kafka-python",
+    "category": "messaging"
+  },
+  {
+    "name": "pika",
+    "repo": "pika/pika",
+    "category": "messaging"
+  },
+  {
+    "name": "kombu",
+    "repo": "celery/kombu",
+    "category": "messaging"
+  },
+  {
+    "name": "aio-pika",
+    "repo": "mosquito/aio-pika",
+    "category": "messaging"
+  },
+  {
+    "name": "nats-py",
+    "repo": "nats-io/nats.py",
+    "category": "messaging"
+  },
+  {
+    "name": "pyzmq",
+    "repo": "zeromq/pyzmq",
+    "category": "messaging"
+  },
+  {
+    "name": "rpyc",
+    "repo": "tomerfiliba-org/rpyc",
+    "category": "rpc"
+  },
+  {
+    "name": "zeep",
+    "repo": "mvantellingen/python-zeep",
+    "category": "protocol"
+  },
+  {
+    "name": "httptools",
+    "repo": "MagicStack/httptools",
+    "category": "http-client"
+  },
+  {
+    "name": "websockets",
+    "repo": "python-websockets/websockets",
+    "category": "protocol"
+  },
+  {
+    "name": "wsproto",
+    "repo": "python-hyper/wsproto",
+    "category": "protocol"
+  },
+  {
+    "name": "litestar",
+    "repo": "litestar-org/litestar",
+    "category": "web-framework"
+  },
+  {
+    "name": "blacksheep",
+    "repo": "Neoteroi/BlackSheep",
+    "category": "web-framework"
+  },
+  {
+    "name": "robyn",
+    "repo": "sansyrox/robyn",
+    "category": "web-framework"
+  },
+  {
+    "name": "falcon",
+    "repo": "falconry/falcon",
+    "category": "web-framework"
+  },
+  {
+    "name": "bottle",
+    "repo": "bottlepy/bottle",
+    "category": "web-framework"
+  },
+  {
+    "name": "cherrypy",
+    "repo": "cherrypy/cherrypy",
+    "category": "web-framework"
+  },
+  {
+    "name": "pyramid",
+    "repo": "Pylons/pyramid",
+    "category": "web-framework"
+  },
+  {
+    "name": "connexion",
+    "repo": "spec-first/connexion",
+    "category": "api"
+  },
+  {
+    "name": "flask-restx",
+    "repo": "python-restx/flask-restx",
+    "category": "api"
+  },
+  {
+    "name": "flask-smorest",
+    "repo": "marshmallow-code/flask-smorest",
+    "category": "api"
+  },
+  {
+    "name": "flask-login",
+    "repo": "maxcountryman/flask-login",
+    "category": "auth"
+  },
+  {
+    "name": "flask-mail",
+    "repo": "mattupstate/flask-mail",
+    "category": "email"
+  },
+  {
+    "name": "flask-migrate",
+    "repo": "miguelgrinberg/Flask-Migrate",
+    "category": "database"
+  },
+  {
+    "name": "flask-sqlalchemy",
+    "repo": "pallets-eco/flask-sqlalchemy",
+    "category": "orm"
+  },
+  {
+    "name": "flask-caching",
+    "repo": "pallets-eco/flask-caching",
+    "category": "caching"
+  },
+  {
+    "name": "flask-cors",
+    "repo": "corydolphin/flask-cors",
+    "category": "web-framework"
+  },
+  {
+    "name": "flask-jwt-extended",
+    "repo": "vimalloc/flask-jwt-extended",
+    "category": "auth"
+  },
+  {
+    "name": "flask-socketio",
+    "repo": "miguelgrinberg/Flask-SocketIO",
+    "category": "web-framework"
+  },
+  {
+    "name": "django-allauth",
+    "repo": "pennersr/django-allauth",
+    "category": "auth"
+  },
+  {
+    "name": "django-cors-headers",
+    "repo": "adamchainz/django-cors-headers",
+    "category": "web-framework"
+  },
+  {
+    "name": "django-filter",
+    "repo": "carltongibson/django-filter",
+    "category": "web-framework"
+  },
+  {
+    "name": "django-celery-beat",
+    "repo": "celery/django-celery-beat",
+    "category": "task-queue"
+  },
+  {
+    "name": "django-debug-toolbar",
+    "repo": "jazzband/django-debug-toolbar",
+    "category": "dev-tools"
+  },
+  {
+    "name": "django-extensions",
+    "repo": "django-extensions/django-extensions",
+    "category": "web-framework"
+  },
+  {
+    "name": "django-guardian",
+    "repo": "django-guardian/django-guardian",
+    "category": "auth"
+  },
+  {
+    "name": "django-mptt",
+    "repo": "django-mptt/django-mptt",
+    "category": "web-framework"
+  },
+  {
+    "name": "django-storages",
+    "repo": "jschneier/django-storages",
+    "category": "web-framework"
+  },
+  {
+    "name": "django-channels",
+    "repo": "django/channels",
+    "category": "web-framework"
+  },
+  {
+    "name": "django-ninja",
+    "repo": "vitalik/django-ninja",
+    "category": "api"
+  },
+  {
+    "name": "django-environ",
+    "repo": "joke2k/django-environ",
+    "category": "config"
+  },
+  {
+    "name": "wagtail",
+    "repo": "wagtail/wagtail",
+    "category": "cms"
+  },
+  {
+    "name": "strawberry-graphql",
+    "repo": "strawberry-graphql/strawberry",
+    "category": "api"
+  },
+  {
+    "name": "ariadne",
+    "repo": "mirumee/ariadne",
+    "category": "api"
+  },
+  {
+    "name": "sgqlc",
+    "repo": "profusion/sgqlc",
+    "category": "api"
+  },
+  {
+    "name": "gql",
+    "repo": "graphql-python/gql",
+    "category": "api"
+  },
+  {
+    "name": "databases",
+    "repo": "encode/databases",
+    "category": "database"
+  },
+  {
+    "name": "piccolo",
+    "repo": "piccolo-orm/piccolo",
+    "category": "orm"
+  },
+  {
+    "name": "edgedb-python",
+    "repo": "edgedb/edgedb-python",
+    "category": "database"
+  },
+  {
+    "name": "cassandra-driver",
+    "repo": "datastax/python-driver",
+    "category": "database"
+  },
+  {
+    "name": "happybase",
+    "repo": "python-happybase/happybase",
+    "category": "database"
+  },
+  {
+    "name": "pymemcache",
+    "repo": "pinterest/pymemcache",
+    "category": "caching"
+  },
+  {
+    "name": "diskcache",
+    "repo": "grantjenks/python-diskcache",
+    "category": "caching"
+  },
+  {
+    "name": "cachetools",
+    "repo": "tkem/cachetools",
+    "category": "caching"
+  },
+  {
+    "name": "aiocache",
+    "repo": "aio-libs/aiocache",
+    "category": "caching"
+  },
+  {
+    "name": "filelock",
+    "repo": "tox-dev/py-filelock",
+    "category": "misc"
+  },
+  {
+    "name": "portalocker",
+    "repo": "WoLpH/portalocker",
+    "category": "misc"
+  },
+  {
+    "name": "joblib",
+    "repo": "joblib/joblib",
+    "category": "parallel"
+  },
+  {
+    "name": "loky",
+    "repo": "joblib/loky",
+    "category": "parallel"
+  },
+  {
+    "name": "dill",
+    "repo": "uqfoundation/dill",
+    "category": "serialization"
+  },
+  {
+    "name": "cloudpickle",
+    "repo": "cloudpipe/cloudpickle",
+    "category": "serialization"
+  },
+  {
+    "name": "lmdb",
+    "repo": "jnwatson/py-lmdb",
+    "category": "database"
+  },
+  {
+    "name": "ultrajson",
+    "repo": "ultrajson/ultrajson",
+    "category": "serialization"
+  },
+  {
+    "name": "simplejson",
+    "repo": "simplejson/simplejson",
+    "category": "serialization"
+  },
+  {
+    "name": "python-rapidjson",
+    "repo": "python-rapidjson/python-rapidjson",
+    "category": "serialization"
+  },
+  {
+    "name": "cbor2",
+    "repo": "agronholm/cbor2",
+    "category": "serialization"
+  },
+  {
+    "name": "fastavro",
+    "repo": "fastavro/fastavro",
+    "category": "serialization"
+  },
+  {
+    "name": "flatbuffers",
+    "repo": "google/flatbuffers",
+    "category": "serialization"
+  },
+  {
+    "name": "betterproto",
+    "repo": "danielgtaylor/python-betterproto",
+    "category": "serialization"
+  },
+  {
+    "name": "dataclasses-json",
+    "repo": "lidatong/dataclasses-json",
+    "category": "serialization"
+  },
+  {
+    "name": "cattrs",
+    "repo": "python-attrs/cattrs",
+    "category": "serialization"
+  },
+  {
+    "name": "dacite",
+    "repo": "konradhalas/dacite",
+    "category": "serialization"
+  },
+  {
+    "name": "cerberus",
+    "repo": "pyeve/cerberus",
+    "category": "validation"
+  },
+  {
+    "name": "voluptuous",
+    "repo": "alecthomas/voluptuous",
+    "category": "validation"
+  },
+  {
+    "name": "jsonschema",
+    "repo": "python-jsonschema/jsonschema",
+    "category": "validation"
+  },
+  {
+    "name": "fastjsonschema",
+    "repo": "horejsek/python-fastjsonschema",
+    "category": "validation"
+  },
+  {
+    "name": "pydantic-settings",
+    "repo": "pydantic/pydantic-settings",
+    "category": "config"
+  },
+  {
+    "name": "python-multipart",
+    "repo": "andrew-d/python-multipart",
+    "category": "http-client"
+  },
+  {
+    "name": "python-magic",
+    "repo": "ahupp/python-magic",
+    "category": "file-processing"
+  },
+  {
+    "name": "filetype",
+    "repo": "h2non/filetype.py",
+    "category": "file-processing"
+  },
+  {
+    "name": "chardet",
+    "repo": "chardet/chardet",
+    "category": "text"
+  },
+  {
+    "name": "charset-normalizer",
+    "repo": "Ousret/charset_normalizer",
+    "category": "text"
+  },
+  {
+    "name": "ftfy",
+    "repo": "rspeer/python-ftfy",
+    "category": "text"
+  },
+  {
+    "name": "unidecode",
+    "repo": "avian2/unidecode",
+    "category": "text"
+  },
+  {
+    "name": "python-slugify",
+    "repo": "un33k/python-slugify",
+    "category": "text"
+  },
+  {
+    "name": "deep-translator",
+    "repo": "nidhaloff/deep-translator",
+    "category": "nlp"
+  },
+  {
+    "name": "langdetect",
+    "repo": "Mimino666/langdetect",
+    "category": "nlp"
+  },
+  {
+    "name": "keybert",
+    "repo": "MaartenGr/KeyBERT",
+    "category": "nlp"
+  },
+  {
+    "name": "bertopic",
+    "repo": "MaartenGr/BERTopic",
+    "category": "nlp"
+  },
+  {
+    "name": "annoy",
+    "repo": "spotify/annoy",
+    "category": "ml"
+  },
+  {
+    "name": "faiss",
+    "repo": "facebookresearch/faiss",
+    "category": "ml"
+  },
+  {
+    "name": "hnswlib",
+    "repo": "nmslib/hnswlib",
+    "category": "ml"
+  },
+  {
+    "name": "chromadb",
+    "repo": "chroma-core/chroma",
+    "category": "database"
+  },
+  {
+    "name": "weaviate-client",
+    "repo": "weaviate/weaviate-python-client",
+    "category": "database"
+  },
+  {
+    "name": "qdrant-client",
+    "repo": "qdrant/qdrant-client",
+    "category": "database"
+  },
+  {
+    "name": "pinecone-client",
+    "repo": "pinecone-io/pinecone-python-client",
+    "category": "database"
+  },
+  {
+    "name": "pymilvus",
+    "repo": "milvus-io/pymilvus",
+    "category": "database"
+  },
+  {
+    "name": "pgvector",
+    "repo": "pgvector/pgvector-python",
+    "category": "database"
+  },
+  {
+    "name": "sqlparse",
+    "repo": "andialbrecht/sqlparse",
+    "category": "database"
+  },
+  {
+    "name": "mimesis",
+    "repo": "lk-geimfari/mimesis",
+    "category": "testing"
+  },
+  {
+    "name": "polyfactory",
+    "repo": "litestar-org/polyfactory",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-asyncio",
+    "repo": "pytest-dev/pytest-asyncio",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-cov",
+    "repo": "pytest-dev/pytest-cov",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-mock",
+    "repo": "pytest-dev/pytest-mock",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-xdist",
+    "repo": "pytest-dev/pytest-xdist",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-benchmark",
+    "repo": "ionelmc/pytest-benchmark",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-bdd",
+    "repo": "pytest-dev/pytest-bdd",
+    "category": "testing"
+  },
+  {
+    "name": "behave",
+    "repo": "behave/behave",
+    "category": "testing"
+  },
+  {
+    "name": "robotframework",
+    "repo": "robotframework/robotframework",
+    "category": "testing"
+  },
+  {
+    "name": "locust",
+    "repo": "locustio/locust",
+    "category": "testing"
+  },
+  {
+    "name": "responses",
+    "repo": "getsentry/responses",
+    "category": "testing"
+  },
+  {
+    "name": "respx",
+    "repo": "lundberg/respx",
+    "category": "testing"
+  },
+  {
+    "name": "vcrpy",
+    "repo": "kevin1024/vcrpy",
+    "category": "testing"
+  },
+  {
+    "name": "trustme",
+    "repo": "python-trio/trustme",
+    "category": "testing"
+  },
+  {
+    "name": "time-machine",
+    "repo": "adamchainz/time-machine",
+    "category": "testing"
+  },
+  {
+    "name": "freezegun",
+    "repo": "spulec/freezegun",
+    "category": "testing"
+  },
+  {
+    "name": "icecream",
+    "repo": "gruns/icecream",
+    "category": "dev-tools"
+  },
+  {
+    "name": "objgraph",
+    "repo": "mgedmin/objgraph",
+    "category": "profiling"
+  },
+  {
+    "name": "memory-profiler",
+    "repo": "pythonprofilers/memory_profiler",
+    "category": "profiling"
+  },
+  {
+    "name": "line-profiler",
+    "repo": "pyutils/line_profiler",
+    "category": "profiling"
+  },
+  {
+    "name": "py-spy",
+    "repo": "benfred/py-spy",
+    "category": "profiling"
+  },
+  {
+    "name": "scalene",
+    "repo": "plasma-umass/scalene",
+    "category": "profiling"
+  },
+  {
+    "name": "viztracer",
+    "repo": "gaogaotiantian/viztracer",
+    "category": "profiling"
+  },
+  {
+    "name": "yappi",
+    "repo": "sumerc/yappi",
+    "category": "profiling"
+  },
+  {
+    "name": "pyinstrument",
+    "repo": "joerick/pyinstrument",
+    "category": "profiling"
+  },
+  {
+    "name": "memray",
+    "repo": "bloomberg/memray",
+    "category": "profiling"
+  },
+  {
+    "name": "ward",
+    "repo": "darrenburns/ward",
+    "category": "testing"
+  },
+  {
+    "name": "pdbpp",
+    "repo": "pdbpp/pdbpp",
+    "category": "dev-tools"
+  },
+  {
+    "name": "ipdb",
+    "repo": "gotcha/ipdb",
+    "category": "dev-tools"
+  },
+  {
+    "name": "pudb",
+    "repo": "inducer/pudb",
+    "category": "dev-tools"
+  },
+  {
+    "name": "devtools",
+    "repo": "samuelcolvin/python-devtools",
+    "category": "dev-tools"
+  },
+  {
+    "name": "psutil",
+    "repo": "giampaolo/psutil",
+    "category": "system"
+  },
+  {
+    "name": "sh",
+    "repo": "amoffat/sh",
+    "category": "system"
+  },
+  {
+    "name": "plumbum",
+    "repo": "tomerfiliba/plumbum",
+    "category": "system"
+  },
+  {
+    "name": "delegator",
+    "repo": "amitt001/delegator.py",
+    "category": "system"
+  },
+  {
+    "name": "supervisor",
+    "repo": "Supervisor/supervisor",
+    "category": "system"
+  },
+  {
+    "name": "circus",
+    "repo": "circus-tent/circus",
+    "category": "system"
+  },
+  {
+    "name": "uvloop",
+    "repo": "MagicStack/uvloop",
+    "category": "async"
+  },
+  {
+    "name": "curio",
+    "repo": "dabeaz/curio",
+    "category": "async"
+  },
+  {
+    "name": "gevent",
+    "repo": "gevent/gevent",
+    "category": "async"
+  },
+  {
+    "name": "eventlet",
+    "repo": "eventlet/eventlet",
+    "category": "async"
+  },
+  {
+    "name": "twisted",
+    "repo": "twisted/twisted",
+    "category": "async"
+  },
+  {
+    "name": "asgiref",
+    "repo": "django/asgiref",
+    "category": "web-framework"
+  },
+  {
+    "name": "whitenoise",
+    "repo": "evansd/whitenoise",
+    "category": "web-framework"
+  },
+  {
+    "name": "werkzeug",
+    "repo": "pallets/werkzeug",
+    "category": "web-framework"
+  },
+  {
+    "name": "itsdangerous",
+    "repo": "pallets/itsdangerous",
+    "category": "crypto"
+  },
+  {
+    "name": "markupsafe",
+    "repo": "pallets/markupsafe",
+    "category": "text"
+  },
+  {
+    "name": "certifi",
+    "repo": "certifi/python-certifi",
+    "category": "security"
+  },
+  {
+    "name": "idna",
+    "repo": "kjd/idna",
+    "category": "network"
+  },
+  {
+    "name": "multidict",
+    "repo": "aio-libs/multidict",
+    "category": "data-structures"
+  },
+  {
+    "name": "yarl",
+    "repo": "aio-libs/yarl",
+    "category": "http-client"
+  },
+  {
+    "name": "aiofiles",
+    "repo": "Tinche/aiofiles",
+    "category": "async"
+  },
+  {
+    "name": "aioresponses",
+    "repo": "pnuckowski/aioresponses",
+    "category": "testing"
+  },
+  {
+    "name": "httpbin",
+    "repo": "postmanlabs/httpbin",
+    "category": "testing"
+  },
+  {
+    "name": "moto",
+    "repo": "getmoto/moto",
+    "category": "testing"
+  },
+  {
+    "name": "localstack",
+    "repo": "localstack/localstack",
+    "category": "testing"
+  },
+  {
+    "name": "cookiecutter",
+    "repo": "cookiecutter/cookiecutter",
+    "category": "dev-tools"
+  },
+  {
+    "name": "copier",
+    "repo": "copier-org/copier",
+    "category": "dev-tools"
+  },
+  {
+    "name": "bump2version",
+    "repo": "c4urself/bump2version",
+    "category": "dev-tools"
+  },
+  {
+    "name": "towncrier",
+    "repo": "twisted/towncrier",
+    "category": "dev-tools"
+  },
+  {
+    "name": "flit",
+    "repo": "pypa/flit",
+    "category": "packaging"
+  },
+  {
+    "name": "pdm",
+    "repo": "pdm-project/pdm",
+    "category": "packaging"
+  },
+  {
+    "name": "pipx",
+    "repo": "pypa/pipx",
+    "category": "packaging"
+  },
+  {
+    "name": "twine",
+    "repo": "pypa/twine",
+    "category": "packaging"
+  },
+  {
+    "name": "build",
+    "repo": "pypa/build",
+    "category": "packaging"
+  },
+  {
+    "name": "wheel",
+    "repo": "pypa/wheel",
+    "category": "packaging"
+  },
+  {
+    "name": "maturin",
+    "repo": "PyO3/maturin",
+    "category": "packaging"
+  },
+  {
+    "name": "pyo3",
+    "repo": "PyO3/pyo3",
+    "category": "misc"
+  },
+  {
+    "name": "cffi",
+    "repo": "python-cffi/cffi",
+    "category": "misc"
+  },
+  {
+    "name": "ctypes",
+    "repo": "python/cpython",
+    "category": "misc"
+  },
+  {
+    "name": "cython",
+    "repo": "cython/cython",
+    "category": "misc"
+  },
+  {
+    "name": "numba",
+    "repo": "numba/numba",
+    "category": "scientific"
+  },
+  {
+    "name": "geopandas",
+    "repo": "geopandas/geopandas",
+    "category": "geospatial"
+  },
+  {
+    "name": "shapely",
+    "repo": "shapely/shapely",
+    "category": "geospatial"
+  },
+  {
+    "name": "fiona",
+    "repo": "Toblerity/Fiona",
+    "category": "geospatial"
+  },
+  {
+    "name": "rasterio",
+    "repo": "rasterio/rasterio",
+    "category": "geospatial"
+  },
+  {
+    "name": "pyproj",
+    "repo": "pyproj4/pyproj",
+    "category": "geospatial"
+  },
+  {
+    "name": "folium",
+    "repo": "python-visualization/folium",
+    "category": "geospatial"
+  },
+  {
+    "name": "geopy",
+    "repo": "geopy/geopy",
+    "category": "geospatial"
+  },
+  {
+    "name": "osmnx",
+    "repo": "gboeing/osmnx",
+    "category": "geospatial"
+  },
+  {
+    "name": "h3-py",
+    "repo": "uber/h3-py",
+    "category": "geospatial"
+  },
+  {
+    "name": "keplergl",
+    "repo": "keplergl/kepler.gl",
+    "category": "geospatial"
+  },
+  {
+    "name": "pydeck",
+    "repo": "visgl/deck.gl",
+    "category": "geospatial"
+  },
+  {
+    "name": "geoalchemy2",
+    "repo": "geoalchemy/geoalchemy2",
+    "category": "geospatial"
+  },
+  {
+    "name": "astropy",
+    "repo": "astropy/astropy",
+    "category": "astronomy"
+  },
+  {
+    "name": "sunpy",
+    "repo": "sunpy/sunpy",
+    "category": "astronomy"
+  },
+  {
+    "name": "skyfield",
+    "repo": "skyfielders/python-skyfield",
+    "category": "astronomy"
+  },
+  {
+    "name": "ephem",
+    "repo": "brandon-rhodes/pyephem",
+    "category": "astronomy"
+  },
+  {
+    "name": "healpy",
+    "repo": "healpy/healpy",
+    "category": "astronomy"
+  },
+  {
+    "name": "biopython",
+    "repo": "biopython/biopython",
+    "category": "bioinformatics"
+  },
+  {
+    "name": "pysam",
+    "repo": "pysam-developers/pysam",
+    "category": "bioinformatics"
+  },
+  {
+    "name": "scanpy",
+    "repo": "scverse/scanpy",
+    "category": "bioinformatics"
+  },
+  {
+    "name": "anndata",
+    "repo": "scverse/anndata",
+    "category": "bioinformatics"
+  },
+  {
+    "name": "scvi-tools",
+    "repo": "scverse/scvi-tools",
+    "category": "bioinformatics"
+  },
+  {
+    "name": "rdkit",
+    "repo": "rdkit/rdkit",
+    "category": "chemistry"
+  },
+  {
+    "name": "ase",
+    "repo": "rosswhitfield/ase",
+    "category": "chemistry"
+  },
+  {
+    "name": "pymatgen",
+    "repo": "materialsproject/pymatgen",
+    "category": "chemistry"
+  },
+  {
+    "name": "cclib",
+    "repo": "cclib/cclib",
+    "category": "chemistry"
+  },
+  {
+    "name": "mendeleev",
+    "repo": "lmmentel/mendeleev",
+    "category": "chemistry"
+  },
+  {
+    "name": "pint",
+    "repo": "hgrecco/pint",
+    "category": "physics"
+  },
+  {
+    "name": "uncertainties",
+    "repo": "lmfit/uncertainties",
+    "category": "physics"
+  },
+  {
+    "name": "openmc",
+    "repo": "openmc-dev/openmc",
+    "category": "physics"
+  },
+  {
+    "name": "fenics",
+    "repo": "FEniCS/dolfinx",
+    "category": "physics"
+  },
+  {
+    "name": "dedalus",
+    "repo": "DedalusProject/dedalus",
+    "category": "physics"
+  },
+  {
+    "name": "pybullet",
+    "repo": "bulletphysics/bullet3",
+    "category": "robotics"
+  },
+  {
+    "name": "gymnasium",
+    "repo": "Farama-Foundation/Gymnasium",
+    "category": "robotics"
+  },
+  {
+    "name": "stable-baselines3",
+    "repo": "DLR-RM/stable-baselines3",
+    "category": "robotics"
+  },
+  {
+    "name": "sb3-contrib",
+    "repo": "Stable-Baselines-Team/stable-baselines3-contrib",
+    "category": "robotics"
+  },
+  {
+    "name": "imitation",
+    "repo": "HumanCompatibleAI/imitation",
+    "category": "robotics"
+  },
+  {
+    "name": "tianshou",
+    "repo": "thu-ml/tianshou",
+    "category": "robotics"
+  },
+  {
+    "name": "cleanrl",
+    "repo": "vwxyzjn/cleanrl",
+    "category": "robotics"
+  },
+  {
+    "name": "sample-factory",
+    "repo": "alex-petrenko/sample-factory",
+    "category": "robotics"
+  },
+  {
+    "name": "librosa",
+    "repo": "librosa/librosa",
+    "category": "signal-processing"
+  },
+  {
+    "name": "soundfile",
+    "repo": "bastibe/python-soundfile",
+    "category": "signal-processing"
+  },
+  {
+    "name": "sounddevice",
+    "repo": "spatialaudio/python-sounddevice",
+    "category": "signal-processing"
+  },
+  {
+    "name": "pydub",
+    "repo": "jiaaro/pydub",
+    "category": "signal-processing"
+  },
+  {
+    "name": "pedalboard",
+    "repo": "spotify/pedalboard",
+    "category": "signal-processing"
+  },
+  {
+    "name": "audiocraft",
+    "repo": "facebookresearch/audiocraft",
+    "category": "signal-processing"
+  },
+  {
+    "name": "bark",
+    "repo": "suno-ai/bark",
+    "category": "signal-processing"
+  },
+  {
+    "name": "coqui-tts",
+    "repo": "coqui-ai/TTS",
+    "category": "signal-processing"
+  },
+  {
+    "name": "whisperx",
+    "repo": "m-bain/whisperX",
+    "category": "signal-processing"
+  },
+  {
+    "name": "faster-whisper",
+    "repo": "SYSTRAN/faster-whisper",
+    "category": "signal-processing"
+  },
+  {
+    "name": "nemo-toolkit",
+    "repo": "NVIDIA/NeMo",
+    "category": "signal-processing"
+  },
+  {
+    "name": "detectron2",
+    "repo": "facebookresearch/detectron2",
+    "category": "computer-vision"
+  },
+  {
+    "name": "mmdetection",
+    "repo": "open-mmlab/mmdetection",
+    "category": "computer-vision"
+  },
+  {
+    "name": "mmpose",
+    "repo": "open-mmlab/mmpose",
+    "category": "computer-vision"
+  },
+  {
+    "name": "mmsegmentation",
+    "repo": "open-mmlab/mmsegmentation",
+    "category": "computer-vision"
+  },
+  {
+    "name": "ultralytics",
+    "repo": "ultralytics/ultralytics",
+    "category": "computer-vision"
+  },
+  {
+    "name": "supervision",
+    "repo": "roboflow/supervision",
+    "category": "computer-vision"
+  },
+  {
+    "name": "kornia",
+    "repo": "kornia/kornia",
+    "category": "computer-vision"
+  },
+  {
+    "name": "timm",
+    "repo": "huggingface/pytorch-image-models",
+    "category": "computer-vision"
+  },
+  {
+    "name": "open-clip",
+    "repo": "mlfoundations/open_clip",
+    "category": "computer-vision"
+  },
+  {
+    "name": "segment-anything",
+    "repo": "facebookresearch/segment-anything",
+    "category": "computer-vision"
+  },
+  {
+    "name": "open3d",
+    "repo": "isl-org/Open3D",
+    "category": "3d-graphics"
+  },
+  {
+    "name": "trimesh",
+    "repo": "mikedh/trimesh",
+    "category": "3d-graphics"
+  },
+  {
+    "name": "pyvista",
+    "repo": "pyvista/pyvista",
+    "category": "3d-graphics"
+  },
+  {
+    "name": "vtk",
+    "repo": "Kitware/VTK",
+    "category": "3d-graphics"
+  },
+  {
+    "name": "mayavi",
+    "repo": "enthought/mayavi",
+    "category": "3d-graphics"
+  },
+  {
+    "name": "pyglet",
+    "repo": "pyglet/pyglet",
+    "category": "3d-graphics"
+  },
+  {
+    "name": "moderngl",
+    "repo": "moderngl/moderngl",
+    "category": "3d-graphics"
+  },
+  {
+    "name": "vispy",
+    "repo": "vispy/vispy",
+    "category": "3d-graphics"
+  },
+  {
+    "name": "fpdf2",
+    "repo": "py-pdf/fpdf2",
+    "category": "pdf-document"
+  },
+  {
+    "name": "weasyprint",
+    "repo": "Kozea/WeasyPrint",
+    "category": "pdf-document"
+  },
+  {
+    "name": "xhtml2pdf",
+    "repo": "xhtml2pdf/xhtml2pdf",
+    "category": "pdf-document"
+  },
+  {
+    "name": "img2pdf",
+    "repo": "josch/img2pdf",
+    "category": "pdf-document"
+  },
+  {
+    "name": "ocrmypdf",
+    "repo": "ocrmypdf/OCRmyPDF",
+    "category": "pdf-document"
+  },
+  {
+    "name": "pytesseract",
+    "repo": "madmaze/pytesseract",
+    "category": "pdf-document"
+  },
+  {
+    "name": "easyocr",
+    "repo": "JaidedAI/EasyOCR",
+    "category": "pdf-document"
+  },
+  {
+    "name": "paddleocr",
+    "repo": "PaddlePaddle/PaddleOCR",
+    "category": "pdf-document"
+  },
+  {
+    "name": "surya",
+    "repo": "VikParuchuri/surya",
+    "category": "pdf-document"
+  },
+  {
+    "name": "doctr",
+    "repo": "mindee/doctr",
+    "category": "pdf-document"
+  },
+  {
+    "name": "unstructured",
+    "repo": "Unstructured-IO/unstructured",
+    "category": "pdf-document"
+  },
+  {
+    "name": "marker",
+    "repo": "VikParuchuri/marker",
+    "category": "pdf-document"
+  },
+  {
+    "name": "parsel",
+    "repo": "scrapy/parsel",
+    "category": "web-scraping"
+  },
+  {
+    "name": "selectolax",
+    "repo": "rushter/selectolax",
+    "category": "web-scraping"
+  },
+  {
+    "name": "h11",
+    "repo": "python-hyper/h11",
+    "category": "web-scraping"
+  },
+  {
+    "name": "h2",
+    "repo": "python-hyper/h2",
+    "category": "web-scraping"
+  },
+  {
+    "name": "curl-cffi",
+    "repo": "yifeikong/curl_cffi",
+    "category": "web-scraping"
+  },
+  {
+    "name": "cloudscraper",
+    "repo": "VeNoMouS/cloudscraper",
+    "category": "web-scraping"
+  },
+  {
+    "name": "mechanicalsoup",
+    "repo": "MechanicalSoup/MechanicalSoup",
+    "category": "web-scraping"
+  },
+  {
+    "name": "pyppeteer",
+    "repo": "pyppeteer/pyppeteer",
+    "category": "web-scraping"
+  },
+  {
+    "name": "crawl4ai",
+    "repo": "unclecode/crawl4ai",
+    "category": "web-scraping"
+  },
+  {
+    "name": "aiodns",
+    "repo": "saghul/aiodns",
+    "category": "async"
+  },
+  {
+    "name": "aiosmtplib",
+    "repo": "cole/aiosmtplib",
+    "category": "async"
+  },
+  {
+    "name": "aiobotocore",
+    "repo": "aio-libs/aiobotocore",
+    "category": "async"
+  },
+  {
+    "name": "great-tables",
+    "repo": "posit-dev/great-tables",
+    "category": "data-validation"
+  },
+  {
+    "name": "datacompy",
+    "repo": "capitalone/datacompy",
+    "category": "data-validation"
+  },
+  {
+    "name": "whylogs",
+    "repo": "whylabs/whylogs",
+    "category": "data-validation"
+  },
+  {
+    "name": "evidently",
+    "repo": "evidentlyai/evidently",
+    "category": "data-validation"
+  },
+  {
+    "name": "deepchecks",
+    "repo": "deepchecks/deepchecks",
+    "category": "data-validation"
+  },
+  {
+    "name": "alibi-detect",
+    "repo": "SeldonDev/alibi-detect",
+    "category": "data-validation"
+  },
+  {
+    "name": "nannyml",
+    "repo": "NannyML/nannyml",
+    "category": "data-validation"
+  },
+  {
+    "name": "neptune",
+    "repo": "neptune-ai/neptune-client",
+    "category": "experiment-tracking"
+  },
+  {
+    "name": "comet-ml",
+    "repo": "comet-ml/comet-ml",
+    "category": "experiment-tracking"
+  },
+  {
+    "name": "aim",
+    "repo": "aimhubio/aim",
+    "category": "experiment-tracking"
+  },
+  {
+    "name": "clearml",
+    "repo": "allegroai/clearml",
+    "category": "experiment-tracking"
+  },
+  {
+    "name": "determined",
+    "repo": "determined-ai/determined",
+    "category": "experiment-tracking"
+  },
+  {
+    "name": "bentoml",
+    "repo": "bentoml/BentoML",
+    "category": "model-serving"
+  },
+  {
+    "name": "mlserver",
+    "repo": "SeldonDev/MLServer",
+    "category": "model-serving"
+  },
+  {
+    "name": "torchserve",
+    "repo": "pytorch/serve",
+    "category": "model-serving"
+  },
+  {
+    "name": "litserve",
+    "repo": "Lightning-AI/LitServe",
+    "category": "model-serving"
+  },
+  {
+    "name": "fastembed",
+    "repo": "qdrant/fastembed",
+    "category": "model-serving"
+  },
+  {
+    "name": "semantic-kernel",
+    "repo": "microsoft/semantic-kernel",
+    "category": "llm-tools"
+  },
+  {
+    "name": "haystack",
+    "repo": "deepset-ai/haystack",
+    "category": "llm-tools"
+  },
+  {
+    "name": "txtai",
+    "repo": "neuml/txtai",
+    "category": "llm-tools"
+  },
+  {
+    "name": "ragas",
+    "repo": "explodinggradients/ragas",
+    "category": "llm-tools"
+  },
+  {
+    "name": "phoenix-arize",
+    "repo": "Arize-ai/phoenix",
+    "category": "llm-tools"
+  },
+  {
+    "name": "guardrails-ai",
+    "repo": "guardrails-ai/guardrails",
+    "category": "llm-tools"
+  },
+  {
+    "name": "nemoguardrails",
+    "repo": "NVIDIA/NeMo-Guardrails",
+    "category": "llm-tools"
+  },
+  {
+    "name": "llm-guard",
+    "repo": "protectai/llm-guard",
+    "category": "llm-tools"
+  },
+  {
+    "name": "hamilton",
+    "repo": "DAGWorks-Inc/hamilton",
+    "category": "workflow"
+  },
+  {
+    "name": "metaflow",
+    "repo": "Netflix/metaflow",
+    "category": "workflow"
+  },
+  {
+    "name": "flyte",
+    "repo": "flyteorg/flytekit",
+    "category": "workflow"
+  },
+  {
+    "name": "zenml",
+    "repo": "zenml-io/zenml",
+    "category": "workflow"
+  },
+  {
+    "name": "kedro",
+    "repo": "kedro-org/kedro",
+    "category": "workflow"
+  },
+  {
+    "name": "ploomber",
+    "repo": "ploomber/ploomber",
+    "category": "workflow"
+  },
+  {
+    "name": "soda-core",
+    "repo": "sodadata/soda-core",
+    "category": "data-engineering"
+  },
+  {
+    "name": "dbt-core",
+    "repo": "dbt-labs/dbt-core",
+    "category": "data-engineering"
+  },
+  {
+    "name": "sqlmesh",
+    "repo": "TobikoData/sqlmesh",
+    "category": "data-engineering"
+  },
+  {
+    "name": "sqlglot",
+    "repo": "tobymao/sqlglot",
+    "category": "data-engineering"
+  },
+  {
+    "name": "ibis",
+    "repo": "ibis-project/ibis",
+    "category": "data-engineering"
+  },
+  {
+    "name": "fugue",
+    "repo": "fugue-project/fugue",
+    "category": "data-engineering"
+  },
+  {
+    "name": "datafusion",
+    "repo": "apache/datafusion-python",
+    "category": "data-engineering"
+  },
+  {
+    "name": "connectorx",
+    "repo": "sfu-db/connector-x",
+    "category": "data-engineering"
+  },
+  {
+    "name": "deltalake",
+    "repo": "delta-io/delta-rs",
+    "category": "data-engineering"
+  },
+  {
+    "name": "pygame",
+    "repo": "pygame/pygame",
+    "category": "game-development"
+  },
+  {
+    "name": "arcade",
+    "repo": "pythonarcade/arcade",
+    "category": "game-development"
+  },
+  {
+    "name": "ursina",
+    "repo": "pokepetter/ursina",
+    "category": "game-development"
+  },
+  {
+    "name": "panda3d",
+    "repo": "panda3d/panda3d",
+    "category": "game-development"
+  },
+  {
+    "name": "manim",
+    "repo": "ManimCommunity/manim",
+    "category": "animation"
+  },
+  {
+    "name": "moviepy",
+    "repo": "Zulko/moviepy",
+    "category": "video-processing"
+  },
+  {
+    "name": "ffmpeg-python",
+    "repo": "kkroening/ffmpeg-python",
+    "category": "video-processing"
+  },
+  {
+    "name": "vidgear",
+    "repo": "abhiTronix/vidgear",
+    "category": "video-processing"
+  },
+  {
+    "name": "av",
+    "repo": "PyAV-Org/PyAV",
+    "category": "video-processing"
+  },
+  {
+    "name": "pyautogui",
+    "repo": "asweigart/pyautogui",
+    "category": "automation"
+  },
+  {
+    "name": "keyboard",
+    "repo": "boppreh/keyboard",
+    "category": "automation"
+  },
+  {
+    "name": "pyperclip",
+    "repo": "asweigart/pyperclip",
+    "category": "automation"
+  },
+  {
+    "name": "pyqt5",
+    "repo": "PyQt5/PyQt",
+    "category": "gui"
+  },
+  {
+    "name": "pyside6",
+    "repo": "qt/qtforpython",
+    "category": "gui"
+  },
+  {
+    "name": "kivy",
+    "repo": "kivy/kivy",
+    "category": "gui"
+  },
+  {
+    "name": "wxpython",
+    "repo": "wxWidgets/Phoenix",
+    "category": "gui"
+  },
+  {
+    "name": "dearpygui",
+    "repo": "hoffstadt/DearPyGui",
+    "category": "gui"
+  },
+  {
+    "name": "flet",
+    "repo": "flet-dev/flet",
+    "category": "gui"
+  },
+  {
+    "name": "customtkinter",
+    "repo": "TomSchimansky/CustomTkinter",
+    "category": "gui"
+  },
+  {
+    "name": "mpmath",
+    "repo": "mpmath/mpmath",
+    "category": "mathematics"
+  },
+  {
+    "name": "gekko",
+    "repo": "BYU-PRISM/GEKKO",
+    "category": "mathematics"
+  },
+  {
+    "name": "cvxpy",
+    "repo": "cvxpy/cvxpy",
+    "category": "mathematics"
+  },
+  {
+    "name": "pyomo",
+    "repo": "Pyomo/pyomo",
+    "category": "mathematics"
+  },
+  {
+    "name": "scikit-image",
+    "repo": "scikit-image/scikit-image",
+    "category": "image-processing"
+  },
+  {
+    "name": "imageio",
+    "repo": "imageio/imageio",
+    "category": "image-processing"
+  },
+  {
+    "name": "scikit-optimize",
+    "repo": "scikit-optimize/scikit-optimize",
+    "category": "optimization"
+  },
+  {
+    "name": "nevergrad",
+    "repo": "facebookresearch/nevergrad",
+    "category": "optimization"
+  },
+  {
+    "name": "hyperopt",
+    "repo": "hyperopt/hyperopt",
+    "category": "optimization"
+  },
+  {
+    "name": "pygmo",
+    "repo": "esa/pygmo2",
+    "category": "optimization"
+  },
+  {
+    "name": "deap",
+    "repo": "DEAP/deap",
+    "category": "optimization"
+  },
+  {
+    "name": "pybind11",
+    "repo": "pybind/pybind11",
+    "category": "performance"
+  },
+  {
+    "name": "nuitka",
+    "repo": "Nuitka/Nuitka",
+    "category": "performance"
+  },
+  {
+    "name": "pyinstaller",
+    "repo": "pyinstaller/pyinstaller",
+    "category": "packaging"
+  },
+  {
+    "name": "briefcase",
+    "repo": "beeware/briefcase",
+    "category": "packaging"
+  },
+  {
+    "name": "cx-freeze",
+    "repo": "marcelotduarte/cx_Freeze",
+    "category": "packaging"
+  },
+  {
+    "name": "python-igraph",
+    "repo": "igraph/python-igraph",
+    "category": "graph"
+  },
+  {
+    "name": "graph-tool",
+    "repo": "count0/graph-tool",
+    "category": "graph"
+  },
+  {
+    "name": "pyvis",
+    "repo": "WestHealth/pyvis",
+    "category": "graph"
+  },
+  {
+    "name": "stanza",
+    "repo": "stanfordnlp/stanza",
+    "category": "nlp"
+  },
+  {
+    "name": "textblob",
+    "repo": "sloria/TextBlob",
+    "category": "nlp"
+  },
+  {
+    "name": "sumy",
+    "repo": "miso-belica/sumy",
+    "category": "nlp"
+  },
+  {
+    "name": "newspaper3k",
+    "repo": "codelucas/newspaper",
+    "category": "nlp"
+  },
+  {
+    "name": "trafilatura",
+    "repo": "adbar/trafilatura",
+    "category": "nlp"
+  },
+  {
+    "name": "ydata-profiling",
+    "repo": "ydataai/ydata-profiling",
+    "category": "data-quality"
+  },
+  {
+    "name": "sweetviz",
+    "repo": "fbdesignpro/sweetviz",
+    "category": "data-quality"
+  },
+  {
+    "name": "missingno",
+    "repo": "ResidentMario/missingno",
+    "category": "data-quality"
+  },
+  {
+    "name": "prophet",
+    "repo": "facebook/prophet",
+    "category": "time-series"
+  },
+  {
+    "name": "statsforecast",
+    "repo": "Nixtla/statsforecast",
+    "category": "time-series"
+  },
+  {
+    "name": "neuralforecast",
+    "repo": "Nixtla/neuralforecast",
+    "category": "time-series"
+  },
+  {
+    "name": "sktime",
+    "repo": "sktime/sktime",
+    "category": "time-series"
+  },
+  {
+    "name": "tslearn",
+    "repo": "tslearn-team/tslearn",
+    "category": "time-series"
+  },
+  {
+    "name": "darts",
+    "repo": "unit8co/darts",
+    "category": "time-series"
+  },
+  {
+    "name": "tsfresh",
+    "repo": "blue-yonder/tsfresh",
+    "category": "time-series"
+  },
+  {
+    "name": "arch",
+    "repo": "bashtage/arch",
+    "category": "finance"
+  },
+  {
+    "name": "zipline-reloaded",
+    "repo": "stefan-jansen/zipline-reloaded",
+    "category": "finance"
+  },
+  {
+    "name": "backtrader",
+    "repo": "mementum/backtrader",
+    "category": "finance"
+  },
+  {
+    "name": "yfinance",
+    "repo": "ranaroussi/yfinance",
+    "category": "finance"
+  },
+  {
+    "name": "ta-lib",
+    "repo": "TA-Lib/ta-lib-python",
+    "category": "finance"
+  },
+  {
+    "name": "quantlib",
+    "repo": "lballabio/QuantLib-SWIG",
+    "category": "finance"
+  },
+  {
+    "name": "pyqt6",
+    "repo": "riverbank/pyqt6",
+    "category": "gui"
+  },
+  {
+    "name": "pygobject",
+    "repo": "GNOME/pygobject",
+    "category": "gui"
+  },
+  {
+    "name": "toga",
+    "repo": "beeware/toga",
+    "category": "gui"
+  },
+  {
+    "name": "pywebview",
+    "repo": "nicegui-org/pywebview",
+    "category": "gui"
+  },
+  {
+    "name": "eel",
+    "repo": "python-eel/Eel",
+    "category": "gui"
+  },
+  {
+    "name": "pywebio",
+    "repo": "pywebio/PyWebIO",
+    "category": "gui"
+  },
+  {
+    "name": "ttkbootstrap",
+    "repo": "israel-dryer/ttkbootstrap",
+    "category": "gui"
+  },
+  {
+    "name": "pyxel",
+    "repo": "kitao/pyxel",
+    "category": "game-dev"
+  },
+  {
+    "name": "ppb",
+    "repo": "ppb/pursuedpybear",
+    "category": "game-dev"
+  },
+  {
+    "name": "pyserial",
+    "repo": "pyserial/pyserial",
+    "category": "embedded-hardware"
+  },
+  {
+    "name": "pyusb",
+    "repo": "pyusb/pyusb",
+    "category": "embedded-hardware"
+  },
+  {
+    "name": "gpiozero",
+    "repo": "gpiozero/gpiozero",
+    "category": "embedded-hardware"
+  },
+  {
+    "name": "adafruit-blinka",
+    "repo": "adafruit/Adafruit_Blinka",
+    "category": "embedded-hardware"
+  },
+  {
+    "name": "spidev",
+    "repo": "doceme/py-spidev",
+    "category": "embedded-hardware"
+  },
+  {
+    "name": "smbus2",
+    "repo": "kplindegaard/smbus2",
+    "category": "embedded-hardware"
+  },
+  {
+    "name": "hidapi",
+    "repo": "trezor/cython-hidapi",
+    "category": "embedded-hardware"
+  },
+  {
+    "name": "pyocd",
+    "repo": "pyocd/pyOCD",
+    "category": "embedded-hardware"
+  },
+  {
+    "name": "esptool",
+    "repo": "espressif/esptool",
+    "category": "embedded-hardware"
+  },
+  {
+    "name": "platformio-core",
+    "repo": "platformio/platformio-core",
+    "category": "embedded-hardware"
+  },
+  {
+    "name": "scapy",
+    "repo": "secdev/scapy",
+    "category": "networking"
+  },
+  {
+    "name": "dpkt",
+    "repo": "kbandla/dpkt",
+    "category": "networking"
+  },
+  {
+    "name": "pyshark",
+    "repo": "KimiNewt/pyshark",
+    "category": "networking"
+  },
+  {
+    "name": "impacket",
+    "repo": "fortra/impacket",
+    "category": "networking"
+  },
+  {
+    "name": "sniffio",
+    "repo": "python-trio/sniffio",
+    "category": "networking"
+  },
+  {
+    "name": "pyinfra",
+    "repo": "pyinfra-dev/pyinfra",
+    "category": "devops"
+  },
+  {
+    "name": "mitogen",
+    "repo": "mitogen-hq/mitogen",
+    "category": "devops"
+  },
+  {
+    "name": "molecule",
+    "repo": "ansible/molecule",
+    "category": "devops"
+  },
+  {
+    "name": "testinfra",
+    "repo": "pytest-dev/pytest-testinfra",
+    "category": "devops"
+  },
+  {
+    "name": "or-tools",
+    "repo": "google/or-tools",
+    "category": "math-optimization"
+  },
+  {
+    "name": "pulp",
+    "repo": "coin-or/pulp",
+    "category": "math-optimization"
+  },
+  {
+    "name": "casadi",
+    "repo": "casadi/casadi",
+    "category": "math-optimization"
+  },
+  {
+    "name": "pymoo",
+    "repo": "anyoptimization/pymoo",
+    "category": "math-optimization"
+  },
+  {
+    "name": "ax-platform",
+    "repo": "facebook/Ax",
+    "category": "math-optimization"
+  },
+  {
+    "name": "botorch",
+    "repo": "pytorch/botorch",
+    "category": "math-optimization"
+  },
+  {
+    "name": "gpytorch",
+    "repo": "cornellius-gp/gpytorch",
+    "category": "math-optimization"
+  },
+  {
+    "name": "allennlp",
+    "repo": "allenai/allennlp",
+    "category": "nlp-advanced"
+  },
+  {
+    "name": "fairseq",
+    "repo": "facebookresearch/fairseq",
+    "category": "nlp-advanced"
+  },
+  {
+    "name": "ctranslate2",
+    "repo": "OpenNMT/CTranslate2",
+    "category": "model-inference"
+  },
+  {
+    "name": "onnxruntime",
+    "repo": "microsoft/onnxruntime",
+    "category": "model-inference"
+  },
+  {
+    "name": "openvino",
+    "repo": "openvinotoolkit/openvino",
+    "category": "model-inference"
+  },
+  {
+    "name": "tvm",
+    "repo": "apache/tvm",
+    "category": "model-inference"
+  },
+  {
+    "name": "deepsparse",
+    "repo": "neuralmagic/deepsparse",
+    "category": "model-inference"
+  },
+  {
+    "name": "sparseml",
+    "repo": "neuralmagic/sparseml",
+    "category": "model-inference"
+  },
+  {
+    "name": "neural-compressor",
+    "repo": "intel/neural-compressor",
+    "category": "model-inference"
+  },
+  {
+    "name": "mahotas",
+    "repo": "luispedro/mahotas",
+    "category": "image-processing"
+  },
+  {
+    "name": "rawpy",
+    "repo": "letmaik/rawpy",
+    "category": "image-processing"
+  },
+  {
+    "name": "colour-science",
+    "repo": "colour-science/colour",
+    "category": "image-processing"
+  },
+  {
+    "name": "colorama",
+    "repo": "tartley/colorama",
+    "category": "terminal-utils"
+  },
+  {
+    "name": "flask-dance",
+    "repo": "singingwolfboy/flask-dance",
+    "category": "web-auth"
+  },
+  {
+    "name": "django-oauth-toolkit",
+    "repo": "jazzband/django-oauth-toolkit",
+    "category": "web-auth"
+  },
+  {
+    "name": "django-two-factor-auth",
+    "repo": "jazzband/django-two-factor-auth",
+    "category": "web-auth"
+  },
+  {
+    "name": "pyotp",
+    "repo": "pyauth/pyotp",
+    "category": "web-auth"
+  },
+  {
+    "name": "fido2",
+    "repo": "Yubico/python-fido2",
+    "category": "web-auth"
+  },
+  {
+    "name": "django-crispy-forms",
+    "repo": "django-crispy-forms/django-crispy-forms",
+    "category": "web-utils"
+  },
+  {
+    "name": "django-tables2",
+    "repo": "jieter/django-tables2",
+    "category": "web-utils"
+  },
+  {
+    "name": "django-import-export",
+    "repo": "django-import-export/django-import-export",
+    "category": "web-utils"
+  },
+  {
+    "name": "django-grappelli",
+    "repo": "sehmaschine/django-grappelli",
+    "category": "web-utils"
+  },
+  {
+    "name": "django-unfold",
+    "repo": "unfoldadmin/django-unfold",
+    "category": "web-utils"
+  },
+  {
+    "name": "flask-admin",
+    "repo": "flask-admin/flask-admin",
+    "category": "web-utils"
+  },
+  {
+    "name": "flask-security",
+    "repo": "Flask-Middleware/flask-security",
+    "category": "web-utils"
+  },
+  {
+    "name": "flask-wtf",
+    "repo": "wtforms/flask-wtf",
+    "category": "web-utils"
+  },
+  {
+    "name": "wtforms",
+    "repo": "wtforms/wtforms",
+    "category": "web-utils"
+  },
+  {
+    "name": "flask-limiter",
+    "repo": "alisaifee/flask-limiter",
+    "category": "web-utils"
+  },
+  {
+    "name": "flask-session",
+    "repo": "pallets-eco/flask-session",
+    "category": "web-utils"
+  },
+  {
+    "name": "flask-marshmallow",
+    "repo": "marshmallow-code/flask-marshmallow",
+    "category": "web-utils"
+  },
+  {
+    "name": "daphne",
+    "repo": "django/daphne",
+    "category": "web-utils"
+  },
+  {
+    "name": "django-celery-results",
+    "repo": "celery/django-celery-results",
+    "category": "web-utils"
+  },
+  {
+    "name": "django-silk",
+    "repo": "jazzband/django-silk",
+    "category": "web-utils"
+  },
+  {
+    "name": "django-cachalot",
+    "repo": "noripyt/django-cachalot",
+    "category": "web-utils"
+  },
+  {
+    "name": "django-redis",
+    "repo": "jazzband/django-redis",
+    "category": "web-utils"
+  },
+  {
+    "name": "django-health-check",
+    "repo": "revsys/django-health-check",
+    "category": "web-utils"
+  },
+  {
+    "name": "django-anymail",
+    "repo": "anymail/django-anymail",
+    "category": "web-utils"
+  },
+  {
+    "name": "schemathesis",
+    "repo": "schemathesis/schemathesis",
+    "category": "api-tools"
+  },
+  {
+    "name": "openapi-spec-validator",
+    "repo": "python-openapi/openapi-spec-validator",
+    "category": "api-tools"
+  },
+  {
+    "name": "flasgger",
+    "repo": "flasgger/flasgger",
+    "category": "api-tools"
+  },
+  {
+    "name": "drf-spectacular",
+    "repo": "tfranzel/drf-spectacular",
+    "category": "api-tools"
+  },
+  {
+    "name": "drf-yasg",
+    "repo": "axnsan12/drf-yasg",
+    "category": "api-tools"
+  },
+  {
+    "name": "email-validator",
+    "repo": "JoshData/python-email-validator",
+    "category": "api-tools"
+  },
+  {
+    "name": "rocketry",
+    "repo": "Miksus/rocketry",
+    "category": "task-scheduling"
+  },
+  {
+    "name": "vectorbt",
+    "repo": "polakowo/vectorbt",
+    "category": "finance"
+  },
+  {
+    "name": "empyrical",
+    "repo": "quantopian/empyrical",
+    "category": "finance"
+  },
+  {
+    "name": "pyfolio",
+    "repo": "quantopian/pyfolio",
+    "category": "finance"
+  },
+  {
+    "name": "alphalens",
+    "repo": "quantopian/alphalens",
+    "category": "finance"
+  },
+  {
+    "name": "ccxt",
+    "repo": "ccxt/ccxt",
+    "category": "finance"
+  },
+  {
+    "name": "freqtrade",
+    "repo": "freqtrade/freqtrade",
+    "category": "finance"
+  },
+  {
+    "name": "nautilus-trader",
+    "repo": "nautechsystems/nautilus_trader",
+    "category": "finance"
+  },
+  {
+    "name": "pydicom",
+    "repo": "pydicom/pydicom",
+    "category": "healthcare"
+  },
+  {
+    "name": "nibabel",
+    "repo": "nipy/nibabel",
+    "category": "healthcare"
+  },
+  {
+    "name": "nilearn",
+    "repo": "nilearn/nilearn",
+    "category": "healthcare"
+  },
+  {
+    "name": "monai",
+    "repo": "Project-MONAI/MONAI",
+    "category": "healthcare"
+  },
+  {
+    "name": "medpy",
+    "repo": "loli/medpy",
+    "category": "healthcare"
+  },
+  {
+    "name": "hl7",
+    "repo": "johnpaulett/python-hl7",
+    "category": "healthcare"
+  },
+  {
+    "name": "jupyterlab",
+    "repo": "jupyterlab/jupyterlab",
+    "category": "education"
+  },
+  {
+    "name": "ipython",
+    "repo": "ipython/ipython",
+    "category": "education"
+  },
+  {
+    "name": "ipywidgets",
+    "repo": "jupyter-widgets/ipywidgets",
+    "category": "education"
+  },
+  {
+    "name": "nbconvert",
+    "repo": "jupyter/nbconvert",
+    "category": "education"
+  },
+  {
+    "name": "nbformat",
+    "repo": "jupyter/nbformat",
+    "category": "education"
+  },
+  {
+    "name": "papermill",
+    "repo": "nteract/papermill",
+    "category": "education"
+  },
+  {
+    "name": "voila",
+    "repo": "voila-dashboards/voila",
+    "category": "education"
+  },
+  {
+    "name": "jupyterhub",
+    "repo": "jupyterhub/jupyterhub",
+    "category": "education"
+  },
+  {
+    "name": "nbgrader",
+    "repo": "jupyter/nbgrader",
+    "category": "education"
+  },
+  {
+    "name": "mitmproxy",
+    "repo": "mitmproxy/mitmproxy",
+    "category": "networking"
+  },
+  {
+    "name": "cupy",
+    "repo": "cupy/cupy",
+    "category": "performance"
+  },
+  {
+    "name": "sage",
+    "repo": "sagemath/sage",
+    "category": "math-symbolic"
+  },
+  {
+    "name": "construct",
+    "repo": "construct/construct",
+    "category": "binary-parsing"
+  },
+  {
+    "name": "bitstring",
+    "repo": "scott-griffiths/bitstring",
+    "category": "binary-parsing"
+  },
+  {
+    "name": "kaitaistruct",
+    "repo": "kaitai-io/kaitai_struct_python_runtime",
+    "category": "binary-parsing"
+  },
+  {
+    "name": "glom",
+    "repo": "mahmoud/glom",
+    "category": "utilities"
+  },
+  {
+    "name": "pytube",
+    "repo": "pytube/pytube",
+    "category": "media"
+  },
+  {
+    "name": "yt-dlp",
+    "repo": "yt-dlp/yt-dlp",
+    "category": "media"
+  },
+  {
+    "name": "mutagen",
+    "repo": "quodlibet/mutagen",
+    "category": "media"
+  },
+  {
+    "name": "parameterized",
+    "repo": "wolever/parameterized",
+    "category": "testing"
+  },
+  {
+    "name": "dirty-equals",
+    "repo": "samuelcolvin/dirty-equals",
+    "category": "testing"
+  },
+  {
+    "name": "django-treebeard",
+    "repo": "django-treebeard/django-treebeard",
+    "category": "web-utils"
+  },
+  {
+    "name": "typeguard",
+    "repo": "agronholm/typeguard",
+    "category": "type-checking"
+  },
+  {
+    "name": "beartype",
+    "repo": "beartype/beartype",
+    "category": "type-checking"
+  },
+  {
+    "name": "typing-extensions",
+    "repo": "python/typing_extensions",
+    "category": "type-checking"
+  },
+  {
+    "name": "typing-inspect",
+    "repo": "ilevkivskyi/typing_inspect",
+    "category": "type-checking"
+  },
+  {
+    "name": "monkeytype",
+    "repo": "Instagram/MonkeyType",
+    "category": "type-checking"
+  },
+  {
+    "name": "pytype",
+    "repo": "google/pytype",
+    "category": "type-checking"
+  },
+  {
+    "name": "phantom-types",
+    "repo": "antonagestam/phantom-types",
+    "category": "type-checking"
+  },
+  {
+    "name": "pytest-django",
+    "repo": "pytest-dev/pytest-django",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-flask",
+    "repo": "pytest-dev/pytest-flask",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-sugar",
+    "repo": "Teemu/pytest-sugar",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-randomly",
+    "repo": "pytest-dev/pytest-randomly",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-timeout",
+    "repo": "pytest-dev/pytest-timeout",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-rerunfailures",
+    "repo": "pytest-dev/pytest-rerunfailures",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-lazy-fixture",
+    "repo": "TvoroG/pytest-lazy-fixture",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-env",
+    "repo": "MobileDynasty/pytest-env",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-factoryboy",
+    "repo": "pytest-dev/pytest-factoryboy",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-recording",
+    "repo": "kiwicom/pytest-recording",
+    "category": "testing"
+  },
+  {
+    "name": "syrupy",
+    "repo": "toptal/syrupy",
+    "category": "testing"
+  },
+  {
+    "name": "inline-snapshot",
+    "repo": "15r10nk/inline-snapshot",
+    "category": "testing"
+  },
+  {
+    "name": "pydantic-factories",
+    "repo": "litestar-org/pydantic-factories",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-playwright",
+    "repo": "microsoft/playwright-pytest",
+    "category": "testing"
+  },
+  {
+    "name": "setuptools-scm",
+    "repo": "pypa/setuptools-scm",
+    "category": "packaging"
+  },
+  {
+    "name": "commitizen",
+    "repo": "commitizen-tools/commitizen",
+    "category": "packaging"
+  },
+  {
+    "name": "scriv",
+    "repo": "nedbat/scriv",
+    "category": "packaging"
+  },
+  {
+    "name": "python-semantic-release",
+    "repo": "python-semantic-release/python-semantic-release",
+    "category": "packaging"
+  },
+  {
+    "name": "cibuildwheel",
+    "repo": "pypa/cibuildwheel",
+    "category": "packaging"
+  },
+  {
+    "name": "shiv",
+    "repo": "linkedin/shiv",
+    "category": "packaging"
+  },
+  {
+    "name": "pex",
+    "repo": "pex-tool/pex",
+    "category": "packaging"
+  },
+  {
+    "name": "datamodel-code-generator",
+    "repo": "koxudaxi/datamodel-code-generator",
+    "category": "code-generation"
+  },
+  {
+    "name": "sqlacodegen",
+    "repo": "agronholm/sqlacodegen",
+    "category": "code-generation"
+  },
+  {
+    "name": "openapi-python-client",
+    "repo": "openapi-generators/openapi-python-client",
+    "category": "code-generation"
+  },
+  {
+    "name": "grpcio-tools",
+    "repo": "grpc/grpc",
+    "category": "code-generation"
+  },
+  {
+    "name": "python-decouple",
+    "repo": "HBNetwork/python-decouple",
+    "category": "config"
+  },
+  {
+    "name": "environs",
+    "repo": "sloria/environs",
+    "category": "config"
+  },
+  {
+    "name": "strictyaml",
+    "repo": "crdoconnor/strictyaml",
+    "category": "config"
+  },
+  {
+    "name": "omegaconf",
+    "repo": "omry/omegaconf",
+    "category": "config"
+  },
+  {
+    "name": "confuse",
+    "repo": "beetbox/confuse",
+    "category": "config"
+  },
+  {
+    "name": "goodconf",
+    "repo": "lincolnloop/goodconf",
+    "category": "config"
+  },
+  {
+    "name": "cleo",
+    "repo": "python-poetry/cleo",
+    "category": "cli"
+  },
+  {
+    "name": "cement",
+    "repo": "datafolklabs/cement",
+    "category": "cli"
+  },
+  {
+    "name": "cliff",
+    "repo": "openstack/cliff",
+    "category": "cli"
+  },
+  {
+    "name": "plac",
+    "repo": "ialbert/plac",
+    "category": "cli"
+  },
+  {
+    "name": "docopt",
+    "repo": "docopt/docopt",
+    "category": "cli"
+  },
+  {
+    "name": "argcomplete",
+    "repo": "kislyuk/argcomplete",
+    "category": "cli"
+  },
+  {
+    "name": "shtab",
+    "repo": "iterative/shtab",
+    "category": "cli"
+  },
+  {
+    "name": "tomlkit",
+    "repo": "sdispater/tomlkit",
+    "category": "data-formats"
+  },
+  {
+    "name": "ruamel-yaml",
+    "repo": "ruamel/yaml",
+    "category": "data-formats"
+  },
+  {
+    "name": "xmltodict",
+    "repo": "martinblech/xmltodict",
+    "category": "data-formats"
+  },
+  {
+    "name": "defusedxml",
+    "repo": "tiran/defusedxml",
+    "category": "data-formats"
+  },
+  {
+    "name": "brotli",
+    "repo": "google/brotli",
+    "category": "compression"
+  },
+  {
+    "name": "zstandard",
+    "repo": "indygreg/python-zstandard",
+    "category": "compression"
+  },
+  {
+    "name": "lz4",
+    "repo": "python-lz4/python-lz4",
+    "category": "compression"
+  },
+  {
+    "name": "cramjam",
+    "repo": "milesgranger/cramjam",
+    "category": "compression"
+  },
+  {
+    "name": "msgspec",
+    "repo": "jcrist/msgspec",
+    "category": "data-validation"
+  },
+  {
+    "name": "lark",
+    "repo": "lark-parser/lark",
+    "category": "parsing"
+  },
+  {
+    "name": "pyparsing",
+    "repo": "pyparsing/pyparsing",
+    "category": "parsing"
+  },
+  {
+    "name": "parso",
+    "repo": "davidhalter/parso",
+    "category": "parsing"
+  },
+  {
+    "name": "tree-sitter",
+    "repo": "tree-sitter/py-tree-sitter",
+    "category": "parsing"
+  },
+  {
+    "name": "libcst",
+    "repo": "Instagram/LibCST",
+    "category": "code-transformation"
+  },
+  {
+    "name": "rope",
+    "repo": "python-rope/rope",
+    "category": "code-transformation"
+  },
+  {
+    "name": "jedi",
+    "repo": "davidhalter/jedi",
+    "category": "code-analysis"
+  },
+  {
+    "name": "redbaron",
+    "repo": "PyCQA/redbaron",
+    "category": "code-transformation"
+  },
+  {
+    "name": "bowler",
+    "repo": "facebookincubator/Bowler",
+    "category": "code-transformation"
+  },
+  {
+    "name": "autopep8",
+    "repo": "hhatto/autopep8",
+    "category": "code-formatting"
+  },
+  {
+    "name": "yapf",
+    "repo": "google/yapf",
+    "category": "code-formatting"
+  },
+  {
+    "name": "pyink",
+    "repo": "google/pyink",
+    "category": "code-formatting"
+  },
+  {
+    "name": "docformatter",
+    "repo": "PyCQA/docformatter",
+    "category": "code-formatting"
+  },
+  {
+    "name": "pydocstyle",
+    "repo": "PyCQA/pydocstyle",
+    "category": "code-quality"
+  },
+  {
+    "name": "interrogate",
+    "repo": "econchick/interrogate",
+    "category": "code-quality"
+  },
+  {
+    "name": "vulture",
+    "repo": "jendrikseipp/vulture",
+    "category": "code-quality"
+  },
+  {
+    "name": "dead",
+    "repo": "asottile/dead",
+    "category": "code-quality"
+  },
+  {
+    "name": "importlib-metadata",
+    "repo": "python/importlib_metadata",
+    "category": "stdlib-backport"
+  },
+  {
+    "name": "importlib-resources",
+    "repo": "python/importlib_resources",
+    "category": "stdlib-backport"
+  },
+  {
+    "name": "google-cloud-bigquery",
+    "repo": "googleapis/python-bigquery",
+    "category": "cloud"
+  },
+  {
+    "name": "google-cloud-pubsub",
+    "repo": "googleapis/python-pubsub",
+    "category": "cloud"
+  },
+  {
+    "name": "google-cloud-aiplatform",
+    "repo": "googleapis/python-aiplatform",
+    "category": "cloud"
+  },
+  {
+    "name": "google-generativeai",
+    "repo": "google/generative-ai-python",
+    "category": "cloud"
+  },
+  {
+    "name": "azure-identity",
+    "repo": "Azure/azure-sdk-for-python",
+    "category": "cloud"
+  },
+  {
+    "name": "azure-cosmos",
+    "repo": "Azure/azure-sdk-for-python",
+    "category": "cloud"
+  },
+  {
+    "name": "azure-servicebus",
+    "repo": "Azure/azure-sdk-for-python",
+    "category": "cloud"
+  },
+  {
+    "name": "azure-keyvault",
+    "repo": "Azure/azure-sdk-for-python",
+    "category": "cloud"
+  },
+  {
+    "name": "aws-lambda-powertools",
+    "repo": "aws-powertools/powertools-lambda-python",
+    "category": "cloud"
+  },
+  {
+    "name": "boto3-stubs",
+    "repo": "youtype/mypy_boto3_builder",
+    "category": "cloud"
+  },
+  {
+    "name": "opentelemetry-python",
+    "repo": "open-telemetry/opentelemetry-python",
+    "category": "monitoring"
+  },
+  {
+    "name": "ddtrace",
+    "repo": "DataDog/dd-trace-py",
+    "category": "monitoring"
+  },
+  {
+    "name": "elastic-apm",
+    "repo": "elastic/apm-agent-python",
+    "category": "monitoring"
+  },
+  {
+    "name": "prometheus-fastapi-instrumentator",
+    "repo": "trallnag/prometheus-fastapi-instrumentator",
+    "category": "monitoring"
+  },
+  {
+    "name": "django-prometheus",
+    "repo": "korfuri/django-prometheus",
+    "category": "monitoring"
+  },
+  {
+    "name": "flower",
+    "repo": "mher/flower",
+    "category": "monitoring"
+  },
+  {
+    "name": "detect-secrets",
+    "repo": "Yelp/detect-secrets",
+    "category": "security"
+  },
+  {
+    "name": "python-gnupg",
+    "repo": "vsajip/python-gnupg",
+    "category": "security"
+  },
+  {
+    "name": "argon2-cffi",
+    "repo": "hynek/argon2-cffi",
+    "category": "security"
+  },
+  {
+    "name": "bleach",
+    "repo": "mozilla/bleach",
+    "category": "security"
+  },
+  {
+    "name": "nh3",
+    "repo": "messense/nh3",
+    "category": "security"
+  },
+  {
+    "name": "pip-audit",
+    "repo": "pypa/pip-audit",
+    "category": "security"
+  },
+  {
+    "name": "goose3",
+    "repo": "goose3/goose3",
+    "category": "web-scraping"
+  },
+  {
+    "name": "readability-lxml",
+    "repo": "buriy/python-readability",
+    "category": "web-scraping"
+  },
+  {
+    "name": "html2text",
+    "repo": "Alir3z4/html2text",
+    "category": "web-scraping"
+  },
+  {
+    "name": "markdownify",
+    "repo": "matthewwithanm/python-markdownify",
+    "category": "web-scraping"
+  },
+  {
+    "name": "html5lib",
+    "repo": "html5lib/html5lib-python",
+    "category": "web-scraping"
+  },
+  {
+    "name": "cssselect",
+    "repo": "scrapy/cssselect",
+    "category": "web-scraping"
+  },
+  {
+    "name": "extruct",
+    "repo": "scrapinghub/extruct",
+    "category": "web-scraping"
+  },
+  {
+    "name": "rdflib",
+    "repo": "RDFLib/rdflib",
+    "category": "data-formats"
+  },
+  {
+    "name": "hypercorn",
+    "repo": "pgjones/hypercorn",
+    "category": "deployment"
+  },
+  {
+    "name": "granian",
+    "repo": "emmett-framework/granian",
+    "category": "deployment"
+  },
+  {
+    "name": "mangum",
+    "repo": "jordanerr/mangum",
+    "category": "deployment"
+  },
+  {
+    "name": "chalice",
+    "repo": "aws/chalice",
+    "category": "deployment"
+  },
+  {
+    "name": "zappa",
+    "repo": "zappa/Zappa",
+    "category": "deployment"
+  },
+  {
+    "name": "troposphere",
+    "repo": "cloudtools/troposphere",
+    "category": "infrastructure"
+  },
+  {
+    "name": "humanize",
+    "repo": "jmoiron/humanize",
+    "category": "utilities"
+  },
+  {
+    "name": "inflect",
+    "repo": "jaraco/inflect",
+    "category": "utilities"
+  },
+  {
+    "name": "titlecase",
+    "repo": "ppannuto/python-titlecase",
+    "category": "utilities"
+  },
+  {
+    "name": "phonenumbers",
+    "repo": "daviddrysdale/python-phonenumbers",
+    "category": "utilities"
+  },
+  {
+    "name": "pycountry",
+    "repo": "flyingcircusio/pycountry",
+    "category": "utilities"
+  },
+  {
+    "name": "send2trash",
+    "repo": "arsenetar/send2trash",
+    "category": "utilities"
+  },
+  {
+    "name": "platformdirs",
+    "repo": "platformdirs/platformdirs",
+    "category": "utilities"
+  },
+  {
+    "name": "pathspec",
+    "repo": "cpburnz/python-pathspec",
+    "category": "utilities"
+  },
+  {
+    "name": "wcmatch",
+    "repo": "facelessuser/wcmatch",
+    "category": "utilities"
+  },
+  {
+    "name": "shortuuid",
+    "repo": "skorokithakis/shortuuid",
+    "category": "utilities"
+  },
+  {
+    "name": "ulid-py",
+    "repo": "mdomke/python-ulid",
+    "category": "utilities"
+  },
+  {
+    "name": "python-barcode",
+    "repo": "WhyNotHugo/python-barcode",
+    "category": "utilities"
+  },
+  {
+    "name": "qrcode",
+    "repo": "lincolnloop/python-qrcode",
+    "category": "utilities"
+  },
+  {
+    "name": "segno",
+    "repo": "heuer/segno",
+    "category": "utilities"
+  },
+  {
+    "name": "cairosvg",
+    "repo": "Kozea/CairoSVG",
+    "category": "graphics"
+  },
+  {
+    "name": "svglib",
+    "repo": "deeplook/svglib",
+    "category": "graphics"
+  },
+  {
+    "name": "drawsvg",
+    "repo": "cduck/drawsvg",
+    "category": "graphics"
+  },
+  {
+    "name": "cruft",
+    "repo": "cruft/cruft",
+    "category": "developer-tools"
+  },
+  {
+    "name": "editorconfig",
+    "repo": "editorconfig/editorconfig-core-py",
+    "category": "developer-tools"
+  },
+  {
+    "name": "sshtunnel",
+    "repo": "pahaz/sshtunnel",
+    "category": "networking"
+  },
+  {
+    "name": "dnspython",
+    "repo": "rthalley/dnspython",
+    "category": "networking"
+  },
+  {
+    "name": "whenever",
+    "repo": "ariebovenberg/whenever",
+    "category": "datetime"
+  },
+  {
+    "name": "cashews",
+    "repo": "krukov/cashews",
+    "category": "caching"
+  },
+  {
+    "name": "python-json-logger",
+    "repo": "madzak/python-json-logger",
+    "category": "logging"
+  },
+  {
+    "name": "picologging",
+    "repo": "microsoft/picologging",
+    "category": "logging"
+  },
+  {
+    "name": "asgi-cors",
+    "repo": "simonw/asgi-cors",
+    "category": "web-middleware"
+  },
+  {
+    "name": "starlette-admin",
+    "repo": "jowilf/starlette-admin",
+    "category": "web-middleware"
+  },
+  {
+    "name": "fastapi-users",
+    "repo": "fastapi-users/fastapi-users",
+    "category": "web-middleware"
+  },
+  {
+    "name": "fastapi-cache",
+    "repo": "long2ice/fastapi-cache",
+    "category": "web-middleware"
+  },
+  {
+    "name": "fastapi-limiter",
+    "repo": "long2ice/fastapi-limiter",
+    "category": "web-middleware"
+  },
+  {
+    "name": "fastapi-pagination",
+    "repo": "uriyyo/fastapi-pagination",
+    "category": "web-middleware"
+  },
+  {
+    "name": "fastapi-mail",
+    "repo": "sabuhish/fastapi-mail",
+    "category": "web-middleware"
+  },
+  {
+    "name": "fastapi-jwt-auth",
+    "repo": "IndominusByte/fastapi-jwt-auth",
+    "category": "web-middleware"
+  },
+  {
+    "name": "sqladmin",
+    "repo": "aminalaee/sqladmin",
+    "category": "web-middleware"
+  },
+  {
+    "name": "piccolo-admin",
+    "repo": "piccolo-orm/piccolo_admin",
+    "category": "web-middleware"
+  },
+  {
+    "name": "django-polymorphic",
+    "repo": "jazzband/django-polymorphic",
+    "category": "django"
+  },
+  {
+    "name": "django-reversion",
+    "repo": "etianen/django-reversion",
+    "category": "django"
+  },
+  {
+    "name": "django-simple-history",
+    "repo": "jazzband/django-simple-history",
+    "category": "django"
+  },
+  {
+    "name": "django-auditlog",
+    "repo": "jazzband/django-auditlog",
+    "category": "django"
+  },
+  {
+    "name": "django-activity-stream",
+    "repo": "justquick/django-activity-stream",
+    "category": "django"
+  },
+  {
+    "name": "django-notifications-hq",
+    "repo": "django-notifications/django-notifications",
+    "category": "django"
+  },
+  {
+    "name": "django-pghistory",
+    "repo": "Opus10/django-pghistory",
+    "category": "django"
+  },
+  {
+    "name": "django-lifecycle",
+    "repo": "rsinger86/django-lifecycle",
+    "category": "django"
+  },
+  {
+    "name": "django-model-utils",
+    "repo": "jazzband/django-model-utils",
+    "category": "django"
+  },
+  {
+    "name": "django-fsm",
+    "repo": "viewflow/django-fsm",
+    "category": "django"
+  },
+  {
+    "name": "django-money",
+    "repo": "django-money/django-money",
+    "category": "django"
+  },
+  {
+    "name": "django-countries",
+    "repo": "SmileyChris/django-countries",
+    "category": "django"
+  },
+  {
+    "name": "django-phonenumber-field",
+    "repo": "stefanfoulis/django-phonenumber-field",
+    "category": "django"
+  },
+  {
+    "name": "django-taggit",
+    "repo": "jazzband/django-taggit",
+    "category": "django"
+  },
+  {
+    "name": "django-watson",
+    "repo": "etianen/django-watson",
+    "category": "django"
+  },
+  {
+    "name": "django-haystack",
+    "repo": "django-haystack/django-haystack",
+    "category": "django"
+  },
+  {
+    "name": "django-elasticsearch-dsl",
+    "repo": "django-es/django-elasticsearch-dsl",
+    "category": "django"
+  },
+  {
+    "name": "django-ckeditor",
+    "repo": "django-ckeditor/django-ckeditor",
+    "category": "django"
+  },
+  {
+    "name": "django-summernote",
+    "repo": "summernote/django-summernote",
+    "category": "django"
+  },
+  {
+    "name": "django-tinymce",
+    "repo": "jazzband/django-tinymce",
+    "category": "django"
+  },
+  {
+    "name": "django-markdownx",
+    "repo": "neutronX/django-markdownx",
+    "category": "django"
+  },
+  {
+    "name": "pytest-freezegun",
+    "repo": "ktosber/pytest-freezegun",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-repeat",
+    "repo": "pytest-dev/pytest-repeat",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-ordering",
+    "repo": "ftobia/pytest-ordering",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-parallel",
+    "repo": "browsertron/pytest-parallel",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-html",
+    "repo": "pytest-dev/pytest-html",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-metadata",
+    "repo": "pytest-dev/pytest-metadata",
+    "category": "testing"
+  },
+  {
+    "name": "allure-pytest",
+    "repo": "allure-framework/allure-python",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-selenium",
+    "repo": "pytest-dev/pytest-selenium",
+    "category": "testing"
+  },
+  {
+    "name": "pytest-base-url",
+    "repo": "pytest-dev/pytest-base-url",
+    "category": "testing"
+  },
+  {
+    "name": "tavern",
+    "repo": "taverntesting/tavern",
+    "category": "testing"
+  },
+  {
+    "name": "openapi-core",
+    "repo": "python-openapi/openapi-core",
+    "category": "testing"
+  },
+  {
+    "name": "tiktoken",
+    "repo": "openai/tiktoken",
+    "category": "nlp"
+  },
+  {
+    "name": "sentencepiece",
+    "repo": "google/sentencepiece",
+    "category": "nlp"
+  },
+  {
+    "name": "sacrebleu",
+    "repo": "mjpost/sacrebleu",
+    "category": "nlp"
+  },
+  {
+    "name": "rouge-score",
+    "repo": "google-research/google-research",
+    "category": "nlp"
+  },
+  {
+    "name": "evaluate",
+    "repo": "huggingface/evaluate",
+    "category": "nlp"
+  },
+  {
+    "name": "neuralprophet",
+    "repo": "ourownstory/neural_prophet",
+    "category": "time-series"
+  },
+  {
+    "name": "stumpy",
+    "repo": "TDAmeritrade/stumpy",
+    "category": "time-series"
+  },
+  {
+    "name": "pyod",
+    "repo": "yzhao062/pyod",
+    "category": "anomaly-detection"
+  },
+  {
+    "name": "alibi",
+    "repo": "SeldonIO/alibi",
+    "category": "explainability"
+  },
+  {
+    "name": "shap",
+    "repo": "shap/shap",
+    "category": "explainability"
+  },
+  {
+    "name": "lime",
+    "repo": "marcotcr/lime",
+    "category": "explainability"
+  },
+  {
+    "name": "eli5",
+    "repo": "eli5-org/eli5",
+    "category": "explainability"
+  },
+  {
+    "name": "captum",
+    "repo": "pytorch/captum",
+    "category": "explainability"
+  },
+  {
+    "name": "interpret",
+    "repo": "interpretml/interpret",
+    "category": "explainability"
+  },
+  {
+    "name": "dalex",
+    "repo": "ModelOriented/DALEX",
+    "category": "explainability"
+  },
+  {
+    "name": "fairlearn",
+    "repo": "fairlearn/fairlearn",
+    "category": "fairness"
+  },
+  {
+    "name": "aif360",
+    "repo": "Trusted-AI/AIF360",
+    "category": "fairness"
+  },
+  {
+    "name": "responsibleai",
+    "repo": "microsoft/responsible-ai-toolbox",
+    "category": "fairness"
+  },
+  {
+    "name": "imageio-ffmpeg",
+    "repo": "imageio/imageio-ffmpeg",
+    "category": "video-processing"
+  },
+  {
+    "name": "pdf2image",
+    "repo": "Belval/pdf2image",
+    "category": "pdf-document"
+  },
+  {
+    "name": "wand",
+    "repo": "emcconville/wand",
+    "category": "image-processing"
+  },
+  {
+    "name": "svgwrite",
+    "repo": "mozman/svgwrite",
+    "category": "graphics"
+  },
+  {
+    "name": "vpype",
+    "repo": "abey79/vpype",
+    "category": "graphics"
+  },
+  {
+    "name": "decord",
+    "repo": "dmlc/decord",
+    "category": "video-processing"
+  },
+  {
+    "name": "klein",
+    "repo": "twisted/klein",
+    "category": "web-framework"
+  },
+  {
+    "name": "treq",
+    "repo": "twisted/treq",
+    "category": "http-client"
+  },
+  {
+    "name": "autobahn",
+    "repo": "crossbario/autobahn-python",
+    "category": "protocol"
+  },
+  {
+    "name": "crossbar",
+    "repo": "crossbario/crossbar",
+    "category": "protocol"
+  },
+  {
+    "name": "nameko",
+    "repo": "nameko/nameko",
+    "category": "microservices"
+  },
+  {
+    "name": "grpclib",
+    "repo": "vmagamedov/grpclib",
+    "category": "protocol"
+  },
+  {
+    "name": "purerpc",
+    "repo": "standy66/purerpc",
+    "category": "protocol"
+  },
+  {
+    "name": "exceptiongroup",
+    "repo": "agronholm/exceptiongroup",
+    "category": "async"
+  },
+  {
+    "name": "asyncer",
+    "repo": "tiangolo/asyncer",
+    "category": "async"
+  },
+  {
+    "name": "async-timeout",
+    "repo": "aio-libs/async-timeout",
+    "category": "async"
+  },
+  {
+    "name": "async-lru",
+    "repo": "aio-libs/async-lru",
+    "category": "async"
+  },
+  {
+    "name": "async-generator",
+    "repo": "python-trio/async_generator",
+    "category": "async"
+  },
+  {
+    "name": "doit",
+    "repo": "pydoit/doit",
+    "category": "build"
+  },
+  {
+    "name": "scons",
+    "repo": "SCons/scons",
+    "category": "build"
+  },
+  {
+    "name": "meson-python",
+    "repo": "mesonbuild/meson-python",
+    "category": "build"
+  },
+  {
+    "name": "scikit-build",
+    "repo": "scikit-build/scikit-build",
+    "category": "build"
+  },
+  {
+    "name": "scikit-build-core",
+    "repo": "scikit-build/scikit-build-core",
+    "category": "build"
+  },
+  {
+    "name": "nanobind",
+    "repo": "wjakob/nanobind",
+    "category": "build"
+  },
+  {
+    "name": "codon",
+    "repo": "exaloop/codon",
+    "category": "compiler"
+  },
+  {
+    "name": "records",
+    "repo": "kennethreitz/records",
+    "category": "data-access"
+  },
+  {
+    "name": "dataset",
+    "repo": "pudo/dataset",
+    "category": "data-access"
+  },
+  {
+    "name": "tablib",
+    "repo": "jazzband/tablib",
+    "category": "data-access"
+  },
+  {
+    "name": "rows",
+    "repo": "turicas/rows",
+    "category": "data-access"
+  },
+  {
+    "name": "agate",
+    "repo": "wireservice/agate",
+    "category": "data-access"
+  },
+  {
+    "name": "csvkit",
+    "repo": "wireservice/csvkit",
+    "category": "data-access"
+  },
+  {
+    "name": "petl",
+    "repo": "petl-developers/petl",
+    "category": "data-access"
+  },
+  {
+    "name": "intake",
+    "repo": "intake/intake",
+    "category": "data-access"
+  },
+  {
+    "name": "fsspec",
+    "repo": "fsspec/filesystem_spec",
+    "category": "data-access"
+  },
+  {
+    "name": "s3fs",
+    "repo": "fsspec/s3fs",
+    "category": "data-access"
+  },
+  {
+    "name": "gcsfs",
+    "repo": "fsspec/gcsfs",
+    "category": "data-access"
+  },
+  {
+    "name": "adlfs",
+    "repo": "fsspec/adlfs",
+    "category": "data-access"
+  },
+  {
+    "name": "smart-open",
+    "repo": "piskvorky/smart_open",
+    "category": "data-access"
+  },
+  {
+    "name": "cloudpathlib",
+    "repo": "drivendataorg/cloudpathlib",
+    "category": "data-access"
+  },
+  {
+    "name": "whoosh",
+    "repo": "mchaput/whoosh",
+    "category": "search"
+  },
+  {
+    "name": "tantivy-py",
+    "repo": "quickwit-oss/tantivy-py",
+    "category": "search"
+  },
+  {
+    "name": "meilisearch",
+    "repo": "meilisearch/meilisearch-python",
+    "category": "search"
+  },
+  {
+    "name": "typesense",
+    "repo": "typesense/typesense-python",
+    "category": "search"
+  },
+  {
+    "name": "elasticsearch-dsl",
+    "repo": "elastic/elasticsearch-dsl-py",
+    "category": "search"
+  },
+  {
+    "name": "opensearch-py",
+    "repo": "opensearch-project/opensearch-py",
+    "category": "search"
+  },
+  {
+    "name": "pysolr",
+    "repo": "django-haystack/pysolr",
+    "category": "search"
+  },
+  {
+    "name": "waitress",
+    "repo": "Pylons/waitress",
+    "category": "web-server"
+  },
+  {
+    "name": "bjoern",
+    "repo": "jonashaag/bjoern",
+    "category": "web-server"
+  },
+  {
+    "name": "meinheld",
+    "repo": "mopemope/meinheld",
+    "category": "web-server"
+  },
+  {
+    "name": "a2wsgi",
+    "repo": "abersheeran/a2wsgi",
+    "category": "web-server"
+  },
+  {
+    "name": "starlette-context",
+    "repo": "tomwojcik/starlette-context",
+    "category": "web-server"
+  },
+  {
+    "name": "emoji",
+    "repo": "carpedm20/emoji",
+    "category": "utilities"
+  },
+  {
+    "name": "appdirs",
+    "repo": "ActiveState/appdirs",
+    "category": "utilities"
+  },
+  {
+    "name": "nanoid",
+    "repo": "puyuan/py-nanoid",
+    "category": "utilities"
+  },
+  {
+    "name": "rapidfuzz",
+    "repo": "maxbachmann/RapidFuzz",
+    "category": "text"
+  },
+  {
+    "name": "thefuzz",
+    "repo": "seatgeek/thefuzz",
+    "category": "text"
+  },
+  {
+    "name": "jellyfish",
+    "repo": "jamesturk/jellyfish",
+    "category": "text"
+  },
+  {
+    "name": "regex",
+    "repo": "mrabarnett/mrab-regex",
+    "category": "text"
+  },
+  {
+    "name": "markdown",
+    "repo": "Python-Markdown/markdown",
+    "category": "text"
+  },
+  {
+    "name": "mistune",
+    "repo": "lepture/mistune",
+    "category": "text"
+  },
+  {
+    "name": "markdown-it-py",
+    "repo": "executablebooks/markdown-it-py",
+    "category": "text"
+  },
+  {
+    "name": "python-Levenshtein",
+    "repo": "maxbachmann/Levenshtein",
+    "category": "text"
+  },
+  {
+    "name": "mdformat",
+    "repo": "hukkin/mdformat",
+    "category": "text"
+  },
+  {
+    "name": "bidict",
+    "repo": "jab/bidict",
+    "category": "data-structures"
+  },
+  {
+    "name": "python-benedict",
+    "repo": "fabiocaccamo/python-benedict",
+    "category": "utilities"
+  },
+  {
+    "name": "box",
+    "repo": "cdgriffith/Box",
+    "category": "utilities"
+  },
+  {
+    "name": "sphinx-autodoc-typehints",
+    "repo": "tox-dev/sphinx-autodoc-typehints",
+    "category": "documentation"
+  },
+  {
+    "name": "sphinx-rtd-theme",
+    "repo": "readthedocs/sphinx_rtd_theme",
+    "category": "documentation"
+  },
+  {
+    "name": "mkdocs-material",
+    "repo": "squidfunk/mkdocs-material",
+    "category": "documentation"
+  },
+  {
+    "name": "pdoc",
+    "repo": "mitmproxy/pdoc",
+    "category": "documentation"
+  },
+  {
+    "name": "numpydoc",
+    "repo": "numpy/numpydoc",
+    "category": "documentation"
+  },
+  {
+    "name": "griffe",
+    "repo": "mkdocstrings/griffe",
+    "category": "documentation"
+  },
+  {
+    "name": "mike",
+    "repo": "jimporter/mike",
+    "category": "documentation"
+  },
+  {
+    "name": "isodate",
+    "repo": "gweis/isodate",
+    "category": "datetime"
+  },
+  {
+    "name": "cachecontrol",
+    "repo": "psf/cachecontrol",
+    "category": "caching"
+  },
+  {
+    "name": "addict",
+    "repo": "mewwts/addict",
+    "category": "utilities"
+  },
+  {
+    "name": "executing",
+    "repo": "alexmojaki/executing",
+    "category": "dev-tools"
+  },
+  {
+    "name": "asttokens",
+    "repo": "gristlabs/asttokens",
+    "category": "dev-tools"
+  },
+  {
+    "name": "stack-data",
+    "repo": "alexmojaki/stack-data",
+    "category": "dev-tools"
+  },
+  {
+    "name": "pygwalker",
+    "repo": "Kanaries/pygwalker",
+    "category": "visualization"
+  },
+  {
+    "name": "hiplot",
+    "repo": "facebookresearch/hiplot",
+    "category": "visualization"
+  },
+  {
+    "name": "pillow-simd",
+    "repo": "uploadcare/pillow-simd",
+    "category": "image-processing"
+  },
+  {
+    "name": "pennylane",
+    "repo": "PennyLaneAI/pennylane",
+    "category": "quantum-computing"
+  },
+  {
+    "name": "qiskit",
+    "repo": "Qiskit/qiskit",
+    "category": "quantum-computing"
+  },
+  {
+    "name": "cirq",
+    "repo": "quantumlib/Cirq",
+    "category": "quantum-computing"
+  },
+  {
+    "name": "tryceratops",
+    "repo": "guilatrova/tryceratops",
+    "category": "code-quality"
+  },
+  {
+    "name": "flake8-bugbear",
+    "repo": "PyCQA/flake8-bugbear",
+    "category": "code-quality"
+  },
+  {
+    "name": "result",
+    "repo": "rustedpy/result",
+    "category": "functional"
+  },
+  {
+    "name": "option",
+    "repo": "MaT1g3R/option",
+    "category": "functional"
+  },
+  {
+    "name": "pynacl",
+    "repo": "pyca/pynacl",
+    "category": "crypto"
+  },
+  {
+    "name": "bcrypt",
+    "repo": "pyca/bcrypt",
+    "category": "crypto"
+  },
+  {
+    "name": "parameterize",
+    "repo": "wolever/parameterized",
+    "category": "testing"
+  },
+  {
+    "name": "deepdiff",
+    "repo": "seperman/deepdiff",
+    "category": "utilities"
+  },
+  {
+    "name": "dictdiffer",
+    "repo": "inveniosoftware/dictdiffer",
+    "category": "utilities"
+  },
+  {
+    "name": "blessed",
+    "repo": "jquast/blessed",
+    "category": "tui"
+  },
+  {
+    "name": "curses-menu",
+    "repo": "pmbarrett314/curses-menu",
+    "category": "tui"
+  },
+  {
+    "name": "questionary",
+    "repo": "tmbo/questionary",
+    "category": "cli"
+  },
+  {
+    "name": "inquirer",
+    "repo": "magmax/python-inquirer",
+    "category": "cli"
+  },
+  {
+    "name": "alive-progress",
+    "repo": "rsalmei/alive-progress",
+    "category": "cli"
+  },
+  {
+    "name": "halo",
+    "repo": "manrajgrover/halo",
+    "category": "cli"
+  }
+]
