@@ -1,5 +1,6 @@
 workspace/
-output/
+output/trajectories/
+output/sharegpt/
 .env
 __pycache__/
 *.pyc
